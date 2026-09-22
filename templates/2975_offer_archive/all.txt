@@ -1,0 +1,1968 @@
+2026-04-10 08:53:17 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f5062c1f5a5ce4b8bf8da1a5f2f24e4b","user_id":"6ccb4e052926226dcb3e","created_at":"2026-04-10 08:53:17"}
+2026-04-10 09:18:01 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/cbcbb97b9d332714cf15548667238310","user_id":"298e21e4ee2462d8a2e5","created_at":"2026-04-10 09:18:01"}
+2026-04-10 12:10:57 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e4eb80dd8e37ee244dc59e1e29a57f67","user_id":"f6fc563e507bc57105ea","created_at":"2026-04-10 12:10:57"}
+2026-04-10 12:57:41 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/97714d80105f4ba546f658b239fd54a0","user_id":"52ef5e0e3aee9f1e3cd2","created_at":"2026-04-10 12:57:41"}
+2026-04-10 15:25:37 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/2e80005f388990d042159f63d6aac98f","user_id":"b00d9e60bfd5cc21ef4d","created_at":"2026-04-10 15:25:36"}
+2026-04-10 15:28:00 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f20666b545c2daf9479eab28c0994dfa","user_id":"d61129a90b16e381940b","created_at":"2026-04-10 15:28:00"}
+2026-04-10 18:57:31 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/bc1f376e50b19ae87181865252ccd7c2","user_id":"6457174bce7aad43a12e","created_at":"2026-04-10 18:57:30"}
+2026-04-11 00:24:07 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e1602587b5a46f87c346913e04a903fb","user_id":"a00ba592a9e1bfb94b3e","created_at":"2026-04-11 00:24:07"}
+2026-04-13 11:36:01 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/419bd865ff1307b7c4de93c5c8667591","user_id":"c199b6112673f0404afb","created_at":"2026-04-13 11:36:01"}
+2026-04-13 12:00:43 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/60fbead80721f8485b708dba8c66144f","user_id":"c41c694e14a11e9fa596","created_at":"2026-04-13 12:00:43"}
+2026-04-13 12:20:44 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-13 13:21:28 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/90dbc21e2760aedad23168a676c910d7","user_id":"f9f446c6ecb00174fc59","created_at":"2026-04-13 13:21:28"}
+2026-04-13 13:47:41 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/83d1fdb3a7424cc2e377355dce704e46","user_id":"c653402d9da911664b28","created_at":"2026-04-13 13:47:41"}
+2026-04-13 14:22:44 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-13 14:54:58 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/793f28fd10a481b9f2d605b34d4db5d6","user_id":"3519ed9480c3b195b19a","created_at":"2026-04-13 14:54:58"}
+2026-04-13 15:41:56 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-13 15:52:14 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a55d4d702987f2c61abefeceb7c638d2","user_id":"867ede365d8cd18258c2","created_at":"2026-04-13 15:52:14"}
+2026-04-13 17:22:19 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/6cc26b37dee1f895a7f556d0302fcbdb","user_id":"fc5c57d5f0abffd05a11","created_at":"2026-04-13 17:22:18"}
+2026-04-13 18:00:36 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/66add40e7341374c4abfba4b61321cd8","user_id":"ac11b78b73df42f58440","created_at":"2026-04-13 18:00:36"}
+2026-04-13 23:53:26 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/77bbc12dabf9636560a0f36ff2e342c7","user_id":"b098922f82f413df4c17","created_at":"2026-04-13 23:53:26"}
+2026-04-13 23:53:39 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-14 10:42:18 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/553fa3b2802bdf65962512ed1554fc18","user_id":"5d82fa5f2a49507e7d46","created_at":"2026-04-14 10:42:18"}
+2026-04-14 13:56:09 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/0d5b6b88b6915928b8269105c764c0cd","user_id":"041fd0d5001b86248c23","created_at":"2026-04-14 13:56:09"}
+2026-04-14 14:21:20 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/de834c3362ca122a370d585ddeed92f7","user_id":"305a77efbd6a8bdc9a8f","created_at":"2026-04-14 14:21:20"}
+2026-04-14 14:24:53 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/1422c7881e322766f8f1a2be5e9d59ca","user_id":"44cb4693010fcbfa0a62","created_at":"2026-04-14 14:24:52"}
+2026-04-14 14:30:45 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-14 15:00:17 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/aa51f950324196a8e915aaa5c77da7c4","user_id":"36aa69fc96388ea45f55","created_at":"2026-04-14 15:00:16"}
+2026-04-14 15:12:33 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/acd652544bc53415efbc66661ca78821","user_id":"0a8dbbdd6e762a1817e2","created_at":"2026-04-14 15:12:32"}
+2026-04-14 15:20:12 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/1ac737eb0a99914432bc8192713e6800","user_id":"67ad4b16498a9f38ac02","created_at":"2026-04-14 15:20:12"}
+2026-04-14 15:33:57 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-14 15:47:50 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-14 16:05:10 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f914083c999b8fdd07aea237f6291d30","user_id":"2633f2616dbe78450008","created_at":"2026-04-14 16:05:10"}
+2026-04-14 16:13:18 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/365607bc79c73e21936a03c7a8d08226","user_id":"224b94cc9cecae3e1147","created_at":"2026-04-14 16:13:18"}
+2026-04-14 16:41:19 - HTTP: 422
+Response: [{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-14 16:47:12 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a1952f086117b750b5472a3baad8bbe7","user_id":"aa1ce354fcd58a270751","created_at":"2026-04-14 16:47:12"}
+2026-04-15 15:08:52 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b438c76baaaddb2006a5ee7eaff0d890","user_id":"38f6442e86fa23b7b569","created_at":"2026-04-15 15:08:52"}
+2026-04-15 15:26:29 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f3e24b78f240cb70e17d7f5552cca2c1","user_id":"1936624dfa6f803d1a2b","created_at":"2026-04-15 15:26:29"}
+2026-04-24 19:39:06 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/35c5b177f29ec0222fce20fc471988dd","user_id":"f38a400aee17ac150546","created_at":"2026-04-24 19:39:05"}
+2026-04-25 03:47:53 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b7a0e26eb3d298870121bac43c22b052","user_id":"44f61507cb025563f09b","created_at":"2026-04-25 03:47:53"}
+2026-04-25 11:38:16 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/018ea17924ae14078c5932e858623f97","user_id":"86447ee3c2c31147de13","created_at":"2026-04-25 11:38:16"}
+2026-04-25 12:02:23 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/5b202fa4335807d089d82677c8b40d56","user_id":"d3cbf16aca8eccff4e75","created_at":"2026-04-25 12:02:23"}
+2026-04-25 13:01:52 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/4587996f21b30c2c69d5c76d89cd50d9","user_id":"9f0d5d4299a0cde4650e","created_at":"2026-04-25 13:01:52"}
+2026-04-25 13:11:36 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/c51ffda46a36d170ef91849cc635e506","user_id":"93f7c20433f815056faa","created_at":"2026-04-25 13:11:36"}
+2026-04-25 15:21:45 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/fa93b4806db25f60062327e95b1fded3","user_id":"5268c2d413e25ee69062","created_at":"2026-04-25 15:21:44"}
+2026-04-25 15:24:42 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/38a2f1f59852e13abe10503b37600c9e","user_id":"7760638023f9bf8bf653","created_at":"2026-04-25 15:24:42"}
+2026-04-25 15:56:58 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/fc4617809733876f96d6c09f5fceb14f","user_id":"af2404931c87faa1a138","created_at":"2026-04-25 15:56:58"}
+2026-04-25 16:11:10 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-04-25 17:06:45 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/057eaf133ba99dec2d3ae61ef9f5c7e4","user_id":"b5f93f7f427989f7ec1a","created_at":"2026-04-25 17:06:44"}
+2026-04-25 17:50:33 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/4357eb8e07e19ed682bf6f3b2af2729a","user_id":"8eaf5224e3ee86b2e9a0","created_at":"2026-04-25 17:50:33"}
+2026-04-25 17:50:43 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/182980b848d57a6c1705cb7a412d2c24","user_id":"39116abfd01d4203f948","created_at":"2026-04-25 17:50:43"}
+2026-04-25 18:07:02 - HTTP: 404
+Response: {"field":"country_iso_code","message":"Sorry! We do not service clients from your country.","status":404}
+2026-04-25 18:40:29 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/6426cecba839920bc1f4f843cf522372","user_id":"1136fb89bfe9eab25c89","created_at":"2026-04-25 18:40:28"}
+2026-04-25 18:49:28 - HTTP: 422
+Response: [{"field":"phone_number","message":"Phone number is not valid for your region Argentina"}]
+2026-04-25 18:50:11 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a0df31d83b0065caf492fffd44d39948","user_id":"9995858a5ad1f191510a","created_at":"2026-04-25 18:50:11"}
+2026-04-25 19:03:16 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/4a4c4b7268176ee4c2777ea896e1d60d","user_id":"07e73b12ed6be2611caa","created_at":"2026-04-25 19:03:16"}
+2026-04-25 19:20:29 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-04-25 19:26:08 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/0ec26fbc7159e7c582e094e07c31320e","user_id":"4a78e7666e82da0673ba","created_at":"2026-04-25 19:26:08"}
+2026-04-25 20:10:59 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b5791316c8e0f80af0cca68e85e607fa","user_id":"19caa58e416a59a8d7a1","created_at":"2026-04-25 20:10:59"}
+2026-04-25 22:07:44 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/993fa49cda111a8bfb37047a4478bee1","user_id":"4f01982c75b1f9576a8f","created_at":"2026-04-25 22:07:44"}
+2026-04-25 22:19:54 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/6243a7584b392f2e5fea86b9ca77d26d","user_id":"41a4f9fa728ab413d4f3","created_at":"2026-04-25 22:19:53"}
+2026-04-25 23:10:34 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/efdd4a37d3bc19337ebb5d2232e502e4","user_id":"e9489af8761c265da4cb","created_at":"2026-04-25 23:10:34"}
+2026-04-25 23:19:46 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-04-26 12:51:23 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/4537a2b2a95475c445a1dedeb5518dd4","user_id":"157841b0e8bc06a6dd57","created_at":"2026-04-26 12:51:23"}
+2026-04-26 12:56:39 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-26 13:56:08 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/6130edc2e63e11c3db5d40fcbc444100","user_id":"0c265f38f9189534bd21","created_at":"2026-04-26 13:56:08"}
+2026-04-26 18:46:27 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/61e860fb776da0d96ad98289fe0b87d1","user_id":"8b780c157d0d7079d4eb","created_at":"2026-04-26 18:46:27"}
+2026-04-26 20:37:29 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/ccde0158918f050e509877c6851c8cc9","user_id":"96230763853dd69c4a13","created_at":"2026-04-26 20:37:28"}
+2026-04-26 20:46:30 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/9a7f58636a25bcef30ed4a986cfc5e80","user_id":"5cd5988d5b5fce3ef086","created_at":"2026-04-26 20:46:29"}
+2026-04-26 22:51:57 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/928bd4f3c45d1cd5889d27ff7c18a2f4","user_id":"7f94099ba7762683dd43","created_at":"2026-04-26 22:51:57"}
+2026-04-27 08:18:38 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-27 10:33:39 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/6c0742d2bc58e8ecca09a3d2314f6071","user_id":"af24ee49853d26cf13e5","created_at":"2026-04-27 10:33:39"}
+2026-04-27 11:16:37 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/fe11b920a2ad0ded8c565548200a8ef3","user_id":"2cfc6acb5423ea670e2d","created_at":"2026-04-27 11:16:37"}
+2026-04-27 13:02:28 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"}]
+2026-04-27 13:47:07 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-27 14:56:48 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/60ebd943a31c20364395d7e38cf0ce6e","user_id":"573f20769aac2d8b9360","created_at":"2026-04-27 14:56:48"}
+2026-04-27 15:06:38 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/da810718aea9407c6469e5757c9a18e7","user_id":"5e42466f02f80429b5ff","created_at":"2026-04-27 15:06:38"}
+2026-04-27 16:24:49 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/1e79b2623079fa24146d9021cfcad9bf","user_id":"7939d2a367e900c844b2","created_at":"2026-04-27 16:24:49"}
+2026-04-27 16:36:31 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/974f38ae53e39760f231a8980d204be2","user_id":"3d4f357a28848d5ebd3e","created_at":"2026-04-27 16:36:31"}
+2026-04-27 16:41:09 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/2e75b86be14541c63ae45817ab28d1cf","user_id":"50de3a974b8e52d2dd49","created_at":"2026-04-27 16:41:09"}
+2026-04-27 17:06:17 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/ae8cd1bf792707924212d197ee560d3b","user_id":"12df127f36807140f310","created_at":"2026-04-27 17:06:16"}
+2026-04-27 17:26:35 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f31056e1de1ae8b1c53995fb72963b8f","user_id":"fce8bba3b9d89085d5c6","created_at":"2026-04-27 17:26:35"}
+2026-04-27 17:37:55 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b0aba6945fe7016fc7fd1bd888a89a64","user_id":"15e293513b7eef457ed9","created_at":"2026-04-27 17:37:54"}
+2026-04-27 17:53:22 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-27 17:54:03 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/7b96aae3a21fbbf5589c2a05f4aaee9a","user_id":"09a187f49d65142e1482","created_at":"2026-04-27 17:54:02"}
+2026-04-27 18:28:35 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/fd85b9550a71e103b6896c90af1ef466","user_id":"3127c8896722dd9c7617","created_at":"2026-04-27 18:28:35"}
+2026-04-27 19:23:56 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/5d1193f61765de17e3a6ea7a5bf9e643","user_id":"bc25dd284fa2bb568fcb","created_at":"2026-04-27 19:23:55"}
+2026-04-27 19:32:07 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/8dcc1b48cfdc950bf3244ab644d8b4cc","user_id":"4e2ccdcb63f2b0cd10b0","created_at":"2026-04-27 19:32:07"}
+2026-04-27 19:46:18 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-04-27 20:14:42 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-04-27 20:23:37 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e57d7124b12c6e3aee815bbd4126da70","user_id":"dcb29c74c31f6eb36016","created_at":"2026-04-27 20:23:36"}
+2026-04-27 20:51:58 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-04-27 21:11:56 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/98ce0d9306b8b6ff21b8daf2bc1eed53","user_id":"bf37ea5bc582e44b2144","created_at":"2026-04-27 21:11:56"}
+2026-04-27 21:54:40 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/c16aafad2d4e011f65ccfbf48e43757d","user_id":"b0b94b7fc4bbaf5b0879","created_at":"2026-04-27 21:54:40"}
+2026-04-27 22:13:37 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/18a83e88fd52eba320af26919181b288","user_id":"9af0669102bb5ed6d451","created_at":"2026-04-27 22:13:36"}
+2026-04-27 22:21:57 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-04-27 22:32:11 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/24c4535f3fe0e4c6f7bd944d9dfd28cd","user_id":"786b5c1f0ce37984c572","created_at":"2026-04-27 22:32:11"}
+2026-04-27 23:02:20 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-28 08:50:15 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/24da1b2dcca12d3da1ec1e94568331cc","user_id":"5dd51590111b498a5b27","created_at":"2026-04-28 08:50:14"}
+2026-04-28 08:56:12 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/bdd6a2b4f6a6477910774f3db282438f","user_id":"0bc6ad9d1b388e6961df","created_at":"2026-04-28 08:56:12"}
+2026-04-28 09:14:00 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-28 09:19:11 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/0f0fee29b75eade77bb12c0fb5253404","user_id":"88f0eee86ab7c575fef4","created_at":"2026-04-28 09:19:10"}
+2026-04-28 09:51:39 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/aedf132ec80d59a0aa7f59394eb6c345","user_id":"ab84d9c40bb9cfe377a2","created_at":"2026-04-28 09:51:39"}
+2026-04-28 11:26:35 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/199c36fb92b78ec1241f00ece403fb86","user_id":"c2a9b1aadea6918cdcae","created_at":"2026-04-28 11:26:34"}
+2026-04-28 11:48:24 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f48c0e8c03e1ee38776d7d7aa7bd61b4","user_id":"7c288623dfca0f0862f4","created_at":"2026-04-28 11:48:24"}
+2026-04-28 11:51:48 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-28 12:01:21 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/8930a28d956d48a571e34329af0a99da","user_id":"fa5a6a6bf1a05be68ef7","created_at":"2026-04-28 12:01:21"}
+2026-04-28 13:02:51 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/41a56e048aa7f63be62b03465e910514","user_id":"bf2e94b22e295b4be6bb","created_at":"2026-04-28 13:02:51"}
+2026-04-28 13:05:39 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/fb13928c8ce5e2380a8a45a39dc8a66c","user_id":"7197687529de1f482634","created_at":"2026-04-28 13:05:39"}
+2026-04-28 13:19:54 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/33d3a4803b8eec1353b429627401f46d","user_id":"44c030dcf417f0f282c2","created_at":"2026-04-28 13:19:54"}
+2026-04-28 13:36:16 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/d424673d67738ff362ce62c9826800d2","user_id":"00ec7609293ddb2252a4","created_at":"2026-04-28 13:36:16"}
+2026-04-28 13:37:28 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/37591f578563bda4885896b292b29d95","user_id":"4da4001b32ec4906cc16","created_at":"2026-04-28 13:37:28"}
+2026-04-28 13:56:45 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/4ed1c61bb9a355c3d98d46335d6ce3a9","user_id":"ed04ba9b738c8ca08089","created_at":"2026-04-28 13:56:45"}
+2026-04-28 14:28:57 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/45b959e6ca99349b08ebec810b301348","user_id":"953fd6a490d902d3cff7","created_at":"2026-04-28 14:28:57"}
+2026-04-28 14:32:15 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/d011364c7b54b4bf96b7e93c5f19be60","user_id":"572174cc061b01f7600a","created_at":"2026-04-28 14:32:15"}
+2026-04-28 14:37:56 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/50044c0378ea8cc51a09dfc5d4886876","user_id":"d79982d21a7f837272f1","created_at":"2026-04-28 14:37:56"}
+2026-04-28 14:43:46 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-28 14:46:04 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-28 14:47:27 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-04-28 14:56:14 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-28 15:06:20 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e222423f93c27525d9a62634b3a98b91","user_id":"b2dce9ecac4046f84308","created_at":"2026-04-28 15:06:19"}
+2026-04-28 15:09:09 - HTTP: 0
+Response: 
+2026-04-28 15:14:19 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/04925d5979fefc139171c532b6029ca1","user_id":"0528497c7ef7bbb30f0f","created_at":"2026-04-28 15:14:19"}
+2026-04-28 15:23:15 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b48b2b4a931575788a5af6e31872d837","user_id":"e925c9f947def066ab1c","created_at":"2026-04-28 15:23:15"}
+2026-04-28 15:31:44 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/ddd26b99ba4625fef36628db74e1863c","user_id":"ecfec8b1817b0294e79c","created_at":"2026-04-28 15:31:44"}
+2026-04-28 15:51:05 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/5e341b627008047387f4950315c8d1d9","user_id":"f255744fa6ec64199fd2","created_at":"2026-04-28 15:51:05"}
+2026-04-28 15:51:06 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/5e341b627008047387f4950315c8d1d9","user_id":"f255744fa6ec64199fd2","created_at":"2026-04-28 15:51:05"}
+2026-04-28 15:59:08 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/44fb495356f936fa6ecec1e6f2ad2bc8","user_id":"96cb05154a3f5e0db526","created_at":"2026-04-28 15:59:08"}
+2026-04-28 16:09:17 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b2d132d55f8e5eb96d84ae66147149c0","user_id":"64eaf8eb758810d3a267","created_at":"2026-04-28 16:09:17"}
+2026-04-28 16:17:05 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/d1bfcb17cd7e2520f835ffe0d34db98d","user_id":"ae216b21d4e2c148b669","created_at":"2026-04-28 16:17:05"}
+2026-04-28 16:18:36 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/6f75e883d2d427fec7d114a7f142d3ea","user_id":"d8fb7766d4208fc0fd6b","created_at":"2026-04-28 16:18:36"}
+2026-04-28 16:23:04 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-28 16:29:42 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-04-28 16:33:22 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/6a325e416a78ffbcf3269cc2e6ee3c5e","user_id":"a63857fb2af31b1b468f","created_at":"2026-04-28 16:33:22"}
+2026-04-28 16:36:10 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/8be212537fb082642999dea39092f74e","user_id":"05f65652cad77840c1fd","created_at":"2026-04-28 16:36:10"}
+2026-04-28 16:37:34 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/30f7a905c5c7d9e68cb5bfd1337fd816","user_id":"9c75f6c3c4f8726c0390","created_at":"2026-04-28 16:37:34"}
+2026-04-28 16:59:03 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/6f695d3455aaf80f218d7b32dbe05ef1","user_id":"517be35eb74596045d34","created_at":"2026-04-28 16:59:02"}
+2026-04-28 17:27:09 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/eab29e80053e9f6880b3b25912063310","user_id":"2901fc258d99efb8cd29","created_at":"2026-04-28 17:27:09"}
+2026-04-28 17:36:51 - HTTP: 422
+Response: [{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-28 17:47:16 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/dfbd7f37e94d554a2e4113b80e93cffb","user_id":"ea397f37f7dbeccb8c05","created_at":"2026-04-28 17:47:16"}
+2026-04-28 18:06:51 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/8996404d2da161388bccca0515d9828a","user_id":"8dd20691386ee7da4e7d","created_at":"2026-04-28 18:06:51"}
+2026-04-28 18:15:52 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e573d1a05ed3f2e1facfc5b3a23ca7fe","user_id":"f4695b0f246a6a3ba380","created_at":"2026-04-28 18:15:52"}
+2026-04-28 18:32:23 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-28 18:38:26 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/bf42d1f5ae510cdf2c7e327d0c843f17","user_id":"524c5fe80212b3bc7aa6","created_at":"2026-04-28 18:38:26"}
+2026-04-28 18:39:38 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/c9580034b70adcbc98b8939bfdb7c13c","user_id":"7ab5d9101e14303ebead","created_at":"2026-04-28 18:39:38"}
+2026-04-28 18:50:50 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-04-28 19:01:15 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/d7130fa6e6a677e73249d0134c404cac","user_id":"c50f38eb2813a3223269","created_at":"2026-04-28 19:01:15"}
+2026-04-28 19:07:06 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a971c47a1b70ee604fd3b7b4bef771a1","user_id":"645bbdcc585efbf457d3","created_at":"2026-04-28 19:07:05"}
+2026-04-28 19:39:03 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/5d3088d6048b2d4efcb0e1227d6b7ebc","user_id":"ff97fa1bf67f2f8ab375","created_at":"2026-04-28 19:39:03"}
+2026-04-28 19:42:33 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e96189d1c375152da9be700973de8e2a","user_id":"8c9322203a1e5863f9ce","created_at":"2026-04-28 19:42:33"}
+2026-04-28 19:48:50 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/2da832defe26a04a48b540978e029c2d","user_id":"e13057330dc6ab2de48b","created_at":"2026-04-28 19:48:50"}
+2026-04-28 19:58:53 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/649d166c54f28c4dbad46889a1705506","user_id":"acea39eee5acd6ac0766","created_at":"2026-04-28 19:58:53"}
+2026-04-28 19:59:35 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/ffc5ee4ef85527d5664ed03c8cb09734","user_id":"06a8844816a1e5a8251d","created_at":"2026-04-28 19:59:35"}
+2026-04-28 20:33:52 - HTTP: 0
+Response: 
+2026-04-28 20:44:54 - HTTP: 0
+Response: 
+2026-04-28 21:53:11 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/eb7ef0ff1a22c0f396ab12a1b5288ccb","user_id":"0c198d1ba21077c69f94","created_at":"2026-04-28 21:53:11"}
+2026-04-28 21:56:10 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/0c7bc25debb106d598eb9e78131a627c","user_id":"eb4b269b837950192d43","created_at":"2026-04-28 21:56:10"}
+2026-04-28 22:00:24 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-04-28 22:12:21 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-28 22:19:39 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-28 22:44:11 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-28 23:18:16 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/4d2bf3df5bc76a666172917cb00557e0","user_id":"c25e81d2b85af91769b3","created_at":"2026-04-28 23:18:16"}
+2026-04-28 23:21:15 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/7ed5b0bc24713e06456786162749bdfe","user_id":"58f88f1cf03d2e45ef77","created_at":"2026-04-28 23:21:15"}
+2026-04-28 23:27:59 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/5b55766299f047d13b5c0a7a03ee5e5f","user_id":"77f4ee54f8c8e3a0a706","created_at":"2026-04-28 23:27:59"}
+2026-04-29 00:00:11 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/5c359a517513c26e9de19e2dc5221b94","user_id":"a9980a6ed1a53651571b","created_at":"2026-04-29 00:00:11"}
+2026-04-29 00:19:50 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/952fc9bd5bdf2267ecdff1bde01a29fd","user_id":"1110217a593cd2fed44f","created_at":"2026-04-29 00:19:49"}
+2026-04-29 01:05:27 - HTTP: 0
+Response: 
+2026-04-29 01:58:41 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/cf59a566157a55140ea4a4d730316199","user_id":"7d466119f555d225dea7","created_at":"2026-04-29 01:58:41"}
+2026-04-29 01:58:42 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/cf59a566157a55140ea4a4d730316199","user_id":"7d466119f555d225dea7","created_at":"2026-04-29 01:58:41"}
+2026-04-29 02:36:38 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/180c2156ba9ec271c36fe0a376faa2d9","user_id":"a99d8cbf0a9c1642f9e4","created_at":"2026-04-29 02:36:38"}
+2026-04-29 11:23:40 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/4c9ecf74ab512f9dab651a7978e6c646","user_id":"6f32d2294a530c8aec51","created_at":"2026-04-29 11:23:40"}
+2026-04-29 11:25:59 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/3b84197409d4524dce19264bc8bf02bc","user_id":"f120b5e235c50d0cea04","created_at":"2026-04-29 11:25:59"}
+2026-04-29 11:42:05 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/c74eb365627d2fd3f94ce35bf1d2ae41","user_id":"784b0d61a8e5a2f9ae6c","created_at":"2026-04-29 11:42:05"}
+2026-04-29 11:42:10 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a5d4203cc456fbf6cf44a56687e7b271","user_id":"867ef6f0b29556414754","created_at":"2026-04-29 11:42:10"}
+2026-04-29 11:48:29 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/6df03e3991f91091e8db1f41e9ccb6aa","user_id":"921b44719a1303e5a321","created_at":"2026-04-29 11:48:29"}
+2026-04-29 11:51:24 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/cc122be7f318a822743fcc4fb3fdd982","user_id":"11ae5d3c9d251b505e8c","created_at":"2026-04-29 11:51:24"}
+2026-04-29 11:51:49 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/7b39bdbafe1a1c04dc8b5113b8b1fb44","user_id":"e19890838c61df90bd31","created_at":"2026-04-29 11:51:49"}
+2026-04-29 11:58:37 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-29 12:07:35 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/98fda809496b3031b476dd8221acc8a7","user_id":"112d2d82382aa655af51","created_at":"2026-04-29 12:07:35"}
+2026-04-29 12:24:55 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f8d755eca530ec2a4bede6fda4af8896","user_id":"7fac255614c61e582214","created_at":"2026-04-29 12:24:55"}
+2026-04-29 12:43:41 - HTTP: 422
+Response: [{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-29 13:18:12 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/accdd70d639378a125e7fbc81f6b0c31","user_id":"d6979d07da706c2608d3","created_at":"2026-04-29 13:18:11"}
+2026-04-29 13:18:35 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/688b91427742ba28b1b8953584795374","user_id":"badbcdc645acdaf1e6de","created_at":"2026-04-29 13:18:35"}
+2026-04-29 13:33:36 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-29 14:13:52 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/681a29bb0e826621f35d542b4eea7e97","user_id":"7c1e053c3ec8427313e8","created_at":"2026-04-29 14:13:52"}
+2026-04-29 14:24:00 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/ea583e48867874ebf58b34e00e97b3b6","user_id":"7a6cfab55649ce8fa511","created_at":"2026-04-29 14:24:00"}
+2026-04-29 14:50:07 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/86c9356fcc3806596a9dd2c9cca5b55f","user_id":"8b11e782b31b8da1820f","created_at":"2026-04-29 14:50:07"}
+2026-04-29 15:20:56 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a2f5cb7e8ea6d615609724a031d8910f","user_id":"c485457bb9f05ba9584d","created_at":"2026-04-29 15:20:56"}
+2026-04-29 15:28:20 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-29 15:41:00 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-29 16:01:35 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/2a801ffefb627c59ed15bb51f9dee65c","user_id":"70a2de7245bcea4060db","created_at":"2026-04-29 16:01:35"}
+2026-04-29 16:19:10 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/90841fbb00015c9fdad2be5b7cfa7e64","user_id":"7894856a55975130c8d3","created_at":"2026-04-29 16:19:10"}
+2026-04-29 16:20:47 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f932dd63880339961ed1a42d7c87e038","user_id":"df5202a180020a6f39f4","created_at":"2026-04-29 16:20:47"}
+2026-04-29 16:22:27 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/003ac18d7662a69316075015cd9641b5","user_id":"e6c4b8c2b5a10d6af80b","created_at":"2026-04-29 16:22:27"}
+2026-04-29 16:24:19 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/883086d36b5aaa30fc2c874b34c76ab1","user_id":"224e25018a2bc3063dce","created_at":"2026-04-29 16:24:19"}
+2026-04-29 16:37:19 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/94ffceaf1f4ce2f9586b6cd7c8fe4abe","user_id":"d593c6aaff671891e16b","created_at":"2026-04-29 16:37:18"}
+2026-04-29 16:40:38 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/bfb3a0f823ed380e329931924d358d8a","user_id":"7f92d9109344050f5ed7","created_at":"2026-04-29 16:40:38"}
+2026-04-29 16:47:36 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-29 16:54:55 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a38e6de495469c4c28ade9858b801a2d","user_id":"90a9924f861681f31577","created_at":"2026-04-29 16:54:55"}
+2026-04-29 16:56:14 - HTTP: 422
+Response: [{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-29 17:08:46 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/d03ee3220f12e5eb4180ef21512bb22e","user_id":"73e215fd620b60219513","created_at":"2026-04-29 17:08:46"}
+2026-04-29 17:13:18 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/66b4a52f565a72f6fc7ed9f4c2c885d2","user_id":"05c69ad2ef6948be8f08","created_at":"2026-04-29 17:13:18"}
+2026-04-29 17:35:22 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-29 18:13:21 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/2b2edb9ba1d73578b8afb7586be994ad","user_id":"dbf119e1df309fbbd10d","created_at":"2026-04-29 18:13:21"}
+2026-04-29 19:16:13 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-04-29 19:27:04 - HTTP: 200
+Response: {"status":3,"injection_html":[],"redirect_url":"https://regcompleted-thanks.net/en?auth-token=fbf6d424ee3a262e69d61def1069241d","softwareplatform":"fx_tradersoft","user_id":"43391870"}
+2026-04-29 19:52:51 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/3d065bc52cbc484eade679a3f67145d3","user_id":"404a4aae4de740cd3718","created_at":"2026-04-29 19:52:51"}
+2026-04-29 20:00:14 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/45827287b951068659b9b0a313601a3e","user_id":"b300a0cf1f5c5f738eaf","created_at":"2026-04-29 20:00:14"}
+2026-04-29 20:11:59 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/0cf55db7f1fe48194d534c34aec3f328","user_id":"61eefbcfd40304748ead","created_at":"2026-04-29 20:11:59"}
+2026-04-29 20:21:28 - HTTP: 0
+Response: 
+2026-04-29 20:25:42 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/18fadfea6bf7da54dc9d331b253cde0b","user_id":"ee827de25a2a9789fab2","created_at":"2026-04-29 20:25:42"}
+2026-04-29 21:33:25 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-30 01:30:48 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b24cad9e4dabcf578fc9967d1cbc9bc0","user_id":"ebf281e8363a1310e0c7","created_at":"2026-04-30 01:30:47"}
+2026-04-30 02:23:38 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/78c6a31667e3c17008d18b8826fdb1a4","user_id":"dddf9b35c3b1bf0477cf","created_at":"2026-04-30 02:23:38"}
+2026-04-30 04:50:27 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b0b9f066dad6435fb9f9f029d8c35e79","user_id":"0c6d0ba78777c3cb3fb9","created_at":"2026-04-30 04:50:27"}
+2026-04-30 08:35:14 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/5bab87220614a100f5fbc0932037beb9","user_id":"baebd22f5b340d3be0cc","created_at":"2026-04-30 08:35:14"}
+2026-04-30 08:48:49 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f9cc264b22bbcf705e0f7f205724ce28","user_id":"e5c68e5660ff0657c0dd","created_at":"2026-04-30 08:48:49"}
+2026-04-30 08:58:42 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-04-30 09:01:20 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/ec5dd24b271fdbba0b826cc178a1e170","user_id":"bfdd05b0e7670b6ed1a4","created_at":"2026-04-30 09:01:20"}
+2026-04-30 09:55:42 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/d26d3687b27d4d69e7bafb6daeca02a5","user_id":"fbbfc5e0d0c3476bdf79","created_at":"2026-04-30 09:55:41"}
+2026-04-30 09:58:12 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/26cd44bcbe3044f27c72994cf2c173bf","user_id":"91be9164dcb358ef36bb","created_at":"2026-04-30 09:58:12"}
+2026-04-30 10:21:01 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-04-30 11:00:48 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/2aef371cc78c14efb4e33156fa322be8","user_id":"77f0507b6e15cc5b0d03","created_at":"2026-04-30 11:00:48"}
+2026-04-30 11:01:05 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/8b1454ea72dbb06419928f357d1363cf","user_id":"189c149d234e63342a30","created_at":"2026-04-30 11:01:05"}
+2026-04-30 11:40:19 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b6d89fe9627441be9e987b876beb411f","user_id":"a242b8b5362085c0f694","created_at":"2026-04-30 11:40:19"}
+2026-04-30 11:52:21 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/4582675abd5453a15ab9f2aa3675988b","user_id":"bad67ca3ab1de05e1ce6","created_at":"2026-04-30 11:52:20"}
+2026-04-30 12:10:02 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/53a84d3425f52d1bedd568336358f9f4","user_id":"ff23f3ad03645b63a4bd","created_at":"2026-04-30 12:10:01"}
+2026-04-30 12:17:46 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/bfa27b6ebea9fc0f3c86e4de0a8abc8f","user_id":"d10c10d4db82dbda380e","created_at":"2026-04-30 12:17:46"}
+2026-04-30 13:02:19 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a851dfb6e1f9166551366ef19e386df8","user_id":"4fb9219ab5636ef6c32a","created_at":"2026-04-30 13:02:19"}
+2026-04-30 13:13:28 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/17e64dbc5e08da5c57b7927977245985","user_id":"a98595deb33d8af0eca8","created_at":"2026-04-30 13:13:28"}
+2026-04-30 13:49:07 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/4c3fceafc31d2dc0b0d496a061d2953a","user_id":"97941dc382bdd990c577","created_at":"2026-04-30 13:49:07"}
+2026-04-30 13:57:15 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/093de390986461693d3164259eb44553","user_id":"ca0f19246f16e4ada63d","created_at":"2026-04-30 13:57:15"}
+2026-04-30 14:02:27 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f348dce7a62828d5dbdca2c115b80f7a","user_id":"c4591efd167dbea9ce12","created_at":"2026-04-30 14:02:27"}
+2026-04-30 14:31:24 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-30 16:07:58 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/d94b2b6ffcdf7fa2c478d5d8250be9b9","user_id":"3b828668c8aa859332d9","created_at":"2026-04-30 16:07:58"}
+2026-04-30 16:15:56 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/5d03deb6d49ca57cb4f726888ad30c58","user_id":"60f8524da1c424c9ac3c","created_at":"2026-04-30 16:15:56"}
+2026-04-30 17:55:47 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/61bcb242391a3a3d605649114f6d35cc","user_id":"608d801790f280ee1954","created_at":"2026-04-30 17:55:47"}
+2026-04-30 19:09:47 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-04-30 19:33:17 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e561e6b8a38d85225e761c36f1d9ee4f","user_id":"a8e9b4aeb4d7841c15fb","created_at":"2026-04-30 19:33:17"}
+2026-04-30 19:51:36 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/4a5477d82c994dfb8c9c42dfd57bef14","user_id":"bb5f7feb4c01c2a170d5","created_at":"2026-04-30 19:51:36"}
+2026-04-30 21:06:12 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/0c0ece3a3780bbcce8969016b2d692fd","user_id":"4badc2b7f5bebc219635","created_at":"2026-04-30 21:06:12"}
+2026-04-30 21:21:12 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/7aca524604824d7345b24a0c962b38a5","user_id":"85f6062d299f34d8ca43","created_at":"2026-04-30 21:21:12"}
+2026-04-30 21:34:49 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b01973a4e0fbd99abb6ffe9a0048fdd5","user_id":"256aeb54126152ae8636","created_at":"2026-04-30 21:34:49"}
+2026-04-30 21:37:56 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/3cc415ad98431ab56ed0c4c76ff6cae0","user_id":"17669a81cb6d0f1baf06","created_at":"2026-04-30 21:37:56"}
+2026-04-30 22:19:46 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/02f4be8e24c9a4ebc5029497fd13bd0b","user_id":"f1f72ee4a14b61e48a4e","created_at":"2026-04-30 22:19:46"}
+2026-04-30 22:32:59 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/c83c2cf88bef28e90f5bb0ac4e5cf07f","user_id":"0c479649827a2d7194d4","created_at":"2026-04-30 22:32:59"}
+2026-04-30 22:55:16 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-04-30 22:56:20 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/72da24137cd1979360628d252d6859a5","user_id":"ea1507de0e506bf466c0","created_at":"2026-04-30 22:56:20"}
+2026-05-01 00:59:37 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/6f6226c016febc61698d5646b2c4f946","user_id":"c2e3152bb336177afe25","created_at":"2026-05-01 00:59:37"}
+2026-05-01 01:08:31 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/c74d6ce1696cca7ab183e61a92f3642a","user_id":"4c7b5d760b866ab96f3e","created_at":"2026-05-01 01:08:31"}
+2026-05-01 02:47:33 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/8e54ef754fc6eb31c70fbd6fbd67f544","user_id":"6032033cba172b4f3c2f","created_at":"2026-05-01 02:47:33"}
+2026-05-01 09:31:52 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/8c780de090ab975faa64a6f5f3722fc7","user_id":"f68c13d5819838c0ea80","created_at":"2026-05-01 09:31:52"}
+2026-05-01 12:05:28 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/bbf36516f49761ed4e6b79348b311638","user_id":"c22ca6f91d31a4d1152c","created_at":"2026-05-01 12:05:27"}
+2026-05-01 12:15:35 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-01 12:28:45 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/0e45eeb0841104acd34eaaa80ede3ede","user_id":"4fe229982ff47660475e","created_at":"2026-05-01 12:28:45"}
+2026-05-01 12:29:44 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/7202de8f15ab64db098e060b0048fc7e","user_id":"ef5da79a923c7ebf375c","created_at":"2026-05-01 12:29:44"}
+2026-05-01 12:31:00 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/8d0d0765b8cd27699d5a83022b053e14","user_id":"f957ec5748bedd211f8c","created_at":"2026-05-01 12:31:00"}
+2026-05-01 12:37:06 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/8be7c79a1bd5c34278434a4c9c9ed5e3","user_id":"d46ddc484ea64ad77c80","created_at":"2026-05-01 12:37:06"}
+2026-05-01 12:41:54 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/7cec635274ff6cc2d5301b4b82db7cfd","user_id":"a28acc023cd163d9401b","created_at":"2026-05-01 12:41:54"}
+2026-05-01 12:46:10 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/c794177e4e7c27101b18f252819abdab","user_id":"97497ecde29254d2d844","created_at":"2026-05-01 12:46:10"}
+2026-05-01 13:07:01 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e7156df4bd2c11d723bee6b18c58bfff","user_id":"8e89a4dd9381d3a9e856","created_at":"2026-05-01 13:07:01"}
+2026-05-01 13:14:49 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e5536e2cbc8c9a164213475736108fd3","user_id":"8c01a453bba826641f8f","created_at":"2026-05-01 13:14:49"}
+2026-05-01 13:19:30 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/93a8f10cacc8b3a127d53e2dc824353b","user_id":"9b1bc73fbb6ec9fd0a38","created_at":"2026-05-01 13:19:30"}
+2026-05-01 13:25:11 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/d43a708b67898a300227111102e9c255","user_id":"092e0b717f98c10278c2","created_at":"2026-05-01 13:25:11"}
+2026-05-01 14:00:53 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/2649bd6798406b6dbf7e3f947775e289","user_id":"b6351eb29e7d74a6f85e","created_at":"2026-05-01 14:00:52"}
+2026-05-01 14:20:36 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/4fc860affa3944f63bb7907b9f7e729f","user_id":"590ba0cc1b63f6e84227","created_at":"2026-05-01 14:20:36"}
+2026-05-01 14:30:59 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/57eaf4ce9387c64f3005e381dc6a5309","user_id":"50b81499853244486fb6","created_at":"2026-05-01 14:30:59"}
+2026-05-01 14:42:06 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/fbc0a31ce59aacca3f1b428eb7136c0b","user_id":"3464073261873653f4a7","created_at":"2026-05-01 14:42:06"}
+2026-05-01 15:49:46 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/1d1c0ac8c53c52e195f18ab31d06e053","user_id":"e50a03b3108ef3c1cd00","created_at":"2026-05-01 15:49:46"}
+2026-05-01 15:56:50 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/0c26557e7da01eb8994ab025b0db8cd1","user_id":"2da94112e079ba654e49","created_at":"2026-05-01 15:56:50"}
+2026-05-01 16:15:45 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/cb6486f3f2799e3fde7f44e30bbefdf4","user_id":"5dfeb47b68d078b1b0a8","created_at":"2026-05-01 16:15:45"}
+2026-05-01 16:29:12 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-01 16:41:53 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/6d9328d31e657aa45e17e8762e170fc8","user_id":"a0d64590c6f683fa3312","created_at":"2026-05-01 16:41:53"}
+2026-05-01 17:01:46 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/4b18d4a7db2b4f03e6fd1405d2fabb8e","user_id":"5728471d17a8717c1371","created_at":"2026-05-01 17:01:46"}
+2026-05-01 19:33:35 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f169aaa848d96a8ced7797a6f200d3be","user_id":"a74c9ba22f3fc39209bd","created_at":"2026-05-01 19:33:35"}
+2026-05-01 19:34:21 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/9f4bdcc214ea4b0c2f5500903d8414cd","user_id":"65e844226b23a60863ec","created_at":"2026-05-01 19:34:21"}
+2026-05-01 23:03:05 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/73633a23a20268fab487170450d8ab65","user_id":"19108501ff87bb2f9697","created_at":"2026-05-01 23:03:05"}
+2026-05-01 23:04:57 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-02 03:43:26 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/8ceb3ee81376a0c1075e940fdc470cc3","user_id":"f97ddcd57e5fbebb1f1b","created_at":"2026-05-02 03:43:26"}
+2026-05-02 11:02:41 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-02 11:23:48 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/cc10370fc71b4dfb5cdfa8e3002091b7","user_id":"3b54e27a5a03e96d53f4","created_at":"2026-05-02 11:23:48"}
+2026-05-02 11:34:53 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/16fcd938be2d6f4b96c495818ebe3107","user_id":"7c6d81c7d509d48dc154","created_at":"2026-05-02 11:34:53"}
+2026-05-02 11:40:48 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-02 11:48:24 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a72591a8af625b1da5eadd220de005f9","user_id":"2499ca0784f5ce7d1d96","created_at":"2026-05-02 11:48:24"}
+2026-05-02 11:49:38 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-02 11:52:25 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b6a489f91ac243e6052e0600de28d8b5","user_id":"890fab4bddfde132f820","created_at":"2026-05-02 11:52:25"}
+2026-05-02 12:02:09 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/d3fc99f3d65e899143029a78811b4c70","user_id":"90b25b6ccee463e5aa57","created_at":"2026-05-02 12:02:09"}
+2026-05-02 12:07:25 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-02 12:09:18 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e0754e6239b12fc2390e8cf73ef1e8cb","user_id":"fb0308560311892fee82","created_at":"2026-05-02 12:09:18"}
+2026-05-02 12:09:58 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-02 12:24:32 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/bbd378125dfb547c1f9844a62c7e5a56","user_id":"9f456f13449725eafe13","created_at":"2026-05-02 12:24:32"}
+2026-05-02 12:25:05 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/dfb248d97d48220c2999597015f3147d","user_id":"f49055ce6170a7a2b8bf","created_at":"2026-05-02 12:25:05"}
+2026-05-02 12:40:55 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-02 13:04:35 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/2520aa61acc237b974938e71ee6800cd","user_id":"31bb9e95c1270fce7feb","created_at":"2026-05-02 13:04:35"}
+2026-05-02 13:06:39 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/0c5632f149ab7308e536cd368c6d9beb","user_id":"f65389502af0eeef5865","created_at":"2026-05-02 13:06:39"}
+2026-05-02 13:22:01 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f00ce0c2ac481e6d9ef5be0c49477396","user_id":"f75a068d48e6733bb575","created_at":"2026-05-02 13:22:01"}
+2026-05-02 13:23:39 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/3096a98ebb76215dd24b955d81ace989","user_id":"e5299f25faac76a0a6fc","created_at":"2026-05-02 13:23:39"}
+2026-05-02 13:24:19 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b4cd155194d183b68dcf2a1febe78ee3","user_id":"07f99c264338663428de","created_at":"2026-05-02 13:24:19"}
+2026-05-02 13:27:02 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-02 13:41:28 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/085b64be8b538b0c21cf526f8af083cf","user_id":"9694e7a7a2ba320b5957","created_at":"2026-05-02 13:41:28"}
+2026-05-02 14:01:30 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/1280f13960d32a9ab3edf39bad95991a","user_id":"f0e2c5da8239af0a15fc","created_at":"2026-05-02 14:01:30"}
+2026-05-02 14:36:12 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/18ba6996b6562d81afd98024b186743d","user_id":"0b35a7c47cf7efa616de","created_at":"2026-05-02 14:36:12"}
+2026-05-02 14:38:38 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/dd221641f71d5105af79387bbf935608","user_id":"f0f564fedd6730bd052a","created_at":"2026-05-02 14:38:37"}
+2026-05-02 14:40:56 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/bbafbadd2e50823a3d7e941bbb047584","user_id":"cab37a852288c40b0a9d","created_at":"2026-05-02 14:40:56"}
+2026-05-02 14:43:45 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/979bb2f8c928e54a3696ef4d2097668a","user_id":"304af9073240fcb1a914","created_at":"2026-05-02 14:43:45"}
+2026-05-02 14:52:42 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/c594abd250f84827ae6e9bf067022d3f","user_id":"83db88d763f818cb840b","created_at":"2026-05-02 14:52:42"}
+2026-05-02 14:53:53 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/9888b3124fe7d6802073966d3d0bfed5","user_id":"82abf1668f09a4de595e","created_at":"2026-05-02 14:53:52"}
+2026-05-02 15:03:04 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/7a63a76337660bd38c0913a4ad57f2c5","user_id":"d3e2c21c06ae3ba0927f","created_at":"2026-05-02 15:03:04"}
+2026-05-02 15:08:55 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-02 15:26:11 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b2aba705832cf49ff0424bcbaa132121","user_id":"80d9e2eaa3ef78a33138","created_at":"2026-05-02 15:26:11"}
+2026-05-02 16:20:33 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-02 16:21:05 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/dbd51ae2f15a189896acc5ecdff11656","user_id":"5120742f48990e044759","created_at":"2026-05-02 16:21:05"}
+2026-05-02 16:31:35 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e6d5f5f711aa123979c4df953388b51f","user_id":"a0736fe4e7b8ae433817","created_at":"2026-05-02 16:31:35"}
+2026-05-02 17:31:52 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-02 18:09:22 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/490a4262a82ffaadc08c7974ca89bd34","user_id":"a448d9181e0b4bc66568","created_at":"2026-05-02 18:09:22"}
+2026-05-02 19:00:08 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/791317ef198ba172359d6e2d9fe1f896","user_id":"ccb7510ea29a30fa2a6e","created_at":"2026-05-02 19:00:08"}
+2026-05-02 21:57:24 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/3c6737832f800b69c99c15a3f7e12927","user_id":"02d48daa912d889819ca","created_at":"2026-05-02 21:57:24"}
+2026-05-03 11:45:17 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/d7290e9aca9da2397677ccc827023c60","user_id":"176cd4eab3ff7ba23521","created_at":"2026-05-03 11:45:16"}
+2026-05-03 11:57:49 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/7e382f181a09ce80daae2715923334d9","user_id":"86306692aa76aeb69654","created_at":"2026-05-03 11:57:48"}
+2026-05-03 12:08:27 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/5a1e4db1117788df3828607bc0b4097e","user_id":"3e8b5d600caa7a482f9b","created_at":"2026-05-03 12:08:27"}
+2026-05-03 12:09:20 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/6be7da0f874e523868495cef3df04ed4","user_id":"1de234735836e6ac09e0","created_at":"2026-05-03 12:09:20"}
+2026-05-03 12:39:30 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-03 12:47:57 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-03 13:13:58 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/44ac426388e09c663bca73235b52d8f7","user_id":"ac4e3ec4f0b92b25224e","created_at":"2026-05-03 13:13:58"}
+2026-05-03 13:17:59 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-03 13:19:40 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/7a664132e36bcc0b9f9a971da5c66db2","user_id":"d346116e57964346c0e0","created_at":"2026-05-03 13:19:40"}
+2026-05-03 13:51:32 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/7a0f344c4866d525947bc7e16dcf6aee","user_id":"6a3e543757ace1b2f65c","created_at":"2026-05-03 13:51:32"}
+2026-05-03 14:02:55 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/ce791a45b7ada1353c4e1e84b4bbbbda","user_id":"88ee9349cab3445670d2","created_at":"2026-05-03 14:02:55"}
+2026-05-03 14:32:01 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-03 14:35:02 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/83d478703f1cde6f79f74c0cebae5406","user_id":"a9d96b61763843a1694f","created_at":"2026-05-03 14:35:02"}
+2026-05-03 14:41:54 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/d05fa0a8d792bce9a82f17777974bb11","user_id":"608889131907707fc925","created_at":"2026-05-03 14:41:54"}
+2026-05-03 15:17:17 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-03 15:23:23 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/53c751561f2aaa1f253b7bcd43169f51","user_id":"83d9df6e92301804a27f","created_at":"2026-05-03 15:23:23"}
+2026-05-03 15:30:08 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/255646c35b4d912261ce1d52904d9135","user_id":"aac436942944d871c079","created_at":"2026-05-03 15:30:08"}
+2026-05-03 15:33:44 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/967b682bec270e928420e25396eff2ad","user_id":"c7210275f03a0fba6e29","created_at":"2026-05-03 15:33:44"}
+2026-05-03 15:37:09 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-03 15:55:52 - HTTP: 422
+Response: [{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-03 16:04:54 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/8d9f903e80436b557908654fc6b98707","user_id":"fd713843dc1e5a8ee7e8","created_at":"2026-05-03 16:04:54"}
+2026-05-03 20:52:30 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/32c7bd9c61d018dff1cf5e151ec806d4","user_id":"ff0c8e4cd9666525ef25","created_at":"2026-05-03 20:52:30"}
+2026-05-03 21:32:14 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/98ab9d3ddd44ce9d08e9b794002fc3b8","user_id":"a51f3fd2b1a4a473c712","created_at":"2026-05-03 21:32:14"}
+2026-05-03 21:34:39 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-03 22:39:06 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-04 02:02:36 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/58b3195daeb9082ba60a97865f844484","user_id":"05a285be1a66d0163e4c","created_at":"2026-05-04 02:02:36"}
+2026-05-04 10:34:17 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-04 10:44:43 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/1b837daf781d324c410c4126bebd076f","user_id":"4ef5340cde69dc2d6693","created_at":"2026-05-04 10:44:43"}
+2026-05-04 11:54:29 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-04 12:02:52 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/75985d74825726b87c275168fc247c2d","user_id":"646a049d859b69c87f0e","created_at":"2026-05-04 12:02:51"}
+2026-05-04 12:12:17 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/aa8c480dac0ccff6e8fcf57bc5635e8b","user_id":"517d15fc63bc2009f1d8","created_at":"2026-05-04 12:12:16"}
+2026-05-04 12:16:42 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/0442824055397153748cd6025d505fba","user_id":"72e97295ee237366231e","created_at":"2026-05-04 12:16:42"}
+2026-05-04 12:51:30 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/c1a3b657ceb9ca6efb71f4c1669ebbf3","user_id":"61175406736a191ddb95","created_at":"2026-05-04 12:51:30"}
+2026-05-04 14:13:56 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/5e3c271a1af3580e6e0fa29c2f3b835d","user_id":"3ed428d1f905822a44b6","created_at":"2026-05-04 14:13:55"}
+2026-05-04 15:40:48 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f2f9d85eabf85ceb3f0c0e348d6ad2ef","user_id":"08f80b6e30d16b5fe8a0","created_at":"2026-05-04 15:40:47"}
+2026-05-04 17:29:33 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/c289f791b98ee0ff91ba06a7527752c4","user_id":"07194d24a01049010532","created_at":"2026-05-04 17:29:33"}
+2026-05-04 18:08:42 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/d7900b843824e2ccdaf45d82ef2fedea","user_id":"75b8d624972891a6c803","created_at":"2026-05-04 18:08:42"}
+2026-05-04 23:53:07 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/880644f671cc6310c485f6ba587d95de","user_id":"915cd0bd84eff3530cbb","created_at":"2026-05-04 23:53:07"}
+2026-05-05 12:52:10 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/3eaa400f87d2c7e59e6ca1295294c875","user_id":"1957bb99b1b9fc2a47c4","created_at":"2026-05-05 12:52:09"}
+2026-05-05 13:38:37 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/cef684f3ec3718d013dd476b0ee12166","user_id":"50cb2e78c06473708e03","created_at":"2026-05-05 13:38:37"}
+2026-05-05 13:49:03 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-05 13:53:57 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/02f0e157a6e778dd05a61a3dbd0c17f8","user_id":"1fc9529bcdc82ada8e0d","created_at":"2026-05-05 13:53:57"}
+2026-05-05 13:54:12 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/0cda9a043c081cb51e65bdada9afd229","user_id":"ca23e185bd4560adc6a4","created_at":"2026-05-05 13:54:12"}
+2026-05-05 13:57:32 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-05 13:59:39 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b84fa4dc8783c41eb89a9ac7bb72c6ae","user_id":"a729226502e1f334abf4","created_at":"2026-05-05 13:59:39"}
+2026-05-05 13:59:46 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/6a26aff18673a91e247253cb1f14d641","user_id":"dd6af338ad519d4873f7","created_at":"2026-05-05 13:59:46"}
+2026-05-05 14:07:13 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-05 14:31:30 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-05 14:38:06 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-05 14:43:37 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e1602036f669c956362a0fd1bdfcc2a7","user_id":"5b59a9997e8850625dd0","created_at":"2026-05-05 14:43:37"}
+2026-05-05 14:46:51 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-05 15:24:02 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a7cf6871a310d3f9b06ba3484164479d","user_id":"129e134caf140901211b","created_at":"2026-05-05 15:24:02"}
+2026-05-05 15:45:27 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/5b959bc33d8dcef0536edcaf5647237a","user_id":"7590c3a30eeb9f19c492","created_at":"2026-05-05 15:45:27"}
+2026-05-05 16:27:28 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/4452e253eb5e78fa288779ee35ab7fa1","user_id":"e0e6d8db7c0772482f1f","created_at":"2026-05-05 16:27:27"}
+2026-05-05 17:28:43 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/681c32cbf20bb5bc3864cdccee6154b0","user_id":"d51021bdc35df3553ca0","created_at":"2026-05-05 17:28:43"}
+2026-05-05 17:36:42 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-05 17:46:26 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/0efe525296745134f316eeeaa9854a27","user_id":"53048245db650029d3c6","created_at":"2026-05-05 17:46:26"}
+2026-05-05 18:08:49 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/c44b7d412f88b0d668eeeb18920873ac","user_id":"816e88993a6687acb622","created_at":"2026-05-05 18:08:49"}
+2026-05-05 18:24:36 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/c1fa2b330807222e115b57e2965cb25b","user_id":"92b072345fa8cf0ca83b","created_at":"2026-05-05 18:24:36"}
+2026-05-05 18:28:05 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/03c0db46cc3b689d91690e4bb85a9af9","user_id":"3ea61bb660afa534ede9","created_at":"2026-05-05 18:28:05"}
+2026-05-05 18:37:08 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/7077df4a277fb4fa8cc5375f22ddbb71","user_id":"c5bc1d62b8692706c4f1","created_at":"2026-05-05 18:37:08"}
+2026-05-05 19:01:28 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/844204ff562323f674519e008a35eb3b","user_id":"199f0700221442f7b37f","created_at":"2026-05-05 19:01:27"}
+2026-05-05 19:09:37 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/279f26a4528caeb04caad4a27f6ed90a","user_id":"0e2efca2cea0808ddfd9","created_at":"2026-05-05 19:09:37"}
+2026-05-05 20:13:03 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/63e997a70882a306db817b51049d134d","user_id":"1af6bb792e57b70deaf2","created_at":"2026-05-05 20:13:02"}
+2026-05-05 20:45:27 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-05 20:49:45 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-05 20:55:18 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b6a34358d979d80a30201dd0ac80c03f","user_id":"106088817f62c34d8a34","created_at":"2026-05-05 20:55:18"}
+2026-05-05 21:21:15 - HTTP: 422
+Response: [{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-05 21:25:31 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/9beebe9526d24c1e24fd9d47c7f8d119","user_id":"c08e88802379a44e5419","created_at":"2026-05-05 21:25:31"}
+2026-05-05 21:29:39 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-05 21:35:10 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a7742da332818ee2d1293f566e178439","user_id":"77d0243d11d98617f95d","created_at":"2026-05-05 21:35:10"}
+2026-05-05 21:36:10 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/df6dbe9d2c1bd34c7fde0a68c97469a2","user_id":"79a6f5a4529d9522c70d","created_at":"2026-05-05 21:36:10"}
+2026-05-05 21:55:16 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-05 22:27:22 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-05 22:31:28 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/40379305ebe3cb740f491f145b8e622e","user_id":"2f949e3a6888bfb6ed6b","created_at":"2026-05-05 22:31:28"}
+2026-05-05 22:32:30 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/843a54802fa602931245b6f500148823","user_id":"e30832a575143759892c","created_at":"2026-05-05 22:32:30"}
+2026-05-05 22:41:16 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/22fd912a487a7578a314ae808de481c7","user_id":"e1386061e191d2a12ab9","created_at":"2026-05-05 22:41:16"}
+2026-05-05 23:13:15 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/4521fc48de3e71bb5af370d056e38790","user_id":"aa7253b1290e7b18cd24","created_at":"2026-05-05 23:13:15"}
+2026-05-05 23:32:07 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/8a62b58e238a8e71dc22641f9e4e7a9c","user_id":"88087ae773adfee8ae44","created_at":"2026-05-05 23:32:07"}
+2026-05-05 23:44:34 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/07b212912ab23b220258abfe79c5b3ae","user_id":"88c2ced1330e54595829","created_at":"2026-05-05 23:44:34"}
+2026-05-06 00:05:56 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/66b718e0565fca94658d2c7eccb5871c","user_id":"c0e55e800022e2954084","created_at":"2026-05-06 00:05:56"}
+2026-05-06 00:14:08 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/80b96b995ee0d42ead7447b6681a042f","user_id":"e892e5343c3b679a61fc","created_at":"2026-05-06 00:14:08"}
+2026-05-06 00:35:21 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-06 00:41:03 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/93d0f1372f0ace82808795367a7d508b","user_id":"c67dd5657485af2898b2","created_at":"2026-05-06 00:41:03"}
+2026-05-06 02:44:10 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-06 03:04:50 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/ffb4bfb4930915c19691377fcddab92c","user_id":"d60c8d9807ced1ca991a","created_at":"2026-05-06 03:04:50"}
+2026-05-06 05:09:27 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/1a0eea069985408152b9be557bec956f","user_id":"7306c50babb3e0425cba","created_at":"2026-05-06 05:09:26"}
+2026-05-06 10:16:00 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/1f34bf7ac5a6785489ecbe68e6340f25","user_id":"fa1afcd6516d385f3007","created_at":"2026-05-06 10:16:00"}
+2026-05-06 10:57:00 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/45ac149d9578428da107cc6fe30fe9d4","user_id":"778d090802693a2d07de","created_at":"2026-05-06 10:57:00"}
+2026-05-06 12:03:44 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/631d3e7ad21d3d2bb4acb84f77c3741f","user_id":"479c1ed6951c16e1c349","created_at":"2026-05-06 12:03:44"}
+2026-05-06 12:12:49 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/5d401bd47e1743773dc22997a28cdf7b","user_id":"05036ef44ee2b74370f5","created_at":"2026-05-06 12:12:48"}
+2026-05-06 12:50:05 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/66e1d5109cc23a3aad92f9c44a49a8f6","user_id":"cc3478bd4e4f30f2fd96","created_at":"2026-05-06 12:50:05"}
+2026-05-06 12:51:58 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/96f851b840e9cab09e71634b9849ab68","user_id":"724417bd49ee77b5c75c","created_at":"2026-05-06 12:51:57"}
+2026-05-06 12:54:51 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/757c7387ca0ab63b86f59a118cfd9d64","user_id":"dc43c709640b46e1af93","created_at":"2026-05-06 12:54:51"}
+2026-05-06 13:07:33 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/8934279334e1e0cbc462c59ec4ead862","user_id":"9d6d6cbc699ae4658be4","created_at":"2026-05-06 13:07:33"}
+2026-05-06 14:41:44 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/baf74d066e061a666cbae7e1c9c52847","user_id":"28b509058f9eabc9c57b","created_at":"2026-05-06 14:41:44"}
+2026-05-06 15:08:10 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/5a5aadcb82a144147d7508f1355b1ecd","user_id":"8015c75d17ea97fb46bc","created_at":"2026-05-06 15:08:10"}
+2026-05-06 16:21:58 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/ba59cd657ca596581b68d14a0a28c2b4","user_id":"42358a9da334187a751d","created_at":"2026-05-06 16:21:58"}
+2026-05-06 19:45:42 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b4611f4e4517c4c692108a12eb51649e","user_id":"9724bc3fc640a26fa4c5","created_at":"2026-05-06 19:45:41"}
+2026-05-06 21:20:19 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/62f383d97a0f40d2c69d6d916ac7bf50","user_id":"2438c74c30b763c03d17","created_at":"2026-05-06 21:20:19"}
+2026-05-06 21:21:23 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e61984100318f0145fe4a4c5d4d80d77","user_id":"35349a14cf8be1a7c683","created_at":"2026-05-06 21:21:23"}
+2026-05-06 21:23:28 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/855100df7ab06308ef5c77a874a23ded","user_id":"835f94d524f4342f1c55","created_at":"2026-05-06 21:23:28"}
+2026-05-06 21:23:48 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b23fe1d38ba5e0c84177862d3e689978","user_id":"fef9fc49e6024fb1041c","created_at":"2026-05-06 21:23:48"}
+2026-05-06 21:25:29 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/38f0e21ea54831eb67d437f25b4cd6f6","user_id":"f02bf449daca7c8e9615","created_at":"2026-05-06 21:25:29"}
+2026-05-06 21:25:56 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-06 21:26:17 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/1e012e8b967a46f521fb70ca4314cd45","user_id":"def3e0e7ac5baf0b9763","created_at":"2026-05-06 21:26:16"}
+2026-05-06 21:28:10 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/5f28fef655d0edc811eae77b4a9d0224","user_id":"6eda8509f233221c5d3d","created_at":"2026-05-06 21:28:09"}
+2026-05-06 22:00:40 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/3a9018d0963e76669f58a971de7c988c","user_id":"7e0657c08db2b500b877","created_at":"2026-05-06 22:00:39"}
+2026-05-06 22:06:28 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-06 22:10:12 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-06 22:21:40 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-06 22:27:54 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/aa82c5283d79f55a1e2224b4e39e5156","user_id":"75992e530eca8ab583c1","created_at":"2026-05-06 22:27:54"}
+2026-05-06 22:34:05 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-06 22:43:48 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-06 23:01:41 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/2f5a35653aee7426502081963b5a5454","user_id":"f2e6b92a76c042023821","created_at":"2026-05-06 23:01:41"}
+2026-05-07 08:17:39 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-07 08:29:16 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-07 08:33:56 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/933cd5732662afc6aafd07b4388688cd","user_id":"b74dfb4ac8e7b6793ea9","created_at":"2026-05-07 08:33:55"}
+2026-05-07 09:06:44 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a77abfef4ab4057be37f3792cc4ce726","user_id":"15499cc699fa39c1ffb4","created_at":"2026-05-07 09:06:44"}
+2026-05-07 09:48:42 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/c481038ce7bd8181465497fa515355bd","user_id":"862d64f4731511ccc5b2","created_at":"2026-05-07 09:48:41"}
+2026-05-07 10:10:34 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/58436ec214ed59d552ae67f0c8d05314","user_id":"085efdebd3131fceee62","created_at":"2026-05-07 10:10:34"}
+2026-05-07 10:12:51 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/2920a17b7cf9c0706b6734875ffa489f","user_id":"512f5cd6c37a8696a303","created_at":"2026-05-07 10:12:50"}
+2026-05-07 10:24:07 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/7eed29571282c7905763accda43f5d4b","user_id":"7d519c70a9446bf25ad9","created_at":"2026-05-07 10:24:07"}
+2026-05-07 10:36:49 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-07 10:52:31 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/202e7e5902fc37334f0eb3495af246f5","user_id":"d62225b354bed89b09e9","created_at":"2026-05-07 10:52:31"}
+2026-05-07 11:13:41 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/da5a371e91eab96471a1fba8e35021d0","user_id":"80d078cde56cdee3eb8b","created_at":"2026-05-07 11:13:41"}
+2026-05-07 11:31:16 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-07 11:38:15 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-07 11:39:15 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/d5a10d9ba41cbbf443b897da59411361","user_id":"97e90afb36514a268508","created_at":"2026-05-07 11:39:14"}
+2026-05-07 11:44:47 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/aa981c35f268faa36129aa901c217e33","user_id":"e503423a6dac7cb95721","created_at":"2026-05-07 11:44:47"}
+2026-05-07 12:29:50 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/2013ab8952b750b5de7f8ba5c887ff3f","user_id":"e61f6a458a2a8d71cc71","created_at":"2026-05-07 12:29:50"}
+2026-05-07 14:10:57 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/52f1962eb5c017c1b4b35969487c1e5e","user_id":"c123895e82af7ba6408d","created_at":"2026-05-07 14:10:56"}
+2026-05-07 19:39:28 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/55ba34796b73d9f9920d4f6f339900de","user_id":"da4a4823fd91ee2b4b74","created_at":"2026-05-07 19:39:28"}
+2026-05-07 20:05:12 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"}]
+2026-05-07 20:08:26 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/76e151cbd0678eb93911af372a7b2855","user_id":"c97e4dcf089a9f6c96f4","created_at":"2026-05-07 20:08:26"}
+2026-05-07 20:22:11 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/35fa732729184bfc75b0efe7295b55f3","user_id":"8d7cdad257b4f9868b2f","created_at":"2026-05-07 20:22:11"}
+2026-05-07 20:25:20 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/041a57fb2b7594b0df67bc0f4f11f2b1","user_id":"c5f73dbdbff5cb4f632b","created_at":"2026-05-07 20:25:20"}
+2026-05-07 20:43:31 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/1fefd97409e44e2484874e6a360c0f91","user_id":"82cc794fd72624b9278f","created_at":"2026-05-07 20:43:31"}
+2026-05-07 20:45:03 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/7434cb49895b238c300bbf6fe4e340ab","user_id":"0829049f59f41977ff8e","created_at":"2026-05-07 20:45:03"}
+2026-05-07 20:45:27 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a937e80c81b6305cce8103e919d5b41c","user_id":"04912ec0ecde868380bf","created_at":"2026-05-07 20:45:27"}
+2026-05-07 20:48:49 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/747e6235ab31795f57ae7d718eeed4e8","user_id":"2c773f9838af99a13f3d","created_at":"2026-05-07 20:48:49"}
+2026-05-07 20:57:22 - HTTP: 422
+Response: [{"field":"lastname","message":"Por favor, insira o seu Apelido"}]
+2026-05-07 21:00:43 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/943d5908e5468e0a2aac22cb6a8affa2","user_id":"ac22ab0d2f354aabf114","created_at":"2026-05-07 21:00:43"}
+2026-05-07 21:02:40 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/7b4b43ea8f425a324f4455caaf9f3996","user_id":"b67fc25d92a9b643015b","created_at":"2026-05-07 21:02:39"}
+2026-05-07 21:03:03 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e3989b4281354c39e340e7533315939f","user_id":"db26a6325c2b8a870c16","created_at":"2026-05-07 21:03:03"}
+2026-05-07 21:03:41 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/6d38f298d77a0b7d84d7e9fdc31b1687","user_id":"3e9b3f7078bc8ad46d4b","created_at":"2026-05-07 21:03:40"}
+2026-05-07 21:13:10 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/1a2e59aaf0ad5e52c9f3410877962ebf","user_id":"bb66c74d4f6dd0805569","created_at":"2026-05-07 21:13:10"}
+2026-05-07 21:23:48 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a0e6025d1ecb983301d0128c8232a3fa","user_id":"aaa73a495917920bbb4c","created_at":"2026-05-07 21:23:48"}
+2026-05-07 21:27:32 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e0438a31b4ecaff89571a58c730026a0","user_id":"d5063d76a116a28dd511","created_at":"2026-05-07 21:27:32"}
+2026-05-07 21:31:48 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/695ccd5481ce80d5fdcb996748bd89d6","user_id":"26aee7a1cc68ab0336ee","created_at":"2026-05-07 21:31:48"}
+2026-05-07 21:36:18 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-07 21:37:41 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-07 21:38:50 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/85093b6328f579caece0d8e3b6d79a6c","user_id":"e721e7dc86e28944c9d2","created_at":"2026-05-07 21:38:50"}
+2026-05-07 21:41:27 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/35acd49bab0ad9d888862d9ad689f194","user_id":"5b467afbc8cea4c0b528","created_at":"2026-05-07 21:41:27"}
+2026-05-07 21:47:22 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a19f294fdacaf2221d8d33421be559dd","user_id":"07111e60364263135ca9","created_at":"2026-05-07 21:47:22"}
+2026-05-07 21:51:40 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e7340e0409e44237b87d0c530a69c7d4","user_id":"f187d0f6ca7bb46527bf","created_at":"2026-05-07 21:51:40"}
+2026-05-07 21:57:30 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-07 21:57:51 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-07 21:58:26 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-07 22:00:42 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-07 22:05:49 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/1ca87fcad3e02b2a8a27fb284d13c45f","user_id":"982d4632d3ac3d3acc46","created_at":"2026-05-07 22:05:49"}
+2026-05-07 22:16:05 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/047e849fcc3ad29ba03096ce0b3adf0e","user_id":"a533308cb7cc64df489c","created_at":"2026-05-07 22:16:05"}
+2026-05-07 22:24:48 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-07 22:26:55 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/0b9bfeed83c4105748ff76e9fc7bbbab","user_id":"073ec6fea61c2cec2dca","created_at":"2026-05-07 22:26:55"}
+2026-05-07 22:27:12 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-07 22:42:52 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f0604de260d51649904f2130c25746f3","user_id":"90b67a430e346e63c1af","created_at":"2026-05-07 22:42:52"}
+2026-05-07 22:45:59 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/c774e90b3663e8d4dc0664c23fee4d84","user_id":"fc465e52f67d30c8ef1c","created_at":"2026-05-07 22:45:59"}
+2026-05-07 22:46:55 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-07 22:52:15 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-07 22:55:00 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b64edec88e04b29c142698ff2f48ade2","user_id":"9e9b454070f42388bbfd","created_at":"2026-05-07 22:54:59"}
+2026-05-07 22:55:11 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-07 23:04:58 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b4f31646aebd0153f4d088d421b40ca8","user_id":"22094d2eb35c02362ee6","created_at":"2026-05-07 23:04:58"}
+2026-05-07 23:05:42 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-07 23:14:07 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/9cc56c109c82bb3ac4e8fa89a4fdcdce","user_id":"02527d9fb2655e0df28d","created_at":"2026-05-07 23:14:06"}
+2026-05-07 23:19:35 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-07 23:22:34 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/678a97308f0eec38327b0ceba1f59f23","user_id":"d97e5a27edd8c2c27c79","created_at":"2026-05-07 23:22:34"}
+2026-05-07 23:25:47 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b943b1372c568f1ea1ce826321cd886c","user_id":"daeee1f437433503c7fb","created_at":"2026-05-07 23:25:47"}
+2026-05-07 23:29:52 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/76ebef7e3e4ea7c09c8a149ecd81dd4c","user_id":"978ba69a583cd1eb9801","created_at":"2026-05-07 23:29:52"}
+2026-05-07 23:58:30 - HTTP: 422
+Response: [{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-08 00:10:28 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/54284b2aa64c871e35eb3417cb331b4c","user_id":"8e628d1e569086c5623a","created_at":"2026-05-08 00:10:28"}
+2026-05-08 00:12:44 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/33815d9b8b726a9e2d00a5354f000e10","user_id":"79f7a77d3fbc90f6bfb7","created_at":"2026-05-08 00:12:44"}
+2026-05-08 00:28:10 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/084e3350cda74e154bba652f5331e418","user_id":"681a1cf911fb17a7d0af","created_at":"2026-05-08 00:28:10"}
+2026-05-08 00:34:00 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/367ab1572668d53cfb9373b98ba1c2a6","user_id":"a50399e0eeb3e869e939","created_at":"2026-05-08 00:34:00"}
+2026-05-08 00:45:17 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/0ec170cbcb46427b1a3a485eecf75902","user_id":"147cd34cbae8f0661f99","created_at":"2026-05-08 00:45:17"}
+2026-05-08 01:04:38 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-08 01:15:32 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e663e2bd21ee3fbfe8db2dfcee037dd2","user_id":"c4e0487c793fe0fa059b","created_at":"2026-05-08 01:15:32"}
+2026-05-08 01:22:51 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/d210e3984afbb39e20ee1b0b2202e0c9","user_id":"da786d964b6d623cba11","created_at":"2026-05-08 01:22:51"}
+2026-05-08 01:25:41 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/22b2b6f9e7b792f5634b3adcded6a64a","user_id":"f79dc3cd1dbaa8cb5b6a","created_at":"2026-05-08 01:25:41"}
+2026-05-08 01:26:41 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/1bdf28242c33455fbff1a5eb4d20879e","user_id":"7cd540b4832759c1d3d6","created_at":"2026-05-08 01:26:41"}
+2026-05-08 02:09:20 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/c4e3af0312d62e9e87deece09408e081","user_id":"683ff490a086f58ab49f","created_at":"2026-05-08 02:09:20"}
+2026-05-08 02:19:09 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/942dc8cfff4516334d8843e5128e1026","user_id":"aa8c3f0a92c8a70f12dd","created_at":"2026-05-08 02:19:09"}
+2026-05-08 02:20:10 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-08 04:53:09 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/c79d40e8500743125faac82f626e59a1","user_id":"75bfdac1f0a5e68e2037","created_at":"2026-05-08 04:53:09"}
+2026-05-08 06:27:08 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/baa9403bda7bf108b565aff98c625fb5","user_id":"a2e49e5f774485d948ed","created_at":"2026-05-08 06:27:08"}
+2026-05-08 06:49:43 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/d28c61d57a6a22762a64f073da7cbe03","user_id":"324c7a1a03c32927060b","created_at":"2026-05-08 06:49:43"}
+2026-05-08 06:53:24 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b1f01cf6c3d331e2dde1000d02ad900d","user_id":"17f9cf688191d1436fa7","created_at":"2026-05-08 06:53:24"}
+2026-05-08 06:56:21 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/0c9ba53d28bbab718f1bb6fa5815d127","user_id":"ee1dac0eb4cae74834a6","created_at":"2026-05-08 06:56:21"}
+2026-05-08 07:03:29 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/9a1175535956921a4180b86affcca810","user_id":"ced174f8a63f5e1bcc2d","created_at":"2026-05-08 07:03:29"}
+2026-05-08 07:05:04 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-08 08:02:47 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/11164480114f244b05629f56f233dfec","user_id":"18d8827715cc8fdeab23","created_at":"2026-05-08 08:02:46"}
+2026-05-08 08:24:11 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/8952223404f3813782415202c493cceb","user_id":"15fd23fcd78d75570e75","created_at":"2026-05-08 08:24:11"}
+2026-05-08 08:38:57 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f507e2ffa7a996e7939c5bec92a8a00e","user_id":"70477e4e90da498b3095","created_at":"2026-05-08 08:38:57"}
+2026-05-08 09:00:46 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/c239ead454053c2a8927e6a9fbe9ee3f","user_id":"8362d56ae128762561ae","created_at":"2026-05-08 09:00:46"}
+2026-05-08 09:24:41 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/07d2013a10ab52e60f9909f5a4fde84d","user_id":"44893163af99ba448a85","created_at":"2026-05-08 09:24:41"}
+2026-05-08 09:36:35 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/98785f50a5e2073e715267cd264b9aaf","user_id":"f91615c8b68728926b21","created_at":"2026-05-08 09:36:35"}
+2026-05-08 09:42:30 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-08 09:57:26 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/bf1d5ff72893dcc2e278a2ac7cd14732","user_id":"1c9f61d323a3a5d20085","created_at":"2026-05-08 09:57:26"}
+2026-05-08 09:58:12 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f31a03d7df68a55777fc0e6f665455d8","user_id":"8e01ab1d9263a57c4ada","created_at":"2026-05-08 09:58:12"}
+2026-05-08 10:22:39 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/4b729afbb0c6898e36ddb3ff8b042f96","user_id":"0b188f89b8bba6f74bcc","created_at":"2026-05-08 10:22:38"}
+2026-05-08 10:25:32 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/91faa41dfe392ea185904433fc2894b5","user_id":"0a7204b96ef0bef73a36","created_at":"2026-05-08 10:25:32"}
+2026-05-08 10:25:36 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/245a9eecb3434af3664f2b028d81cd65","user_id":"ef1e4eb031e4a3f05740","created_at":"2026-05-08 10:25:35"}
+2026-05-08 10:40:40 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/2673960d12fe54a9a3cb9213a6128a68","user_id":"f0c935211b6a48b4e9f8","created_at":"2026-05-08 10:40:40"}
+2026-05-08 10:40:50 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e56f59c66fcd5a8faf00f44101318416","user_id":"e91477159d18a540d6ff","created_at":"2026-05-08 10:40:50"}
+2026-05-08 10:52:32 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/ac1fbd1f1e48198d33eab07376fc18e7","user_id":"57d3bc98199faa4c7740","created_at":"2026-05-08 10:52:32"}
+2026-05-08 11:04:24 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/588467950547705a9c9cdabaf3755744","user_id":"1fdbfdbb94afa9a6c630","created_at":"2026-05-08 11:04:24"}
+2026-05-08 11:06:50 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/893ed198cd1c777f6b45ceeadba6c5e7","user_id":"68e1e2da2f083d47f70e","created_at":"2026-05-08 11:06:50"}
+2026-05-08 11:12:49 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/79d60a54002f1b031b7b3e9aa8d875d8","user_id":"51871af0e27bd0e1064f","created_at":"2026-05-08 11:12:48"}
+2026-05-08 11:14:55 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-08 11:15:30 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/7a25817fc58ca5bacf1ef93656cd39e1","user_id":"3242c22c3c3c37725d43","created_at":"2026-05-08 11:15:30"}
+2026-05-08 11:16:45 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/c97570f50c1022ec3fd9498115809916","user_id":"21f2252361f256d64ee9","created_at":"2026-05-08 11:16:45"}
+2026-05-08 11:17:20 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b47a0d66724d91829507d2b3fe2b6542","user_id":"f62a243e5d1c9ca5cd42","created_at":"2026-05-08 11:17:19"}
+2026-05-08 11:34:47 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/c423243398b1758ed88eff2b1340d327","user_id":"df31326a3374f381a6ea","created_at":"2026-05-08 11:34:47"}
+2026-05-08 11:48:30 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b33e4f3efe1b351ef34a19b74041df17","user_id":"5b1ee515e924f9c8cea5","created_at":"2026-05-08 11:48:30"}
+2026-05-08 11:54:39 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-08 11:58:11 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/6328a353eb3d41042073b6f74b68afeb","user_id":"98bfba49798148afa730","created_at":"2026-05-08 11:58:11"}
+2026-05-08 12:04:38 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/1853242784fdb629cd20f605ed80e2fa","user_id":"5375fd4a0e51851f822f","created_at":"2026-05-08 12:04:38"}
+2026-05-08 12:05:09 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/19d7eb437524e86c8b5c7b9c3507c3d5","user_id":"a5057177ff032d9c0d99","created_at":"2026-05-08 12:05:09"}
+2026-05-08 12:25:42 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/cca39624abc1d99afe7528c5a6767733","user_id":"ede5c31cda0bfde6a607","created_at":"2026-05-08 12:25:42"}
+2026-05-08 12:34:22 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/79bc6301530be1d8f20489e2c8ccd963","user_id":"00f0fc03e5586ee5d40b","created_at":"2026-05-08 12:34:22"}
+2026-05-08 12:35:20 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/19a3dab92681720a7f6fde8e8b92edc4","user_id":"7dce15ba34587cca2f11","created_at":"2026-05-08 12:35:20"}
+2026-05-08 12:40:20 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/0deec8e2d9ea05a85f441f883241511e","user_id":"2a63e5099660fecbd8c6","created_at":"2026-05-08 12:40:20"}
+2026-05-08 12:43:55 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/192c6307de8a8fbbce8af20427c37eca","user_id":"1450319d5b30394c1f2b","created_at":"2026-05-08 12:43:55"}
+2026-05-08 12:51:46 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/64433aaa09101bfff53a1d7fb42394fc","user_id":"4f0cb94d60832c03b702","created_at":"2026-05-08 12:51:46"}
+2026-05-08 12:59:02 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-08 13:11:13 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-08 13:18:36 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-08 13:45:26 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/12a63f4af7ef4a34d1deb9021de5002f","user_id":"b363e9f641b9969fa404","created_at":"2026-05-08 13:45:26"}
+2026-05-08 13:48:51 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f7bed2b43fb623aff3a24091622fe7c3","user_id":"96cf68d0ca205c0fed30","created_at":"2026-05-08 13:48:50"}
+2026-05-08 14:04:39 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e364c32ec70fc8bdf5bd5bda10f87369","user_id":"3de999109e99ae523649","created_at":"2026-05-08 14:04:39"}
+2026-05-08 14:10:44 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/d0c78ed6ee470ab2dd2389579ac0e172","user_id":"dce2d6a615508ff8ac8f","created_at":"2026-05-08 14:10:44"}
+2026-05-08 14:13:28 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/01f583ed256ba2dac742d1ca6ec26c80","user_id":"8e6efe1affbaeaa46b52","created_at":"2026-05-08 14:13:27"}
+2026-05-08 15:40:52 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/311383ce76f96aad91906bdb7ea3abe6","user_id":"41ee23d3e3312d2d1ab1","created_at":"2026-05-08 15:40:52"}
+2026-05-08 15:56:30 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/9847bc3396c9da986b00b22837cc4c84","user_id":"a24b1e2520f9191c0fa0","created_at":"2026-05-08 15:56:30"}
+2026-05-08 16:31:19 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/795a379f0ed632079240c1a868b9dbcf","user_id":"adba2db515c54cef9ff3","created_at":"2026-05-08 16:31:19"}
+2026-05-08 16:55:03 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/94b945daabbf077377f1e423b960d790","user_id":"0e84ca0dd6b7f78950e2","created_at":"2026-05-08 16:55:03"}
+2026-05-08 17:06:19 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"}]
+2026-05-08 17:16:34 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/5a05c6641a657611bbd3c3675b480bac","user_id":"87df028e59b82a94e20b","created_at":"2026-05-08 17:16:34"}
+2026-05-08 17:20:03 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/995cb2d7154b33791fb7e1fe23a4c78f","user_id":"8187bcf1102093c3ea68","created_at":"2026-05-08 17:20:02"}
+2026-05-08 18:01:37 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"}]
+2026-05-08 18:10:19 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/1812c63e2dba5fea8b6290350e5107dc","user_id":"a349e2dae0264734314b","created_at":"2026-05-08 18:10:19"}
+2026-05-08 18:43:25 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/8e15ac233d9008c57c329719f9872b7f","user_id":"f133ff6d78e2b6b5db38","created_at":"2026-05-08 18:43:25"}
+2026-05-08 18:46:27 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/0c51f471604a20751e568c2bc8065c05","user_id":"35700042d716238822a2","created_at":"2026-05-08 18:46:27"}
+2026-05-08 18:46:45 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-08 18:52:24 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-08 20:39:15 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-08 20:42:29 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/121f75e32de283cb3ff6e68060d6c5c8","user_id":"c4e792ec400f7101f51b","created_at":"2026-05-08 20:42:29"}
+2026-05-08 21:21:44 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/dff1103651b321103ac813cacb9ee8ef","user_id":"76f8cfff6f44f2ab6503","created_at":"2026-05-08 21:21:44"}
+2026-05-08 22:03:22 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/188a34d35297e6ce89bd8657d1378030","user_id":"fa02d3e19fab67dcae79","created_at":"2026-05-08 22:03:22"}
+2026-05-08 22:06:40 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/1f2eff612a921f9a05152116662bfd2a","user_id":"bd55b55d919586deb617","created_at":"2026-05-08 22:06:40"}
+2026-05-08 22:16:26 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/ddd1ea6620ba417b9318515ff764fe85","user_id":"f60ecf52662e2f5d7466","created_at":"2026-05-08 22:16:26"}
+2026-05-08 22:52:49 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-08 23:49:32 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/15efce79f277888e206bf93c25a2b25a","user_id":"c993f82d34ddd2503921","created_at":"2026-05-08 23:49:31"}
+2026-05-09 00:05:02 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-09 00:08:44 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/da003c8bdd1d4f839275f7f039ae9566","user_id":"9f093190cbd863c45196","created_at":"2026-05-09 00:08:43"}
+2026-05-09 00:47:43 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-09 00:49:30 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/fa42d7a967d12aea6a0a59f48b5b5bf1","user_id":"88e3ca1a93aa4c21b501","created_at":"2026-05-09 00:49:30"}
+2026-05-09 01:19:37 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b665b204e211f766a19c183bf793b124","user_id":"74f4e4b5362a116006ce","created_at":"2026-05-09 01:19:37"}
+2026-05-09 01:32:06 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/66186a112f740130a8a03f30a53e4eb1","user_id":"073679fb79398d3a0bd0","created_at":"2026-05-09 01:32:06"}
+2026-05-09 04:11:00 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a920c9af55b0c3576444d79ec1d1a318","user_id":"ad030d926e77d618964b","created_at":"2026-05-09 04:11:00"}
+2026-05-09 08:44:05 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/abb59818f8bd47b5499a54ed666cadb0","user_id":"b73f5504588d1d9fb135","created_at":"2026-05-09 08:44:05"}
+2026-05-09 10:36:26 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/9472ad326fda8e84b7659e93600bcdb7","user_id":"8664695a6e106069766e","created_at":"2026-05-09 10:36:26"}
+2026-05-09 10:45:17 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-09 11:06:13 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/d2fb3a117024cd98941aefde9a176c82","user_id":"23f55ce4744e6475ea2e","created_at":"2026-05-09 11:06:13"}
+2026-05-09 11:11:35 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f326812e65a4abe9ad78a0a97fcdf969","user_id":"9020bc33249153fbe167","created_at":"2026-05-09 11:11:34"}
+2026-05-09 11:47:42 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b52d6c671786435b1ba63925febfba36","user_id":"560ba0ae5e9449530082","created_at":"2026-05-09 11:47:41"}
+2026-05-09 12:07:59 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e9e2d035a8f57b3b94ca712cf0768069","user_id":"738c70af48ffe81f2839","created_at":"2026-05-09 12:07:59"}
+2026-05-09 12:22:15 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-09 13:13:10 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/78190d5a4fd10e4d2da8cb0a5bcfe58f","user_id":"9cb3dfb32e844a70e947","created_at":"2026-05-09 13:13:10"}
+2026-05-09 13:49:27 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/8d262472e92f7283c4ad06bd9573b8fd","user_id":"077b3aa8c8dd15d0a773","created_at":"2026-05-09 13:49:26"}
+2026-05-09 14:07:52 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/8754723f050f3e0bade5e4f80c45c9a4","user_id":"e43af7051fee6074a4ae","created_at":"2026-05-09 14:07:52"}
+2026-05-09 14:10:29 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/065a5c20b9232175d68559052e4cda25","user_id":"6d92585a8e77b359429f","created_at":"2026-05-09 14:10:29"}
+2026-05-09 14:14:42 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/fbf197ad74a2f5b096b1566c4661e4a7","user_id":"680c9d0ab788f07807a1","created_at":"2026-05-09 14:14:42"}
+2026-05-09 14:22:32 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/47445bedddb5d60b7c8371cd3caf502f","user_id":"97a5db820959ac53d3e8","created_at":"2026-05-09 14:22:32"}
+2026-05-09 14:24:20 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f48e30efa36eef4afe9ce957f4643c24","user_id":"1e16d1febed6063b51f6","created_at":"2026-05-09 14:24:20"}
+2026-05-09 14:24:44 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f42d5d57607b9e2b9e31dd97a6166242","user_id":"f69f49deca0e9fe002e1","created_at":"2026-05-09 14:24:44"}
+2026-05-09 14:34:21 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/72894513f1612c4a71a05e4d29b8f85a","user_id":"4be92e370426a3942cf5","created_at":"2026-05-09 14:34:21"}
+2026-05-09 14:35:57 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/2d59e395dfb8959a451a77bd7a9f0809","user_id":"ed6c46799f642d8e25c8","created_at":"2026-05-09 14:35:57"}
+2026-05-09 14:42:54 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/170f4917caaecf312ec89d9cb67c14be","user_id":"67d9898d1dbe6caf39e3","created_at":"2026-05-09 14:42:53"}
+2026-05-09 14:44:41 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e9cb107f30d63481fd1220ad2d3598ee","user_id":"96cb219da1de6b6e940f","created_at":"2026-05-09 14:44:41"}
+2026-05-09 14:45:47 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b912c7331ef7fd7264d5b2cfb3de7b69","user_id":"5038d558d6f6db69299a","created_at":"2026-05-09 14:45:46"}
+2026-05-09 14:50:08 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/ab36dad340a454a086759b61a28f3af4","user_id":"ba44e45de0241284ab2a","created_at":"2026-05-09 14:50:08"}
+2026-05-09 14:52:46 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/48305d5d419293b92eedd24858f9c97b","user_id":"9ac7aa9d96e22b0b8747","created_at":"2026-05-09 14:52:46"}
+2026-05-09 14:53:23 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e5706d20f050faf8f23e21adb0db104f","user_id":"bc2d8fd3b343535cf356","created_at":"2026-05-09 14:53:23"}
+2026-05-09 14:56:20 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/3bd2b4fee1411f469576cb52c71e6a94","user_id":"f17ec560f49dc8f68fb2","created_at":"2026-05-09 14:56:20"}
+2026-05-09 14:56:22 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-09 15:12:44 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/87e57693901fccfa78531f7f5ecd1a4f","user_id":"bb91ecc9aa8948c37acd","created_at":"2026-05-09 15:12:44"}
+2026-05-09 15:13:46 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-09 15:21:30 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/801b3cbba4ce49c247de11be49409a86","user_id":"9f9ccf98305b56b88ec2","created_at":"2026-05-09 15:21:30"}
+2026-05-09 16:12:33 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/12c8fa90f3f0b7878904ef9a2acb34b7","user_id":"006bed99d0797178ead2","created_at":"2026-05-09 16:12:33"}
+2026-05-09 16:19:05 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/1f3262817cb4bee87edfa722166350bb","user_id":"25c6459252d20c328e39","created_at":"2026-05-09 16:19:05"}
+2026-05-09 16:31:07 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-09 16:34:16 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/6ff1f932dbff8077fe994197701ca452","user_id":"9b3159b89d124640b7da","created_at":"2026-05-09 16:34:16"}
+2026-05-09 16:54:29 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/0bdd671684b82408f2e2c0e569039eb8","user_id":"a49b957abd4df6914ed2","created_at":"2026-05-09 16:54:29"}
+2026-05-09 16:57:46 - HTTP: 422
+Response: [{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-09 17:07:45 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a59dbdb83c74340d94142e649bbeff55","user_id":"4f24b6258521d4cd5fee","created_at":"2026-05-09 17:07:45"}
+2026-05-09 17:08:46 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/0eadc0140a901db4b29360a8784a65fe","user_id":"90d47df9afc8d370664e","created_at":"2026-05-09 17:08:46"}
+2026-05-09 17:11:32 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/6024d1729dd929b2b6f9240f610d2a8d","user_id":"4bb1f71c792f7dab8a73","created_at":"2026-05-09 17:11:32"}
+2026-05-09 17:17:33 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/4a0d784ea8075826015d08599abbcfed","user_id":"126fa28dd0118e42d678","created_at":"2026-05-09 17:17:32"}
+2026-05-09 17:18:15 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/44b371e54aea5f18899d3dc78dbb16c4","user_id":"0448211aa34b0c452eb3","created_at":"2026-05-09 17:18:15"}
+2026-05-09 17:22:51 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/6d7f35d043490316ea5ef053875c24db","user_id":"3d197297d782d4e1b104","created_at":"2026-05-09 17:22:51"}
+2026-05-09 17:35:07 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-09 17:49:48 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a2206fa7caea360945871bc2c3c3a69a","user_id":"a59c7b67c114ed6b2464","created_at":"2026-05-09 17:49:48"}
+2026-05-09 17:52:01 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-09 17:53:40 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-09 17:57:49 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-09 18:04:37 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a60370ef21065c69345cbd0b0a4fed37","user_id":"5df677ccde3a65a45c2a","created_at":"2026-05-09 18:04:37"}
+2026-05-09 18:07:53 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/c3023b061c47ef99a1d1601f4ef71d94","user_id":"ed82d056dbb00a4999ac","created_at":"2026-05-09 18:07:53"}
+2026-05-09 18:12:15 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f9a739c451e2cfc7f2f0483709079a16","user_id":"d4942ab1516fd5866221","created_at":"2026-05-09 18:12:15"}
+2026-05-09 18:21:35 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/22744aeb8de4ba96dc1cbd89a9f6366e","user_id":"c27a4e85afc8c3a21446","created_at":"2026-05-09 18:21:34"}
+2026-05-09 18:34:49 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/671eee00c89603b501c221c739802865","user_id":"26c538b7c77876a89c76","created_at":"2026-05-09 18:34:49"}
+2026-05-09 18:38:28 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/780687ef4d72e8c2a2b5fca7d9672880","user_id":"b9e833256014b23df910","created_at":"2026-05-09 18:38:28"}
+2026-05-09 18:43:45 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/3334d68dcca7d5b75af42adbb7354362","user_id":"d70a967b6a4db3eea454","created_at":"2026-05-09 18:43:44"}
+2026-05-09 18:52:30 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/7d2bffc4ad2bc2d38e90b87920b51797","user_id":"03d70094de2eb79f2d6e","created_at":"2026-05-09 18:52:29"}
+2026-05-09 19:05:12 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-09 19:28:10 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/8540998beb1fa35fd6da61fd20803eb8","user_id":"369428e92990292955db","created_at":"2026-05-09 19:28:10"}
+2026-05-09 19:33:36 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/2c7839fdc65a8147ad9d261c4d5cf5aa","user_id":"ab061a45b7ae5bc70dbe","created_at":"2026-05-09 19:33:36"}
+2026-05-09 19:38:48 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/00468f3f3b0f7cea78d71fc167c2f832","user_id":"e7bd429fb31be75856a5","created_at":"2026-05-09 19:38:48"}
+2026-05-09 19:42:38 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/9e6a4c2a262928b9d486f1c003596c63","user_id":"cd3164cbb02da003e2eb","created_at":"2026-05-09 19:42:37"}
+2026-05-09 19:43:08 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-09 19:44:57 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/df09b608b90dcc02c149bfc5b14b9af4","user_id":"5cf3671d4ecd6122227c","created_at":"2026-05-09 19:44:57"}
+2026-05-09 19:59:00 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-09 20:26:29 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-09 20:41:02 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/1d3558e95593800dc0ce371f7b0e14e3","user_id":"e96b76ec0c6b50106b19","created_at":"2026-05-09 20:41:02"}
+2026-05-09 20:47:34 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a156cfd696a073ba73f85acebdd9c8f9","user_id":"bcb3db777964d6a0dab4","created_at":"2026-05-09 20:47:34"}
+2026-05-09 20:57:50 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-09 21:12:30 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-09 21:44:20 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/fa4d8c6b71f026dd56077d41a2037467","user_id":"a308696a45513b2e1006","created_at":"2026-05-09 21:44:20"}
+2026-05-09 21:49:18 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-09 22:09:55 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/63be3cdcfa15169ee1e2056ada77e4d5","user_id":"5cfed8954bd0ba424682","created_at":"2026-05-09 22:09:54"}
+2026-05-09 22:40:07 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-09 22:53:31 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-09 23:43:08 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/ac27be39b58d1d8359ec63555c7bd900","user_id":"b088953e32289441c4ba","created_at":"2026-05-09 23:43:08"}
+2026-05-10 01:12:44 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b25aa131b764eb5d8aaddf7481438e29","user_id":"4b65b38bc1d34b1a43ef","created_at":"2026-05-10 01:12:44"}
+2026-05-10 01:14:13 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/40e63472d14cda29537c492bdf201d0e","user_id":"ef5bd5a2e60f6b4caf06","created_at":"2026-05-10 01:14:13"}
+2026-05-10 08:10:47 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-10 09:36:41 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-10 09:54:25 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/ee7ca33701ad7183e973fdae86bfdad1","user_id":"4cbcdc09e04486e5aae0","created_at":"2026-05-10 09:54:25"}
+2026-05-10 10:18:37 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-10 10:47:00 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/3ba087649eae862b212799c41d821a7d","user_id":"958915f63e67ff2f425b","created_at":"2026-05-10 10:47:00"}
+2026-05-10 11:33:57 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/16467465a85f53ff23b88dadf3ea5a7d","user_id":"6f30de85b97f8a8cce0f","created_at":"2026-05-10 11:33:57"}
+2026-05-10 11:48:05 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/20b36620b02c20607ef072ff88d4efde","user_id":"8780042d7c35b12b4cae","created_at":"2026-05-10 11:48:04"}
+2026-05-10 11:51:10 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a4b5baf717519f9e2c3848970b549a3e","user_id":"33bb053a51c7fa03610a","created_at":"2026-05-10 11:51:10"}
+2026-05-10 11:51:10 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a4b5baf717519f9e2c3848970b549a3e","user_id":"33bb053a51c7fa03610a","created_at":"2026-05-10 11:51:10"}
+2026-05-10 11:52:50 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/1f99516ad4563c8d3b645ef3977ddd2c","user_id":"335ee3f20517ea3e9337","created_at":"2026-05-10 11:52:50"}
+2026-05-10 13:31:20 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-10 13:46:32 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-10 13:51:59 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-10 14:28:40 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/6a79abfd72bf3d1dff8c4f1be176895b","user_id":"296d51666c3e5329f277","created_at":"2026-05-10 14:28:40"}
+2026-05-10 15:04:43 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-10 15:07:56 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-10 18:05:49 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-10 20:45:40 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/18f6d05c33f6f2e16a3d3078fecf5782","user_id":"4c21e99a35e8ef864dc8","created_at":"2026-05-10 20:45:39"}
+2026-05-10 21:02:06 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/960059c3862001751aea167c8af14919","user_id":"76a5568b9514d9a626fc","created_at":"2026-05-10 21:02:06"}
+2026-05-10 21:43:33 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/bbba01dcf45ff247642cca91c10d2048","user_id":"b525dd93bb07606f34f0","created_at":"2026-05-10 21:43:33"}
+2026-05-11 11:28:10 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/9a94dbe6ca6902e72aa6064b572bd944","user_id":"2f511d5e99a2ec1a8cbd","created_at":"2026-05-11 11:28:09"}
+2026-05-11 11:32:48 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/1f68294a027bc8a21bc928a1b9ba20af","user_id":"fe38741508b2b1b39f92","created_at":"2026-05-11 11:32:48"}
+2026-05-11 11:56:26 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b3fdffc10ab0002d039e3eb7aec707b6","user_id":"12acb6715ebd98d3609a","created_at":"2026-05-11 11:56:26"}
+2026-05-11 12:03:19 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/5fcd3a48ffd404cf15ed323265ac9979","user_id":"215cc656d83b0c4afb35","created_at":"2026-05-11 12:03:19"}
+2026-05-11 12:16:01 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/de3ddc8338ef7734c8a3b5402248fe1e","user_id":"95c91a9dc9944ebc57ca","created_at":"2026-05-11 12:16:00"}
+2026-05-11 12:24:10 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/6784f065c82386f6dc03d962951c7ede","user_id":"66c41a96ceed2dadd516","created_at":"2026-05-11 12:24:10"}
+2026-05-11 12:24:15 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/bd090e8085439c599fbbe9fa30c5269d","user_id":"a94441c0392c44021fd3","created_at":"2026-05-11 12:24:15"}
+2026-05-11 12:25:03 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/1af1d96f90d9296f2a2cc080e8245572","user_id":"3f5d6aeab1a876f2e0e4","created_at":"2026-05-11 12:25:03"}
+2026-05-11 12:26:54 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f2119e5e18fda7cfbf5e0db2ab3cf8b5","user_id":"014ca38a1a8f723af597","created_at":"2026-05-11 12:26:54"}
+2026-05-11 12:39:54 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/7a4113874c594a4525c8c3241d1a108d","user_id":"6acc96e7cb16b1843afb","created_at":"2026-05-11 12:39:54"}
+2026-05-11 12:45:34 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/29f703d1a43cabadcf0a2664964d3fa2","user_id":"afdd546c77c66d123962","created_at":"2026-05-11 12:45:34"}
+2026-05-11 12:50:35 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/d552ceea880f33ccc1fd94ba092ef3cd","user_id":"92059ad018c7bc2c9f81","created_at":"2026-05-11 12:50:34"}
+2026-05-11 12:57:54 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/c1d65b5dcd62ae31e6ae2a3fcaaef803","user_id":"6ee3177b8931027449d9","created_at":"2026-05-11 12:57:54"}
+2026-05-11 13:01:14 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/92fc9824e0d25653c1a19ab28204025b","user_id":"3ffde421ed0c1921d9bc","created_at":"2026-05-11 13:01:13"}
+2026-05-11 13:04:13 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/889c67b7466728f45109f8fc1897f30d","user_id":"e738e8deb6ff947f158a","created_at":"2026-05-11 13:04:13"}
+2026-05-11 13:04:39 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/50c5f833f138b974f115036d473adbe1","user_id":"4f710f1adac43fdb6206","created_at":"2026-05-11 13:04:39"}
+2026-05-11 13:06:55 - HTTP: 422
+Response: [{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-11 13:08:20 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/92b705404316c9f5856de9f63ef6e846","user_id":"f4bd284d914bc177ccd7","created_at":"2026-05-11 13:08:19"}
+2026-05-11 13:11:40 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/be56a973caaa377d0d8d553b3e337d2a","user_id":"bb894eeeaf5b978d80cd","created_at":"2026-05-11 13:11:40"}
+2026-05-11 13:12:00 - HTTP: 422
+Response: [{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-11 13:13:27 - HTTP: 422
+Response: [{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-11 13:22:43 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/340c5ac89192cee2312a60c263f383fa","user_id":"5392b6fa9bef712e6843","created_at":"2026-05-11 13:22:43"}
+2026-05-11 13:33:25 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/6f6caaea5ba21fd6dac9ec5e098aec6e","user_id":"a457ca9708031b1ea855","created_at":"2026-05-11 13:33:25"}
+2026-05-11 13:36:12 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/91a7d9b235acf362b25a84dff07315f2","user_id":"deca63460177ea8de9f3","created_at":"2026-05-11 13:36:12"}
+2026-05-11 13:44:04 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/8e82cd9272697c89122d578f1f416e4a","user_id":"a63988c1794ebbcaa0a7","created_at":"2026-05-11 13:44:04"}
+2026-05-11 13:54:43 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/2e98e25f89f887f4e9f31a42c9db75b4","user_id":"3cef0a8e36b49083efe2","created_at":"2026-05-11 13:54:42"}
+2026-05-11 14:02:39 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/2f4398b443b6ddcf164f31494c5f65c0","user_id":"38aa0bd3f723e01c7120","created_at":"2026-05-11 14:02:39"}
+2026-05-11 14:12:42 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/60ad1f7eaaa025cff69da3ebc290e307","user_id":"c2abec3914956d121435","created_at":"2026-05-11 14:12:42"}
+2026-05-11 14:16:39 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/2808a42ac8b96a5ee23aa8d25b3a8c4c","user_id":"7e046a4bbe49298aad1f","created_at":"2026-05-11 14:16:39"}
+2026-05-11 14:17:19 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e354f3ac2e00e96ba46b52a16c707fab","user_id":"3142b5f0c1f9fbfc66ae","created_at":"2026-05-11 14:17:19"}
+2026-05-11 14:20:40 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/4675043d9b6bf55af0e1c438a9b71730","user_id":"c0635f70ef2578a18b52","created_at":"2026-05-11 14:20:40"}
+2026-05-11 14:21:49 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/3f29b6b8cbfc28079598b5f735ae5091","user_id":"aa39b8e74fdde024f2a5","created_at":"2026-05-11 14:21:49"}
+2026-05-11 14:28:24 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/0dc799582227a2c317c97604a230e870","user_id":"3ae7fdcf8a02a4db22b5","created_at":"2026-05-11 14:28:24"}
+2026-05-11 14:29:00 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a393e7a7efab21d0e387a19808e14f98","user_id":"ac400a2fd413fd7a1efb","created_at":"2026-05-11 14:28:59"}
+2026-05-11 14:49:16 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/01ba045b63597d659c431ef2ff260295","user_id":"41ab463ec53cc7194245","created_at":"2026-05-11 14:49:16"}
+2026-05-11 14:54:47 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/d428d1c02d0483bd9f7fb264786e6056","user_id":"20e5925c4d211b1d3f51","created_at":"2026-05-11 14:54:47"}
+2026-05-11 15:01:57 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-11 15:11:49 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f530dc353e32136cb31f4d97de47a5c4","user_id":"e2c31ac9edc84f4385ee","created_at":"2026-05-11 15:11:49"}
+2026-05-11 15:29:11 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e2486872bde7c70efdf59c6740d24305","user_id":"57921f0677a902354056","created_at":"2026-05-11 15:29:11"}
+2026-05-11 15:32:10 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/792f1922ca59ce9091074d951743ec77","user_id":"661520351b1b337f8cdd","created_at":"2026-05-11 15:32:10"}
+2026-05-11 15:32:57 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/0ec64e9dc41759c4ac0335651d742875","user_id":"2cafeeb2c63cee5fe7c6","created_at":"2026-05-11 15:32:57"}
+2026-05-11 15:38:49 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/d42108f95ff7c9a0e3948eebbdc07154","user_id":"4bcc7fc541b59d350503","created_at":"2026-05-11 15:38:48"}
+2026-05-11 15:50:13 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/71f52a250f9df460c3c2ced1f4251e3a","user_id":"44d00e6749bcf3fc1c67","created_at":"2026-05-11 15:50:13"}
+2026-05-11 15:58:32 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/82fc8f182490eba71e59d380a76389d2","user_id":"97762f4048e3e80cd99e","created_at":"2026-05-11 15:58:32"}
+2026-05-11 16:00:08 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/14485601d4021b35a80d5758adc513b2","user_id":"fc09bc8b84854f1a02a8","created_at":"2026-05-11 16:00:08"}
+2026-05-11 16:08:49 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/497c54dd5b3fa0c789b5923bb19a39a9","user_id":"1dd03d007ff15e59ed72","created_at":"2026-05-11 16:08:49"}
+2026-05-11 16:36:21 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/8a207c9c54ab342135253862980c72a0","user_id":"a1bd0dbce5947fc9d2e8","created_at":"2026-05-11 16:36:20"}
+2026-05-11 16:36:44 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/4885a273d46aee228c98cc3bf0094f6e","user_id":"e9a53fd17136b9cce8be","created_at":"2026-05-11 16:36:44"}
+2026-05-11 16:40:00 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/ff668da3b47ca18e4c349e80784d61b6","user_id":"d4759205f7d5b323c3b0","created_at":"2026-05-11 16:40:00"}
+2026-05-11 16:52:42 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/16470f8ec09a9db227f2b70ba8f0f8dc","user_id":"dd8a16695d1b3be61db8","created_at":"2026-05-11 16:52:42"}
+2026-05-11 16:57:57 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/31ccb5ad7591056090559fb7186edb37","user_id":"7df8c3f9452498fe9666","created_at":"2026-05-11 16:57:57"}
+2026-05-11 17:07:07 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/be4fc5d8d51b77403b7a04b19f02b11c","user_id":"b9a105b903d942b43f55","created_at":"2026-05-11 17:07:07"}
+2026-05-11 17:17:19 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f92be09fea3622de7a97c7e6ac3020f6","user_id":"eff70cbc2939ada6e9fc","created_at":"2026-05-11 17:17:19"}
+2026-05-11 17:17:48 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/10ff64e91f886738057d9944760e2f66","user_id":"73363068a6f92540fce8","created_at":"2026-05-11 17:17:48"}
+2026-05-11 17:25:37 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/5626ac87005159d117f1c951995dc08f","user_id":"3e802f06088e5c47bc18","created_at":"2026-05-11 17:25:37"}
+2026-05-11 17:31:55 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/daf83f94bb813185346161b74c6e0400","user_id":"75ed192b5455966f8574","created_at":"2026-05-11 17:31:54"}
+2026-05-11 17:36:47 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e5b8f2a3b07a91c50bf72033177735fb","user_id":"3f2cec33bd44175057e7","created_at":"2026-05-11 17:36:47"}
+2026-05-11 17:38:07 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/734a29648e02c44545f40ae1c98c05e2","user_id":"d85aaa1ada3cb5a38d17","created_at":"2026-05-11 17:38:07"}
+2026-05-11 17:46:03 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/160715678b13c63de465f19b9b8176bd","user_id":"58e19c240bef26503d23","created_at":"2026-05-11 17:46:03"}
+2026-05-11 17:50:26 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-11 18:17:57 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-11 18:21:41 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/92ba33ad675e66391ec99c1509dfe69b","user_id":"11703d21c785a2e6c381","created_at":"2026-05-11 18:21:41"}
+2026-05-11 19:06:08 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/4b76d3e5d416a29d2d46ec7e55368b3a","user_id":"f4ac85a79e252e88b630","created_at":"2026-05-11 19:06:08"}
+2026-05-11 19:56:45 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f753a44c25222bdec143874af68a1508","user_id":"15c6e5379f719e790ad2","created_at":"2026-05-11 19:56:45"}
+2026-05-11 20:47:12 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b68a0632e94ea082fa8daa1dac2c93fa","user_id":"d11674e0add3045e5665","created_at":"2026-05-11 20:47:12"}
+2026-05-11 20:48:54 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/30f6053b36a61c4f448e07479471ab88","user_id":"a8187226c5cc8e8dbdef","created_at":"2026-05-11 20:48:54"}
+2026-05-11 20:50:58 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/28845de4de1cf05dbc2fbb71a4947d46","user_id":"2a1ecfab0daf5aca6aa8","created_at":"2026-05-11 20:50:58"}
+2026-05-11 20:56:52 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-11 21:02:20 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b8dfc6b7607163b8775f4d42fa7ec96d","user_id":"c6f3c0ae6f3415d178a3","created_at":"2026-05-11 21:02:20"}
+2026-05-11 21:19:04 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f0cdde63a1d0417e989a988b4ab0a948","user_id":"b97f8e0027a0011b9be8","created_at":"2026-05-11 21:19:04"}
+2026-05-11 21:20:38 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/87475ce38f58e8f368e7256e187bf64f","user_id":"21c08034dd26c22bfb18","created_at":"2026-05-11 21:20:38"}
+2026-05-11 21:26:21 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b5f1b2be6cfb6b458e22fbdb5f7e1ed4","user_id":"0972a78100512d88be2a","created_at":"2026-05-11 21:26:21"}
+2026-05-11 22:27:02 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/4ae52681ae541692cb3beb9f1799029d","user_id":"525d05df8637c13133f1","created_at":"2026-05-11 22:27:02"}
+2026-05-11 23:09:58 - HTTP: 422
+Response: [{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-11 23:13:44 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/43e304f8f4b3b71b0eba5618032d8541","user_id":"012caf65c870651944a4","created_at":"2026-05-11 23:13:44"}
+2026-05-11 23:21:22 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/9b9046c5f324fb2e1336b0a14884b450","user_id":"06f53af05a19ea0dd0f7","created_at":"2026-05-11 23:21:22"}
+2026-05-12 01:50:09 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-12 05:48:21 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f84a751cec4a791f35ee031acf01332f","user_id":"4587fcf9a3a3cd544297","created_at":"2026-05-12 05:48:21"}
+2026-05-12 08:27:25 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/96d3e20ffbd38de8e34592fc5d513a22","user_id":"7dbbfd318393863c28c2","created_at":"2026-05-12 08:27:25"}
+2026-05-12 09:15:18 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/3e8f93c4d70d8d7282ea64ba0c960da6","user_id":"d7c70488697b58231036","created_at":"2026-05-12 09:15:18"}
+2026-05-12 09:53:25 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-12 10:10:16 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-12 10:14:11 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"}]
+2026-05-12 10:17:06 - HTTP: 422
+Response: [{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-12 10:28:23 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/ccb2d76c899359c7e6032a007707c6e2","user_id":"148d8a68625a8bf3e557","created_at":"2026-05-12 10:28:23"}
+2026-05-12 11:33:56 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e7e42020572913f14f430b2e9565e21e","user_id":"07fa1df4afc98b83413d","created_at":"2026-05-12 11:33:56"}
+2026-05-12 11:59:17 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/879df73f66462b1f51d537e46630de89","user_id":"303bc66c6b4e9205b514","created_at":"2026-05-12 11:59:17"}
+2026-05-12 12:29:24 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/7c401bcf27514a078376b411bc520f07","user_id":"0aeb0298858e72b106a1","created_at":"2026-05-12 12:29:24"}
+2026-05-12 12:33:17 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a75e19b349ca8b94ac377f4da2c3375d","user_id":"11bbdb9d643230edd881","created_at":"2026-05-12 12:33:17"}
+2026-05-12 12:38:48 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/0447ff1f208b451dc43e289637f466ad","user_id":"71b201bf38e03e930e64","created_at":"2026-05-12 12:38:48"}
+2026-05-12 13:29:05 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-12 13:34:46 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/1341633ccfad4029d20be06db54e8413","user_id":"40ed161bc7a312237b79","created_at":"2026-05-12 13:34:46"}
+2026-05-12 13:44:10 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/73e670d7a304f47be5f32383cfc452f0","user_id":"f31e63d4fc326a74809d","created_at":"2026-05-12 13:44:10"}
+2026-05-12 14:15:13 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/c7867862cb7e2e2e451dd0d7c63c332e","user_id":"cef8e1571dd50321e032","created_at":"2026-05-12 14:15:13"}
+2026-05-12 14:24:24 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/d3cfdc4aec8def7529098f074a1e8ddc","user_id":"93d057fef2a7df4fade6","created_at":"2026-05-12 14:24:23"}
+2026-05-12 14:32:19 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f4028e2918f5a5e2508bba5caecdbe09","user_id":"a71e7b04896dd0b7b13d","created_at":"2026-05-12 14:32:19"}
+2026-05-12 14:35:32 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/54157f2cdff5fa3e47de92856010462f","user_id":"533c37ab2be1662304a3","created_at":"2026-05-12 14:35:32"}
+2026-05-12 15:21:13 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/aa63a509af7c6702432e49bf46b8f551","user_id":"dee75ad3f7e8ff282d9a","created_at":"2026-05-12 15:21:13"}
+2026-05-12 15:23:35 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/3fec2ee2559d46804b2e98b4bf310338","user_id":"2aed33bae69aa3d0a39f","created_at":"2026-05-12 15:23:34"}
+2026-05-12 15:33:38 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/5d2227b637df78f70334cb0c0ace07d9","user_id":"bf669f98aeca71fafea5","created_at":"2026-05-12 15:33:37"}
+2026-05-12 15:51:40 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/15e00ed15e9932f02894aa09efbf2b2b","user_id":"f91e7ecc19881b1d1242","created_at":"2026-05-12 15:51:40"}
+2026-05-12 15:59:46 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/9e1e875bc181d53c211a590ed5953813","user_id":"1e0294eb6571e93a6271","created_at":"2026-05-12 15:59:45"}
+2026-05-12 16:08:18 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/fd7a1a0fab16601e116e0431f3e64d4d","user_id":"e2828b2058a251f932b5","created_at":"2026-05-12 16:08:18"}
+2026-05-12 16:09:47 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/969bc5ab016d76cdc64593b59eb4b33a","user_id":"fb852098863fcdf10caf","created_at":"2026-05-12 16:09:47"}
+2026-05-12 18:43:45 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/efd22948ab5f5dc0eb42a6db94f70144","user_id":"53bccb125c6d4c1b1d9e","created_at":"2026-05-12 18:43:45"}
+2026-05-12 18:44:37 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/d275d69ae2664722c60d9939d7916f4b","user_id":"967c5a3f1c1648391a55","created_at":"2026-05-12 18:44:36"}
+2026-05-12 19:25:23 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e7c105fc67cd20177e129bd242284291","user_id":"ac5117ca8fa2463cd8c3","created_at":"2026-05-12 19:25:22"}
+2026-05-12 20:11:23 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/096702cd31ead4079dd0b8071503c36e","user_id":"cc2b1c294c133c3d428f","created_at":"2026-05-12 20:11:23"}
+2026-05-12 20:15:25 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-12 21:47:16 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a5b2459368426297bfff6f959c39373d","user_id":"e937009af109ca222c0d","created_at":"2026-05-12 21:47:15"}
+2026-05-12 21:58:36 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/ac990f48d23a1e7412cd50b535e9466e","user_id":"1b243eb4c7c335d45eb2","created_at":"2026-05-12 21:58:36"}
+2026-05-12 21:58:51 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/d067ce9757d9086febcd47698fd243da","user_id":"e920385de00380d80d02","created_at":"2026-05-12 21:58:51"}
+2026-05-12 22:23:37 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/ebde5a591741d8e4b736ee5a986454af","user_id":"2f45419235a5880435b6","created_at":"2026-05-12 22:23:37"}
+2026-05-12 22:36:37 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f9462933bb2aff5a954292828c2ad0d5","user_id":"4330d10da2d1834889b8","created_at":"2026-05-12 22:36:37"}
+2026-05-12 22:51:09 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/95c9f0d559265924f9d4a50c87dc5eed","user_id":"06f5b258843b015a768b","created_at":"2026-05-12 22:51:08"}
+2026-05-12 23:01:13 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-12 23:07:33 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-12 23:55:52 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-13 00:28:44 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/8edccf1b872325b040e8090e36dc07a0","user_id":"357ef123c164b174766a","created_at":"2026-05-13 00:28:44"}
+2026-05-13 01:33:18 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/afc0deaa207c115d648b870cfe3a6c08","user_id":"8b6bfc41d1d39f1709fe","created_at":"2026-05-13 01:33:18"}
+2026-05-13 01:55:46 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/47a05e82d8f96b010d458a78e11db9cd","user_id":"6411e7439de148e889b3","created_at":"2026-05-13 01:55:46"}
+2026-05-13 02:10:03 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-13 02:56:38 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/bba17f45105281d90725d3c025bbd3d4","user_id":"4ebaaefcd8e6aeee76d5","created_at":"2026-05-13 02:56:38"}
+2026-05-13 02:59:56 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-13 03:20:41 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/087b9df8f9f1de5148d69500d8f0f4af","user_id":"daf722bc019a491363fd","created_at":"2026-05-13 03:20:41"}
+2026-05-13 04:03:45 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-13 08:52:58 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/2e955bb8178573fdc25a63343090e184","user_id":"542c03fc36f0e7081068","created_at":"2026-05-13 08:52:58"}
+2026-05-13 09:54:22 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/032fe778e9d91458e5f3fdb39ab91f6e","user_id":"779a66a5a627b141d997","created_at":"2026-05-13 09:54:22"}
+2026-05-13 10:10:20 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-13 10:35:38 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-13 10:52:41 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a91e5f67cf110f29cf17d3e68402e704","user_id":"d5cb375fc318772fdf06","created_at":"2026-05-13 10:52:41"}
+2026-05-13 12:37:52 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b1fde3683922584d7bc2c71385bf5b3b","user_id":"930a18798997ef00852e","created_at":"2026-05-13 12:37:51"}
+2026-05-13 14:12:45 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e071fe6ff109310c5f6b0bc2976e5690","user_id":"b8c4badf7f767d0fb2d8","created_at":"2026-05-13 14:12:45"}
+2026-05-13 14:18:05 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-13 14:51:44 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/5737de671221c87b835e8469c3712b18","user_id":"33f9933a080050ac5e55","created_at":"2026-05-13 14:51:44"}
+2026-05-13 16:02:38 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a830dd090e55b42f0556565fe15ef244","user_id":"483e3bc9e552b3787c97","created_at":"2026-05-13 16:02:37"}
+2026-05-13 17:57:10 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/4f871a05733fbb8db2071862d98c2f96","user_id":"fe5e84cd46b3d6ec2f93","created_at":"2026-05-13 17:57:10"}
+2026-05-13 18:31:46 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/0c568a9c5efd873b9dcb2520f010449f","user_id":"3fc085a08e1e72507f67","created_at":"2026-05-13 18:31:46"}
+2026-05-13 18:32:32 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/3d0043b8e0652494614b1209145619d4","user_id":"1a98394255d13323d15b","created_at":"2026-05-13 18:32:32"}
+2026-05-13 19:11:33 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/5626b5331ebbb82812adb5fe965bd320","user_id":"d647caa67e665f351069","created_at":"2026-05-13 19:11:33"}
+2026-05-13 20:08:20 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/bce8ccd19911704a8a008b343a03f264","user_id":"69956b6a799df8749ff0","created_at":"2026-05-13 20:08:20"}
+2026-05-13 21:25:26 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/7f02586ad016709459a2fef4fe9ce2cb","user_id":"00dc93ea382ffb30582b","created_at":"2026-05-13 21:25:26"}
+2026-05-13 21:27:03 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/22ba34325c59cf49473c14b25bd7b92f","user_id":"cda64d84a4a357896ddf","created_at":"2026-05-13 21:27:03"}
+2026-05-13 21:41:58 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/302530c62f5e5125617a6f880ba3bbdb","user_id":"85cb1a804c56c203af12","created_at":"2026-05-13 21:41:58"}
+2026-05-13 22:12:18 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/6834d09da0c58f1638ed3d03929888f3","user_id":"fa55ac84c5e8cae6ee5f","created_at":"2026-05-13 22:12:18"}
+2026-05-13 22:22:09 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-13 22:24:12 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-13 23:58:15 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-14 09:15:37 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/c5d30fde657c0a32396a1a8b8533dcc3","user_id":"78e0fd971e1a176b48fc","created_at":"2026-05-14 09:15:37"}
+2026-05-14 09:42:38 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e9f16ad256130ad7c5ad1b95792b7117","user_id":"86497af378fe53e9229b","created_at":"2026-05-14 09:42:38"}
+2026-05-14 09:52:43 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-14 10:04:50 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/9ce52c0ebf637cd38b6c71fb65f07b2e","user_id":"3baf2c841389ca632f9f","created_at":"2026-05-14 10:04:50"}
+2026-05-14 10:13:19 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/360b1c7fcf5bb22086c9c3c207a9ff7d","user_id":"9e0767da8ed4ec1a4044","created_at":"2026-05-14 10:13:19"}
+2026-05-14 10:18:58 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/38d146ccbbf7ef0ddcc8f91d1fc2b19c","user_id":"00199841d52c8627f5ff","created_at":"2026-05-14 10:18:58"}
+2026-05-14 11:08:55 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"}]
+2026-05-14 11:44:23 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/859dc0f6d609230845520b3eea432d37","user_id":"562eeb9e80484c9d1063","created_at":"2026-05-14 11:44:23"}
+2026-05-14 12:12:25 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/8d0917373434e9e1539ae9a8ad1378fc","user_id":"3a330eca17ea4ad78343","created_at":"2026-05-14 12:12:25"}
+2026-05-14 12:21:59 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/57820dc4ad44fd7b6d97fd5c867bc76a","user_id":"0ce8ff42fe6c9b626bae","created_at":"2026-05-14 12:21:59"}
+2026-05-14 12:51:33 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/9fa51c00aa3f7133b45fe3c66030bb0e","user_id":"931cf92173d13851bbd8","created_at":"2026-05-14 12:51:33"}
+2026-05-14 12:51:56 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a383bf535f648a7117037db2b44bcec1","user_id":"80a808d021554753807c","created_at":"2026-05-14 12:51:56"}
+2026-05-14 15:34:50 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-14 15:40:08 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/c06b623f73b0c9a87f392473aaee5d52","user_id":"6a585511ab94e1e9d424","created_at":"2026-05-14 15:40:07"}
+2026-05-14 16:28:54 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/98e8d723fb2726996b4488aad0d68c6e","user_id":"a9e85b3c91a9f4a36fa8","created_at":"2026-05-14 16:28:54"}
+2026-05-14 20:22:55 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/19d935ca3c03d3f16a2bcb48c29dbf0d","user_id":"f7b51b979d8d95de6726","created_at":"2026-05-14 20:22:55"}
+2026-05-14 20:32:01 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/d767ab93ee896ba5a1dd086336cd6d4f","user_id":"096dec6b53cbd47fadbc","created_at":"2026-05-14 20:32:01"}
+2026-05-14 21:22:22 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/927bee17d1b252b78110580c21910afc","user_id":"0d7a104f8c3e878da4e3","created_at":"2026-05-14 21:22:22"}
+2026-05-14 21:37:17 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b31fd090aa9456f0e48018987a9c118c","user_id":"91d4a0600bf1c25ce4ac","created_at":"2026-05-14 21:37:17"}
+2026-05-14 21:38:59 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/97e262127dd6fb3ef233f2abc492559f","user_id":"0a17cd85046f575ceeec","created_at":"2026-05-14 21:38:59"}
+2026-05-15 00:22:57 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/59ba691d36f42a6cfaa5f04f0a10b4c3","user_id":"97089ab985612b26c737","created_at":"2026-05-15 00:22:56"}
+2026-05-15 03:02:44 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b018867e0c03c938e50b587feb31ad92","user_id":"870aa18af3c32abe519e","created_at":"2026-05-15 03:02:44"}
+2026-05-15 03:08:44 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/3b90af81563b175f8ce7408d1b60b693","user_id":"5da24f37e88413dee49c","created_at":"2026-05-15 03:08:44"}
+2026-05-15 04:48:41 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/7d7270ff2e0458bb7f6bc767d56914c3","user_id":"fa0afca3a1ec442dd324","created_at":"2026-05-15 04:48:41"}
+2026-05-15 05:54:01 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-15 08:19:07 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/6eeecfc9d54bd0d25b55719616e17583","user_id":"c94c50e284eb320dfa85","created_at":"2026-05-15 08:19:07"}
+2026-05-15 10:50:04 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-15 11:07:42 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/da1af5b5f6fa74378adba7beaeb1a547","user_id":"ca2881d197e4ea7a0901","created_at":"2026-05-15 11:07:42"}
+2026-05-15 12:00:59 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/3403071fc451a04c0f1bf36ca2491629","user_id":"3ae3d66ff1ddb4ae3c11","created_at":"2026-05-15 12:00:58"}
+2026-05-15 12:12:55 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"}]
+2026-05-15 12:16:13 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"}]
+2026-05-15 12:25:49 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/c1ef6546ca56632cec25b0be705317a3","user_id":"b80a14cb2417eacc12f6","created_at":"2026-05-15 12:25:49"}
+2026-05-15 14:52:38 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/d20192a1b38b0b2f32b24c8ca585121f","user_id":"6d61e328fbfffab3f764","created_at":"2026-05-15 14:52:38"}
+2026-05-15 15:24:11 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-15 15:32:48 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/02558ca0bb896f87a88ab472058f207e","user_id":"6b46433c71f22d86fa9a","created_at":"2026-05-15 15:32:48"}
+2026-05-15 16:50:36 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/1c59c05b38058d6b6cba023ea5292241","user_id":"411f3e463e2259e8958b","created_at":"2026-05-15 16:50:36"}
+2026-05-15 17:35:23 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-15 18:17:40 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-15 18:20:35 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-15 18:22:30 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/0de91e4822a339096162d97acba6c661","user_id":"c19e57ed71ffb53bd664","created_at":"2026-05-15 18:22:30"}
+2026-05-15 20:25:25 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-15 20:25:46 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-15 21:45:40 - HTTP: 404
+Response: {"name":"Not Found","message":"Lamentamos, mas neste momento não aceitamos clientes do seu País","code":0,"status":404}
+2026-05-16 13:20:01 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-16 13:52:49 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a6a1243bece9cb55bd3233337f88a42e","user_id":"dc7ffedad979e3ec4062","created_at":"2026-05-16 13:52:49"}
+2026-05-16 14:00:17 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/d9beb571428da386c9745ace7450fa5b","user_id":"ed4fa11ca0f86b874c01","created_at":"2026-05-16 14:00:17"}
+2026-05-16 14:00:54 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/21b536e2f9ea46dbbbefd3a43d42d579","user_id":"bceb6c5d437294954ffa","created_at":"2026-05-16 14:00:54"}
+2026-05-16 14:03:13 - HTTP: 422
+Response: [{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-16 14:09:54 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a89454ded41db0ed52e1f1bcfecdddaa","user_id":"8c3fbd7e7a1725efe813","created_at":"2026-05-16 14:09:54"}
+2026-05-16 14:21:36 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-16 14:36:25 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/8733b557c25949e5272350fd70f0d05c","user_id":"2dcedbd26a8a403eb6d4","created_at":"2026-05-16 14:36:24"}
+2026-05-16 14:37:26 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/5df08e4a0e0d0cd09afe28c0f53c40bc","user_id":"6ebebc2a66193d4ef209","created_at":"2026-05-16 14:37:26"}
+2026-05-16 15:35:52 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-16 16:14:53 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-16 17:27:24 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/8a19e2ee2602e89848bc1f31939c763e","user_id":"904216d7d14f475ddc5e","created_at":"2026-05-16 17:27:24"}
+2026-05-16 17:59:59 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/ddf84f235aa3d1d91e3b5f7445d1d059","user_id":"011918d90a246aa1d9b5","created_at":"2026-05-16 17:59:59"}
+2026-05-16 18:06:08 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b9653e650c4fa5eacb3d051edc79bc2d","user_id":"b04259e7d291b918f4aa","created_at":"2026-05-16 18:06:08"}
+2026-05-16 18:17:11 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-16 19:39:41 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a2fc507df57f42578fb3e79a6ae8061d","user_id":"ad7e1cc5ce4ad06f0af9","created_at":"2026-05-16 19:39:41"}
+2026-05-16 19:49:49 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-16 19:54:36 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-16 19:59:19 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-16 20:04:58 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-16 21:14:39 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/4268a1acdd2515e685a095c8256eba9c","user_id":"9039ad81703ab0032327","created_at":"2026-05-16 21:14:39"}
+2026-05-16 22:22:04 - HTTP: 422
+Response: [{"field":"phone_number","message":"Phone number is not valid for your region Mexico"}]
+2026-05-16 22:22:18 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/92a86ae637e3cfafbbf4a36bf419ca88","user_id":"cdbdaae930a9b98da10a","created_at":"2026-05-16 22:22:18"}
+2026-05-16 23:34:07 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/49b72a4ea8561dccc6fb5fc56e053985","user_id":"fc2ebf7014fadf0b2748","created_at":"2026-05-16 23:34:07"}
+2026-05-17 00:20:51 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-17 03:37:13 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-17 04:04:16 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-17 09:36:06 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/ae04041f196389ffdc01bac88543ed59","user_id":"1bb0ac4f218002eda535","created_at":"2026-05-17 09:36:06"}
+2026-05-17 10:06:30 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a7159b9a8e25fb96da8b2d9afdc3437b","user_id":"5c6f410f800b0be206a8","created_at":"2026-05-17 10:06:29"}
+2026-05-17 12:13:07 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-17 16:00:03 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-17 16:00:34 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-17 16:24:30 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/296fad1fb2a87c301bc7f4cdad9e7d94","user_id":"05b58881d3463411672e","created_at":"2026-05-17 16:24:29"}
+2026-05-17 16:28:43 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/ead70eb80c3299afed9a5eedee537e1b","user_id":"1acd1d2c5538a2385d3b","created_at":"2026-05-17 16:28:43"}
+2026-05-17 16:30:33 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-17 16:50:46 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/cc4eec6a97203a8b15d332c55b40ded3","user_id":"448a2662794f1e6ec9e3","created_at":"2026-05-17 16:50:46"}
+2026-05-17 17:32:04 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-17 17:53:26 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/aa836dc5fc4bfa7d6cb1e82e89353476","user_id":"8f1c72528cac2e5c14d7","created_at":"2026-05-17 17:53:26"}
+2026-05-17 18:04:09 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/5ec31c21302da8f888c04d98ac8b781c","user_id":"2766c69cd58f4c0282e7","created_at":"2026-05-17 18:04:09"}
+2026-05-17 18:11:12 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-17 20:03:21 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/97da88fae9904b06b85fd38156f4eb4c","user_id":"b401973765e3865c675b","created_at":"2026-05-17 20:03:21"}
+2026-05-17 20:36:30 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-17 21:05:18 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e9ae7d9f5dd873b6c98f9dc75167481f","user_id":"0789516fb2910aef35a7","created_at":"2026-05-17 21:05:18"}
+2026-05-17 22:36:58 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/3d54272a40a7c519262a92b7a91204f3","user_id":"01d937dedfe6aac99b16","created_at":"2026-05-17 22:36:58"}
+2026-05-17 23:08:00 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-18 10:12:15 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/aff4cab9481716db2a1dd8c6117ebd14","user_id":"b4501b143edd1c48485d","created_at":"2026-05-18 10:12:15"}
+2026-05-18 13:48:19 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/058ef24217d2cf62869d59024ade5378","user_id":"09840fe4c08a444a7eca","created_at":"2026-05-18 13:48:19"}
+2026-05-18 14:14:22 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/5da61de2b6b2172a62077099fe2986ec","user_id":"d85029862980fd3d562b","created_at":"2026-05-18 14:14:22"}
+2026-05-18 14:40:35 - HTTP: 403
+Response: [{"name":"Block IP: 168.232.13.29","message":"168.232.13.29 is on blacklist"}]
+2026-05-18 14:52:56 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-18 15:00:11 - HTTP: 0
+Response: 
+2026-05-18 18:04:40 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f3e7120b2963ea30da8a6a9aa0c97e94","user_id":"3d25223e6f603f5412ca","created_at":"2026-05-18 18:04:40"}
+2026-05-18 18:26:58 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/7ebeec4adf32917aa389c1317e8566e7","user_id":"78d26fb17d49989a454f","created_at":"2026-05-18 18:26:58"}
+2026-05-18 21:24:24 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/51d1bf13270f55ecc101f3b09d016072","user_id":"5d6d9c82d3f40c9018a7","created_at":"2026-05-18 21:24:24"}
+2026-05-18 22:46:42 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/aea5289c066caadda5a95b23eb5ee12b","user_id":"c3904dfd47dbeb12b98e","created_at":"2026-05-18 22:46:42"}
+2026-05-18 22:50:21 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-19 13:39:43 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b60e1e2a61022f4e695a8297ad02842b","user_id":"3a89239f6d5478e6a453","created_at":"2026-05-19 13:39:43"}
+2026-05-19 15:04:36 - HTTP: 404
+Response: {"status":-1,"message":"Lamentamos, mas neste momento não aceitamos clientes da sua região"}
+2026-05-19 16:03:33 - HTTP: 0
+Response: 
+2026-05-19 16:13:37 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/28c8910b3930279cd9047d339988c655","user_id":"8430202bb49325594fc7","created_at":"2026-05-19 16:13:37"}
+2026-05-19 18:21:41 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e6ea66791dbc7c463d1e2bab465272be","user_id":"09a13416e7685a97c668","created_at":"2026-05-19 18:21:41"}
+2026-05-19 18:26:47 - HTTP: 0
+Response: 
+2026-05-19 18:56:01 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b7056be56a4a1367c1f354cbc5158c26","user_id":"5b9cebca18ce2939d460","created_at":"2026-05-19 18:56:01"}
+2026-05-19 20:35:19 - HTTP: 0
+Response: 
+2026-05-19 20:47:57 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/e2befcd91014374792752883a12968fc","user_id":"e80fcd1db1e21b617063","created_at":"2026-05-19 20:47:56"}
+2026-05-19 21:41:19 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/0ca6955e570124b61bad8f5b1a85d456","user_id":"cdf29bdd19831a936a9d","created_at":"2026-05-19 21:41:19"}
+2026-05-19 21:44:33 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-19 21:50:56 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/ad35da0e819a56f907d8500fdf16890a","user_id":"480743983fcc7da24822","created_at":"2026-05-19 21:50:56"}
+2026-05-20 10:27:31 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/31c2a2f1fe029fc6228e779e7ac0c8e5","user_id":"6c42391386ae406b7c6b","created_at":"2026-05-20 10:27:31"}
+2026-05-20 13:27:07 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/cce80ebf9b6077a44fe581dbbd292dd9","user_id":"2bc7e84559d186160000","created_at":"2026-05-20 13:27:07"}
+2026-05-20 13:56:57 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/5a1a82c07bb729d4bf2fcd142e3175d1","user_id":"088ca70d4240f3d5a7ee","created_at":"2026-05-20 13:56:57"}
+2026-05-20 15:06:49 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/496ef73bbbdcb74bb107c11d437ea7a2","user_id":"5f6a2d541daded77f90f","created_at":"2026-05-20 15:06:49"}
+2026-05-20 16:24:26 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/fe6b9760973c57797f0aa4e4d13a1ceb","user_id":"bbacd965b63c25f1c37b","created_at":"2026-05-20 16:24:26"}
+2026-05-20 18:25:06 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/16d383b5a2033ad7842ee6886f470d81","user_id":"b3dbd3570b49b2458700","created_at":"2026-05-20 18:25:06"}
+2026-05-20 18:54:12 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/38cdcc0fdb51ed7146d3145d52991926","user_id":"d7b7634070345e40160d","created_at":"2026-05-20 18:54:12"}
+2026-05-20 20:39:23 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/82075d87df68f917c62fffc9912263e3","user_id":"40e327dcd8f427633970","created_at":"2026-05-20 20:39:23"}
+2026-05-20 20:42:02 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/05f19d2f1fadcfd4a972f68ce13e5561","user_id":"73ea4efad148ab81a6ac","created_at":"2026-05-20 20:42:02"}
+2026-05-20 22:01:54 - HTTP: 404
+Response: {"name":"Not Found","message":"Lamentamos, mas neste momento não aceitamos clientes do seu País","code":0,"status":404}
+2026-05-21 12:25:52 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/8d8d1e45f10b97be96105a3b16c882ab","user_id":"465a5a07547753811bef","created_at":"2026-05-21 12:25:52"}
+2026-05-21 12:50:52 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a49d5ff70d3286de37d91314e770ad73","user_id":"ef17104f3e38ae72e891","created_at":"2026-05-21 12:50:52"}
+2026-05-21 13:56:51 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/9c31018006c8d75a55b4494cf238ec3a","user_id":"599e673a2e0c59bcfc23","created_at":"2026-05-21 13:56:51"}
+2026-05-21 16:04:19 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/dce2f39a69674aa6b3eb992026025b25","user_id":"9b6e26903869edb7461a","created_at":"2026-05-21 16:04:18"}
+2026-05-21 16:10:34 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-21 16:16:54 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/de855519648acc4c8df0cd9121d973ca","user_id":"05968b370ed8afbfd0d8","created_at":"2026-05-21 16:16:54"}
+2026-05-21 17:34:03 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/52c6eccb8bf3508c489044c5efbaab4b","user_id":"7510bd7361c7f6f9adac","created_at":"2026-05-21 17:34:03"}
+2026-05-21 17:39:28 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/1718862aa1a4eebd8dc71e84e108a6b2","user_id":"5f09710e79a1ce906d12","created_at":"2026-05-21 17:39:28"}
+2026-05-21 18:07:29 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-21 18:58:27 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/b85b9541e22937e8b18cc59a21b4782c","user_id":"7fa358318493e16ac91a","created_at":"2026-05-21 18:58:27"}
+2026-05-21 20:31:23 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f4c0a6c57bcb52ff072e3176828cfa3a","user_id":"9e734a2be7a2b09157cf","created_at":"2026-05-21 20:31:22"}
+2026-05-22 01:49:40 - HTTP: 422
+Response: [{"field":"phone_number","message":"Phone number is not valid for your region Vietnam"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-22 14:13:07 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/28aaadbbba3a977eae7f50f08a2eb58c","user_id":"6aa6f6a5272a9f948d7b","created_at":"2026-05-22 14:13:06"}
+2026-05-22 14:24:49 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/aec17067daddfeaca79bc7c4c6980933","user_id":"7b2fc14a62dced9a493b","created_at":"2026-05-22 14:24:49"}
+2026-05-22 14:36:07 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/f6064f96f56a6ad91f0930fcddde8b2d","user_id":"ddd1770ef3cf4f0966a3","created_at":"2026-05-22 14:36:07"}
+2026-05-22 14:58:39 - HTTP: 422
+Response: [{"field":"phone_number","message":"Este telefone já foi utilizado"},{"field":"email","message":"Este e-mail já foi utilizado"}]
+2026-05-22 14:59:00 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/ed02f0f6924a8461b0a6c0ef80019d0a","user_id":"d58ba80ec6de1cab7f53","created_at":"2026-05-22 14:59:00"}
+2026-05-22 15:48:10 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/6f857017a915a74d044e47c4c265192e","user_id":"e768e7731af4f0edfbcb","created_at":"2026-05-22 15:48:10"}
+2026-05-22 16:59:07 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/c2f061254aef58e9f464c32edf33ba30","user_id":"c965096b3145811da22b","created_at":"2026-05-22 16:59:07"}
+2026-05-22 17:38:00 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/a757ef8898056a014333a737ceb6b69e","user_id":"5fb090e55f2b2640fb7d","created_at":"2026-05-22 17:38:00"}
+2026-05-22 19:32:58 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/80f930823b56e56bf98a6d136c7eecde","user_id":"7a9d70e8a2dbff067eae","created_at":"2026-05-22 19:32:58"}
+2026-05-22 19:52:44 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/3c67aff5685f78883347edbed032ca6d","user_id":"181edcff9f074955bf18","created_at":"2026-05-22 19:52:44"}
+2026-05-22 19:55:43 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/47ea712c3534accc09b4145851cfdd9c","user_id":"adc0f8021dd5cc868d5e","created_at":"2026-05-22 19:55:43"}
+2026-05-22 20:21:48 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/23519d415383882fd7eb214eb9603fa3","user_id":"fdf4f927722e9ce7a168","created_at":"2026-05-22 20:21:47"}
+2026-05-25 13:08:28 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/33435b9de2299e4260a7c70d678ac6c5","user_id":"62e4baf2b56a53ac29e3","created_at":"2026-05-25 13:08:27"}
+2026-05-25 13:56:30 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/6f096dee882311cc761a4431b878c218","user_id":"b78109d4e3e018651529","created_at":"2026-05-25 13:56:30"}
+2026-05-25 14:57:03 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/d13444e69005267177f55edb2aab1e0b","user_id":"df95534ba36b95a886ff","created_at":"2026-05-25 14:57:03"}
+2026-05-25 17:16:48 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/bb0ad43717744fccf26ecd75e2af7757","user_id":"f10efed19e64da827b8a","created_at":"2026-05-25 17:16:47"}
+2026-05-25 17:44:07 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/fc026d14a128b89f48e73fec52bf8916","user_id":"2b24adbe76bc6c3ad143","created_at":"2026-05-25 17:44:07"}
+2026-05-25 17:50:59 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/13f11bb6e09f0a19a66713e0f14596ff","user_id":"23a121b024b7811934ed","created_at":"2026-05-25 17:50:59"}
+2026-05-25 17:55:53 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/5b112940c91a4e2aaa477b9ffa4be4f0","user_id":"592cf5011008aa6883fa","created_at":"2026-05-25 17:55:53"}
+2026-05-25 18:22:42 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/be51b0f8097f3b76793e92fa6e689437","user_id":"c6ba92be480bc65addd0","created_at":"2026-05-25 18:22:41"}
+2026-05-25 19:06:44 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/6650ab63dc8087c9486182687298884c","user_id":"1b41577c36fdca67d2ce","created_at":"2026-05-25 19:06:44"}
+2026-05-25 19:53:17 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/faae7142069119424ff63b1ab5af8974","user_id":"d675bdba3d9823aeef78","created_at":"2026-05-25 19:53:17"}
+2026-05-25 20:21:38 - HTTP: 200
+Response: {"status":3,"redirect_url":"https://track.bcoservice.com/redirect/9775c9e7949e6c94ee1d638cbcb46e0a","user_id":"b6e705db5917488d5bd4","created_at":"2026-05-25 20:21:37"}

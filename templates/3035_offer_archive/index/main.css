@@ -1,0 +1,1630 @@
+.aio-sdk-form {
+    --aio-sdk-form-padding: 30px 30px 20px;
+
+    --aio-sdk-form-layout-gap: var(--aio-sdk-input-margin);
+
+    --aio-sdk-form-steps-gap: 60px;
+    --aio-sdk-form-steps-margin: 15px;
+    --aio-sdk-form-step-diameter: 35px;
+
+    --aio-sdk-form-step-font-size: var(--aio-sdk-input-font-size);
+    --aio-sdk-form-step-line-color: var(--aio-sdk-input-bg);
+    --aio-sdk-form-step-bg: var(--aio-sdk-input-bg);
+    --aio-sdk-form-step-border: var(--aio-sdk-submit-bg);
+    --aio-sdk-form-step-color: var(--aio-sdk-input-color);
+
+    --aio-sdk-form-step-active-bg: var(--aio-sdk-submit-bg);
+    --aio-sdk-form-step-active-border: var(--aio-sdk-submit-bg);
+    --aio-sdk-form-step-active-color: var(--aio-sdk-submit-color);
+
+    --aio-sdk-input-label-color: black;
+    --aio-sdk-input-label-font-size: 1em;
+    --aio-sdk-input-label-margin: 3px;
+
+    --aio-sdk-input-margin: 15px;
+    --aio-sdk-input-bg: white;
+    --aio-sdk-input-font-size: 1em;
+    --aio-sdk-input-border: #ced4da;
+    --aio-sdk-input-border-radius: 0px;
+    --aio-sdk-input-padding: 15px 20px;
+    --aio-sdk-input-color: black;
+
+    --aio-sdk-input-textarea-size: 100px;
+    --aio-sdk-input-checkbox-gap: 5px;
+
+    --aio-sdk-submit-bg: #60359b;
+    --aio-sdk-submit-width: 100%;
+    --aio-sdk-submit-margin: 0 auto 0 auto;
+    --aio-sdk-submit-padding: var(--aio-sdk-input-padding);
+    --aio-sdk-submit-border: transparent;
+    --aio-sdk-submit-border-radius: var(--aio-sdk-input-border-radius);
+    --aio-sdk-submit-color: white;
+    --aio-sdk-submit-font-size: var(--aio-sdk-input-font-size);
+
+    --aio-sdk-exclamation-bg: var(--aio-sdk-submit-bg);
+    --aio-sdk-exclamation-flex-gap: 10px;
+    --aio-sdk-exclamation-flex-align-items: baseline;
+    --aio-sdk-exclamation-color: var(--aio-sdk-submit-color);
+    --aio-sdk-exclamation-sign-color: red;
+    --aio-sdk-exclamation-padding: var(--aio-sdk-input-padding);
+    --aio-sdk-exclamation-margin: var(--aio-sdk-input-margin);
+    --aio-sdk-exclamation-border: transparent;
+    --aio-sdk-input-font-weight: bold;
+    --aio-sdk-exclamation-border-radius: var(--aio-sdk-input-border-radius);
+
+
+    box-sizing: border-box;
+    padding: var(--aio-sdk-form-padding);
+    position: relative;
+    width: 100%;
+}
+
+.aio-sdk-form .aio-sdk-exclamation {
+    box-sizing: border-box;
+    color: var(--aio-sdk-exclamation-color);
+    background: var(--aio-sdk-exclamation-bg);
+    padding: var(--aio-sdk-exclamation-padding);
+    border-radius: var(--aio-sdk-exclamation-border-radius);
+    margin: var(--aio-sdk-exclamation-margin);
+    font-weight: var(--aio-sdk-input-font-weight);
+    display:flex;
+    gap: var(--aio-sdk-exclamation-flex-gap);
+    align-items: var(--aio-sdk-exclamation-flex-align-items);
+}
+
+.aio-sdk-form .aio-sdk-exclamation-sign{
+    color: var(--aio-sdk-exclamation-sign-color);
+}
+.aio-sdk-form .aio-sdk-form-hidden {
+    display: none !important;
+}
+
+.aio-sdk-form.aio-sdk-form-loading {
+    filter: grayscale(100%);
+}
+
+.aio-sdk-form .iti-aio {
+    color: var(--aio-sdk-input-color);
+}
+
+.aio-sdk-form .aio-sdk-input-container {
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: var(--aio-sdk-input-margin);
+    color: var(--aio-sdk-input-color);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: var(--aio-sdk-input-label-margin);
+}
+
+.aio-sdk-form .aio-sdk-input {
+    color: var(--aio-sdk-input-color);
+    background-color: var(--aio-sdk-input-bg);
+    border: 1px solid var(--aio-sdk-input-border);
+    padding: var(--aio-sdk-input-padding);
+    border-radius: var(--aio-sdk-input-border-radius);
+
+    font-size: var(--aio-sdk-input-font-size);
+
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    outline: 0;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.aio-sdk-form .aio-sdk-steps-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: var(--aio-sdk-form-steps-gap);
+    margin-bottom: var(--aio-sdk-form-steps-margin);
+}
+
+.aio-sdk-form .aio-sdk-step-container {
+    display: flex;
+    position: relative;
+    color: var(--aio-sdk-form-step-color);
+    font-size: var(--aio-sdk-form-step-font-size);
+    border-color: var(--aio-sdk-form-step-border);
+    background: var(--aio-sdk-form-step-bg);
+    border-radius: 100%;
+    text-align: center;
+    width: var(--aio-sdk-form-step-diameter);
+    height: var(--aio-sdk-form-step-diameter);
+    border-width: 1px;
+    border-style: solid;
+    align-items: center;
+    justify-content: center;
+    transition: all 50ms ease-out;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.aio-sdk-form .aio-sdk-step-container:after {
+    position: absolute;
+    background: var(--aio-sdk-form-step-line-color);
+    content: " ";
+    top: 50%;
+    right: 0;
+    height: 1px;
+    width: var(--aio-sdk-form-steps-gap);
+    margin-right: calc(var(--aio-sdk-form-steps-gap) * -1)
+}
+
+.aio-sdk-form .aio-sdk-step-container:last-child:after {
+    display: none;
+}
+
+.aio-sdk-form .aio-sdk-step-container-active {
+    color: var(--aio-sdk-form-step-active-color);
+    border-color: var(--aio-sdk-form-step-active-border);
+    background: var(--aio-sdk-form-step-active-bg);
+}
+
+.aio-sdk-form select.aio-sdk-input:invalid {
+    font-size: var(--aio-sdk-input-font-size);
+    color: gray;
+}
+
+.aio-sdk-form select.aio-sdk-input {
+    font-size: var(--aio-sdk-input-font-size);
+
+    font-weight: 400;
+}
+
+
+.aio-sdk-form .aio-sdk-input-container textarea {
+    height: var(--aio-sdk-input-textarea-size);
+    resize: none;
+    font-size: var(--aio-sdk-input-font-size);
+
+    font-weight: 400;
+}
+
+.aio-sdk-form .aio-sdk-input-checkbox-container {
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+    gap: var(--aio-sdk-input-checkbox-gap);
+    color: var(--aio-sdk-input-label-color);
+    font-size: var(--aio-sdk-input-label-font-size);
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.aio-sdk-form .aio-sdk-input-label {
+    font-weight: bold;
+    margin-bottom: var(--aio-sdk-input-label-margin);
+    color: var(--aio-sdk-input-label-color);
+    font-size: var(--aio-sdk-input-label-font-size);
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.aio-sdk-form .aio-sdk-input-checkbox-container label {
+    cursor: pointer;
+}
+
+.aio-sdk-form .aio-sdk-layout-container {
+
+}
+
+.aio-sdk-form .aio-sdk-row-container {
+    display: flex;
+    gap: var(--aio-sdk-form-layout-gap);
+}
+
+.aio-sdk-form .aio-sdk-column-container {
+    width: 100%;
+}
+
+.aio-sdk-form input[type=submit] {
+
+    box-shadow: var(--aio-sdk-submit-bg) 0 0 0 0;
+    background: var(--aio-sdk-submit-bg);
+    border-color: var(--aio-sdk-submit-bg);
+    color: var(--aio-sdk-submit-color);
+    padding: var(--aio-sdk-submit-padding);
+    border: 1px solid var(--aio-sdk-submit-border);
+    border-radius: var(--aio-sdk-submit-border-radius);
+
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: var(--aio-sdk-submit-font-size);
+    animation: 2s ease 0s infinite normal none running aio-sdk-pulsing;
+    transition: 50ms ease-out;
+
+    outline: 0;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+    width: var(--aio-sdk-submit-width);
+    margin: var(--aio-sdk-submit-margin);
+}
+
+.aio-sdk-form input[type=submit]:hover {
+    filter: brightness(0.9);
+}
+
+@keyframes aio-sdk-pulsing {
+    100% {
+        box-shadow: transparent 0 0 0 10px
+    }
+}
+
+.aio-sdk-form .iti-aio {
+    width: 100%;
+    display: block;
+}
+
+.iti-aio--container {
+    z-index: 10000;
+}
+:root {
+  --iti-hover-color: rgba(0, 0, 0, 0.05);
+  --iti-border-color: #ccc;
+  --iti-dialcode-color: #999;
+  --iti-dropdown-bg: white;
+  --iti-spacer-horizontal: 20px;
+  --iti-flag-height: 12px;
+  --iti-flag-width: 16px;
+  --iti-border-width: 1px;
+  --iti-arrow-height: 4px;
+  --iti-arrow-width: 6px;
+  --iti-triangle-border: calc(var(--iti-arrow-width) / 2);
+  --iti-arrow-padding: 10px;
+  --iti-arrow-color: #555;
+  --iti-path-flags-1x: url(bd95ef49b665a571ca04.webp?v=1);
+  --iti-path-flags-2x: url(bea0200ba7ea874b359f.webp?v1=);
+  --iti-path-globe-1x: url(7fb216c936a98b90918e.webp?v1=);
+  --iti-path-globe-2x: url(5dc7e51d6b5d42fc2be4.webp?v1=);
+  --iti-flag-sprite-width: 3904px;
+  --iti-flag-sprite-height: 12px;
+  --iti-mobile-popup-margin: 30px;
+}
+
+.iti-aio {
+  position: relative;
+  display: inline-block;
+}
+.iti-aio * {
+  box-sizing: border-box;
+}
+.iti-aio__hide {
+  display: none;
+}
+.iti-aio__v-hide {
+  visibility: hidden;
+}
+.iti-aio__a11y-text {
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+  position: absolute;
+}
+.iti-aio input.iti-aio__tel-input,
+.iti-aio input.iti-aio__tel-input[type=text],
+.iti-aio input.iti-aio__tel-input[type=tel] {
+  position: relative;
+  z-index: 0;
+  margin: 0 !important;
+}
+.iti-aio__country-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding: var(--iti-border-width);
+}
+.iti-aio__selected-country {
+  z-index: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  background: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  border-radius: 0;
+  font-weight: inherit;
+  line-height: inherit;
+  text-decoration: none;
+}
+.iti-aio__selected-country-primary {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 var(--iti-arrow-padding) 0 var(--iti-spacer-horizontal);
+
+  border-radius: var(--aio-sdk-input-border-radius) 0 0 var(--aio-sdk-input-border-radius);
+}
+
+[dir=rtl] .iti-aio__selected-country-primary{
+  border-radius: 0 var(--aio-sdk-input-border-radius) var(--aio-sdk-input-border-radius) 0;
+}
+
+.iti-aio__arrow {
+  margin-left: var(--iti-arrow-padding);
+  width: 0;
+  height: 0;
+  border-left: var(--iti-triangle-border) solid transparent;
+  border-right: var(--iti-triangle-border) solid transparent;
+  border-top: var(--iti-arrow-height) solid var(--iti-arrow-color);
+}
+[dir=rtl] .iti-aio__arrow {
+  margin-right: var(--iti-arrow-padding);
+  margin-left: 0;
+}
+.iti-aio__arrow--up {
+  border-top: none;
+  border-bottom: var(--iti-arrow-height) solid var(--iti-arrow-color);
+}
+.iti-aio__dropdown-content {
+  background-color: var(--aio-sdk-input-bg, white);
+  border: 1px solid var(--aio-sdk-input-border, #ced4da);
+  border-radius: var(--aio-sdk-input-border-radius);
+
+}
+.iti-aio--inline-dropdown .iti-aio__dropdown-content {
+  position: absolute;
+  z-index: 2;
+  margin-top: 3px;
+  margin-left: calc(var(--iti-border-width) * -1);
+  /*border: var(--iti-border-width) solid var(--iti-border-color);*/
+  border: none;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+.iti-aio__search-input {
+  width: 100%;
+
+  color: var(--aio-sdk-input-color, black);
+  background-color: var(--aio-sdk-input-bg, white);
+  border: 1px solid var(--aio-sdk-input-border, #ced4da);
+  padding: var(--aio-sdk-input-padding, 15px 20px);
+  border-radius: var(--aio-sdk-input-border-radius);
+
+  font-size: var(--aio-sdk-input-font-size);
+  outline: 0;
+  box-sizing: border-box;
+  position: relative;
+  cursor: pointer;
+}
+.iti-aio__search-input + .iti-aio__country-list {
+  border-top: 1px solid var(--iti-border-color);
+}
+.iti-aio__country-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+.iti-aio--inline-dropdown .iti-aio__country-list {
+  max-height: 185px;
+}
+.iti-aio--flexible-dropdown-width .iti-aio__country-list {
+  white-space: nowrap;
+}
+@media (max-width: 500px) {
+  .iti-aio--flexible-dropdown-width .iti-aio__country-list {
+    white-space: normal;
+  }
+}
+.iti-aio__country {
+  display: flex;
+  align-items: center;
+  padding: 8px var(--iti-spacer-horizontal);
+  outline: none;
+}
+.iti-aio__dial-code {
+  color: var(--iti-dialcode-color);
+}
+.iti-aio__country.iti-aio__highlight {
+  background-color: var(--iti-hover-color);
+}
+.iti-aio__country-list .iti-aio__flag, .iti-aio__country-name {
+  margin-right: var(--iti-spacer-horizontal);
+}
+[dir=rtl] .iti-aio__country-list .iti-aio__flag, [dir=rtl] .iti-aio__country-name {
+  margin-right: 0;
+  margin-left: var(--iti-spacer-horizontal);
+}
+.iti-aio--allow-dropdown .iti-aio__country-container:not(:has(+ input[disabled])):not(:has(+ input[readonly])):hover, .iti-aio--allow-dropdown .iti-aio__country-container:not(:has(+ input[disabled])):not(:has(+ input[readonly])):hover button {
+  cursor: pointer;
+}
+.iti-aio--allow-dropdown .iti-aio__country-container:not(:has(+ input[disabled])):not(:has(+ input[readonly])) .iti-aio__selected-country-primary:hover,
+.iti-aio--allow-dropdown .iti-aio__country-container:not(:has(+ input[disabled])):not(:has(+ input[readonly])) .iti-aio__selected-country:has(+ .iti-aio__dropdown-content:hover) .iti-aio__selected-country-primary {
+  background-color: var(--iti-hover-color);
+}
+.iti-aio .iti-aio__selected-dial-code {
+  margin-left: 4px;
+}
+[dir=rtl] .iti-aio .iti-aio__selected-dial-code {
+  margin-left: 0;
+  margin-right: 4px;
+}
+.iti-aio--container {
+  position: fixed;
+  top: -1000px;
+  left: -1000px;
+  z-index: 1060;
+  padding: var(--iti-border-width);
+}
+.iti-aio--container:hover {
+  cursor: pointer;
+}
+
+.iti-aio--fullscreen-popup.iti-aio--container {
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  padding: var(--iti-mobile-popup-margin);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.iti-aio--fullscreen-popup .iti-aio__dropdown-content {
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+  position: relative;
+}
+.iti-aio--fullscreen-popup .iti-aio__country {
+  padding: 10px 10px;
+  line-height: 1.5em;
+}
+
+.iti-aio__flag {
+  --iti-flag-offset: 100px;
+  height: var(--iti-flag-height);
+  width: var(--iti-flag-width);
+  border-radius: 1px;
+  box-shadow: 0px 0px 1px 0px #888;
+  background-image: var(--iti-path-flags-1x);
+  background-repeat: no-repeat;
+  background-position: var(--iti-flag-offset) 0;
+  background-size: var(--iti-flag-sprite-width) var(--iti-flag-sprite-height);
+}
+
+.iti-aio__ac {
+  --iti-flag-offset: 0px;
+}
+
+.iti-aio__ad {
+  --iti-flag-offset: -16px;
+}
+
+.iti-aio__ae {
+  --iti-flag-offset: -32px;
+}
+
+.iti-aio__af {
+  --iti-flag-offset: -48px;
+}
+
+.iti-aio__ag {
+  --iti-flag-offset: -64px;
+}
+
+.iti-aio__ai {
+  --iti-flag-offset: -80px;
+}
+
+.iti-aio__al {
+  --iti-flag-offset: -96px;
+}
+
+.iti-aio__am {
+  --iti-flag-offset: -112px;
+}
+
+.iti-aio__ao {
+  --iti-flag-offset: -128px;
+}
+
+.iti-aio__ar {
+  --iti-flag-offset: -144px;
+}
+
+.iti-aio__as {
+  --iti-flag-offset: -160px;
+}
+
+.iti-aio__at {
+  --iti-flag-offset: -176px;
+}
+
+.iti-aio__au {
+  --iti-flag-offset: -192px;
+}
+
+.iti-aio__aw {
+  --iti-flag-offset: -208px;
+}
+
+.iti-aio__ax {
+  --iti-flag-offset: -224px;
+}
+
+.iti-aio__az {
+  --iti-flag-offset: -240px;
+}
+
+.iti-aio__ba {
+  --iti-flag-offset: -256px;
+}
+
+.iti-aio__bb {
+  --iti-flag-offset: -272px;
+}
+
+.iti-aio__bd {
+  --iti-flag-offset: -288px;
+}
+
+.iti-aio__be {
+  --iti-flag-offset: -304px;
+}
+
+.iti-aio__bf {
+  --iti-flag-offset: -320px;
+}
+
+.iti-aio__bg {
+  --iti-flag-offset: -336px;
+}
+
+.iti-aio__bh {
+  --iti-flag-offset: -352px;
+}
+
+.iti-aio__bi {
+  --iti-flag-offset: -368px;
+}
+
+.iti-aio__bj {
+  --iti-flag-offset: -384px;
+}
+
+.iti-aio__bl {
+  --iti-flag-offset: -400px;
+}
+
+.iti-aio__bm {
+  --iti-flag-offset: -416px;
+}
+
+.iti-aio__bn {
+  --iti-flag-offset: -432px;
+}
+
+.iti-aio__bo {
+  --iti-flag-offset: -448px;
+}
+
+.iti-aio__bq {
+  --iti-flag-offset: -464px;
+}
+
+.iti-aio__br {
+  --iti-flag-offset: -480px;
+}
+
+.iti-aio__bs {
+  --iti-flag-offset: -496px;
+}
+
+.iti-aio__bt {
+  --iti-flag-offset: -512px;
+}
+
+.iti-aio__bw {
+  --iti-flag-offset: -528px;
+}
+
+.iti-aio__by {
+  --iti-flag-offset: -544px;
+}
+
+.iti-aio__bz {
+  --iti-flag-offset: -560px;
+}
+
+.iti-aio__ca {
+  --iti-flag-offset: -576px;
+}
+
+.iti-aio__cc {
+  --iti-flag-offset: -592px;
+}
+
+.iti-aio__cd {
+  --iti-flag-offset: -608px;
+}
+
+.iti-aio__cf {
+  --iti-flag-offset: -624px;
+}
+
+.iti-aio__cg {
+  --iti-flag-offset: -640px;
+}
+
+.iti-aio__ch {
+  --iti-flag-offset: -656px;
+}
+
+.iti-aio__ci {
+  --iti-flag-offset: -672px;
+}
+
+.iti-aio__ck {
+  --iti-flag-offset: -688px;
+}
+
+.iti-aio__cl {
+  --iti-flag-offset: -704px;
+}
+
+.iti-aio__cm {
+  --iti-flag-offset: -720px;
+}
+
+.iti-aio__cn {
+  --iti-flag-offset: -736px;
+}
+
+.iti-aio__co {
+  --iti-flag-offset: -752px;
+}
+
+.iti-aio__cr {
+  --iti-flag-offset: -768px;
+}
+
+.iti-aio__cu {
+  --iti-flag-offset: -784px;
+}
+
+.iti-aio__cv {
+  --iti-flag-offset: -800px;
+}
+
+.iti-aio__cw {
+  --iti-flag-offset: -816px;
+}
+
+.iti-aio__cx {
+  --iti-flag-offset: -832px;
+}
+
+.iti-aio__cy {
+  --iti-flag-offset: -848px;
+}
+
+.iti-aio__cz {
+  --iti-flag-offset: -864px;
+}
+
+.iti-aio__de {
+  --iti-flag-offset: -880px;
+}
+
+.iti-aio__dj {
+  --iti-flag-offset: -896px;
+}
+
+.iti-aio__dk {
+  --iti-flag-offset: -912px;
+}
+
+.iti-aio__dm {
+  --iti-flag-offset: -928px;
+}
+
+.iti-aio__do {
+  --iti-flag-offset: -944px;
+}
+
+.iti-aio__dz {
+  --iti-flag-offset: -960px;
+}
+
+.iti-aio__ec {
+  --iti-flag-offset: -976px;
+}
+
+.iti-aio__ee {
+  --iti-flag-offset: -992px;
+}
+
+.iti-aio__eg {
+  --iti-flag-offset: -1008px;
+}
+
+.iti-aio__eh {
+  --iti-flag-offset: -1024px;
+}
+
+.iti-aio__er {
+  --iti-flag-offset: -1040px;
+}
+
+.iti-aio__es {
+  --iti-flag-offset: -1056px;
+}
+
+.iti-aio__et {
+  --iti-flag-offset: -1072px;
+}
+
+.iti-aio__fi {
+  --iti-flag-offset: -1088px;
+}
+
+.iti-aio__fj {
+  --iti-flag-offset: -1104px;
+}
+
+.iti-aio__fk {
+  --iti-flag-offset: -1120px;
+}
+
+.iti-aio__fm {
+  --iti-flag-offset: -1136px;
+}
+
+.iti-aio__fo {
+  --iti-flag-offset: -1152px;
+}
+
+.iti-aio__fr {
+  --iti-flag-offset: -1168px;
+}
+
+.iti-aio__ga {
+  --iti-flag-offset: -1184px;
+}
+
+.iti-aio__gb {
+  --iti-flag-offset: -1200px;
+}
+
+.iti-aio__gd {
+  --iti-flag-offset: -1216px;
+}
+
+.iti-aio__ge {
+  --iti-flag-offset: -1232px;
+}
+
+.iti-aio__gf {
+  --iti-flag-offset: -1248px;
+}
+
+.iti-aio__gg {
+  --iti-flag-offset: -1264px;
+}
+
+.iti-aio__gh {
+  --iti-flag-offset: -1280px;
+}
+
+.iti-aio__gi {
+  --iti-flag-offset: -1296px;
+}
+
+.iti-aio__gl {
+  --iti-flag-offset: -1312px;
+}
+
+.iti-aio__gm {
+  --iti-flag-offset: -1328px;
+}
+
+.iti-aio__gn {
+  --iti-flag-offset: -1344px;
+}
+
+.iti-aio__gp {
+  --iti-flag-offset: -1360px;
+}
+
+.iti-aio__gq {
+  --iti-flag-offset: -1376px;
+}
+
+.iti-aio__gr {
+  --iti-flag-offset: -1392px;
+}
+
+.iti-aio__gt {
+  --iti-flag-offset: -1408px;
+}
+
+.iti-aio__gu {
+  --iti-flag-offset: -1424px;
+}
+
+.iti-aio__gw {
+  --iti-flag-offset: -1440px;
+}
+
+.iti-aio__gy {
+  --iti-flag-offset: -1456px;
+}
+
+.iti-aio__hk {
+  --iti-flag-offset: -1472px;
+}
+
+.iti-aio__hn {
+  --iti-flag-offset: -1488px;
+}
+
+.iti-aio__hr {
+  --iti-flag-offset: -1504px;
+}
+
+.iti-aio__ht {
+  --iti-flag-offset: -1520px;
+}
+
+.iti-aio__hu {
+  --iti-flag-offset: -1536px;
+}
+
+.iti-aio__id {
+  --iti-flag-offset: -1552px;
+}
+
+.iti-aio__ie {
+  --iti-flag-offset: -1568px;
+}
+
+.iti-aio__il {
+  --iti-flag-offset: -1584px;
+}
+
+.iti-aio__im {
+  --iti-flag-offset: -1600px;
+}
+
+.iti-aio__in {
+  --iti-flag-offset: -1616px;
+}
+
+.iti-aio__io {
+  --iti-flag-offset: -1632px;
+}
+
+.iti-aio__iq {
+  --iti-flag-offset: -1648px;
+}
+
+.iti-aio__ir {
+  --iti-flag-offset: -1664px;
+}
+
+.iti-aio__is {
+  --iti-flag-offset: -1680px;
+}
+
+.iti-aio__it {
+  --iti-flag-offset: -1696px;
+}
+
+.iti-aio__je {
+  --iti-flag-offset: -1712px;
+}
+
+.iti-aio__jm {
+  --iti-flag-offset: -1728px;
+}
+
+.iti-aio__jo {
+  --iti-flag-offset: -1744px;
+}
+
+.iti-aio__jp {
+  --iti-flag-offset: -1760px;
+}
+
+.iti-aio__ke {
+  --iti-flag-offset: -1776px;
+}
+
+.iti-aio__kg {
+  --iti-flag-offset: -1792px;
+}
+
+.iti-aio__kh {
+  --iti-flag-offset: -1808px;
+}
+
+.iti-aio__ki {
+  --iti-flag-offset: -1824px;
+}
+
+.iti-aio__km {
+  --iti-flag-offset: -1840px;
+}
+
+.iti-aio__kn {
+  --iti-flag-offset: -1856px;
+}
+
+.iti-aio__kp {
+  --iti-flag-offset: -1872px;
+}
+
+.iti-aio__kr {
+  --iti-flag-offset: -1888px;
+}
+
+.iti-aio__kw {
+  --iti-flag-offset: -1904px;
+}
+
+.iti-aio__ky {
+  --iti-flag-offset: -1920px;
+}
+
+.iti-aio__kz {
+  --iti-flag-offset: -1936px;
+}
+
+.iti-aio__la {
+  --iti-flag-offset: -1952px;
+}
+
+.iti-aio__lb {
+  --iti-flag-offset: -1968px;
+}
+
+.iti-aio__lc {
+  --iti-flag-offset: -1984px;
+}
+
+.iti-aio__li {
+  --iti-flag-offset: -2000px;
+}
+
+.iti-aio__lk {
+  --iti-flag-offset: -2016px;
+}
+
+.iti-aio__lr {
+  --iti-flag-offset: -2032px;
+}
+
+.iti-aio__ls {
+  --iti-flag-offset: -2048px;
+}
+
+.iti-aio__lt {
+  --iti-flag-offset: -2064px;
+}
+
+.iti-aio__lu {
+  --iti-flag-offset: -2080px;
+}
+
+.iti-aio__lv {
+  --iti-flag-offset: -2096px;
+}
+
+.iti-aio__ly {
+  --iti-flag-offset: -2112px;
+}
+
+.iti-aio__ma {
+  --iti-flag-offset: -2128px;
+}
+
+.iti-aio__mc {
+  --iti-flag-offset: -2144px;
+}
+
+.iti-aio__md {
+  --iti-flag-offset: -2160px;
+}
+
+.iti-aio__me {
+  --iti-flag-offset: -2176px;
+}
+
+.iti-aio__mf {
+  --iti-flag-offset: -2192px;
+}
+
+.iti-aio__mg {
+  --iti-flag-offset: -2208px;
+}
+
+.iti-aio__mh {
+  --iti-flag-offset: -2224px;
+}
+
+.iti-aio__mk {
+  --iti-flag-offset: -2240px;
+}
+
+.iti-aio__ml {
+  --iti-flag-offset: -2256px;
+}
+
+.iti-aio__mm {
+  --iti-flag-offset: -2272px;
+}
+
+.iti-aio__mn {
+  --iti-flag-offset: -2288px;
+}
+
+.iti-aio__mo {
+  --iti-flag-offset: -2304px;
+}
+
+.iti-aio__mp {
+  --iti-flag-offset: -2320px;
+}
+
+.iti-aio__mq {
+  --iti-flag-offset: -2336px;
+}
+
+.iti-aio__mr {
+  --iti-flag-offset: -2352px;
+}
+
+.iti-aio__ms {
+  --iti-flag-offset: -2368px;
+}
+
+.iti-aio__mt {
+  --iti-flag-offset: -2384px;
+}
+
+.iti-aio__mu {
+  --iti-flag-offset: -2400px;
+}
+
+.iti-aio__mv {
+  --iti-flag-offset: -2416px;
+}
+
+.iti-aio__mw {
+  --iti-flag-offset: -2432px;
+}
+
+.iti-aio__mx {
+  --iti-flag-offset: -2448px;
+}
+
+.iti-aio__my {
+  --iti-flag-offset: -2464px;
+}
+
+.iti-aio__mz {
+  --iti-flag-offset: -2480px;
+}
+
+.iti-aio__na {
+  --iti-flag-offset: -2496px;
+}
+
+.iti-aio__nc {
+  --iti-flag-offset: -2512px;
+}
+
+.iti-aio__ne {
+  --iti-flag-offset: -2528px;
+}
+
+.iti-aio__nf {
+  --iti-flag-offset: -2544px;
+}
+
+.iti-aio__ng {
+  --iti-flag-offset: -2560px;
+}
+
+.iti-aio__ni {
+  --iti-flag-offset: -2576px;
+}
+
+.iti-aio__nl {
+  --iti-flag-offset: -2592px;
+}
+
+.iti-aio__no {
+  --iti-flag-offset: -2608px;
+}
+
+.iti-aio__np {
+  --iti-flag-offset: -2624px;
+}
+
+.iti-aio__nr {
+  --iti-flag-offset: -2640px;
+}
+
+.iti-aio__nu {
+  --iti-flag-offset: -2656px;
+}
+
+.iti-aio__nz {
+  --iti-flag-offset: -2672px;
+}
+
+.iti-aio__om {
+  --iti-flag-offset: -2688px;
+}
+
+.iti-aio__pa {
+  --iti-flag-offset: -2704px;
+}
+
+.iti-aio__pe {
+  --iti-flag-offset: -2720px;
+}
+
+.iti-aio__pf {
+  --iti-flag-offset: -2736px;
+}
+
+.iti-aio__pg {
+  --iti-flag-offset: -2752px;
+}
+
+.iti-aio__ph {
+  --iti-flag-offset: -2768px;
+}
+
+.iti-aio__pk {
+  --iti-flag-offset: -2784px;
+}
+
+.iti-aio__pl {
+  --iti-flag-offset: -2800px;
+}
+
+.iti-aio__pm {
+  --iti-flag-offset: -2816px;
+}
+
+.iti-aio__pr {
+  --iti-flag-offset: -2832px;
+}
+
+.iti-aio__ps {
+  --iti-flag-offset: -2848px;
+}
+
+.iti-aio__pt {
+  --iti-flag-offset: -2864px;
+}
+
+.iti-aio__pw {
+  --iti-flag-offset: -2880px;
+}
+
+.iti-aio__py {
+  --iti-flag-offset: -2896px;
+}
+
+.iti-aio__qa {
+  --iti-flag-offset: -2912px;
+}
+
+.iti-aio__re {
+  --iti-flag-offset: -2928px;
+}
+
+.iti-aio__ro {
+  --iti-flag-offset: -2944px;
+}
+
+.iti-aio__rs {
+  --iti-flag-offset: -2960px;
+}
+
+.iti-aio__ru {
+  --iti-flag-offset: -2976px;
+}
+
+.iti-aio__rw {
+  --iti-flag-offset: -2992px;
+}
+
+.iti-aio__sa {
+  --iti-flag-offset: -3008px;
+}
+
+.iti-aio__sb {
+  --iti-flag-offset: -3024px;
+}
+
+.iti-aio__sc {
+  --iti-flag-offset: -3040px;
+}
+
+.iti-aio__sd {
+  --iti-flag-offset: -3056px;
+}
+
+.iti-aio__se {
+  --iti-flag-offset: -3072px;
+}
+
+.iti-aio__sg {
+  --iti-flag-offset: -3088px;
+}
+
+.iti-aio__sh {
+  --iti-flag-offset: -3104px;
+}
+
+.iti-aio__si {
+  --iti-flag-offset: -3120px;
+}
+
+.iti-aio__sj {
+  --iti-flag-offset: -3136px;
+}
+
+.iti-aio__sk {
+  --iti-flag-offset: -3152px;
+}
+
+.iti-aio__sl {
+  --iti-flag-offset: -3168px;
+}
+
+.iti-aio__sm {
+  --iti-flag-offset: -3184px;
+}
+
+.iti-aio__sn {
+  --iti-flag-offset: -3200px;
+}
+
+.iti-aio__so {
+  --iti-flag-offset: -3216px;
+}
+
+.iti-aio__sr {
+  --iti-flag-offset: -3232px;
+}
+
+.iti-aio__ss {
+  --iti-flag-offset: -3248px;
+}
+
+.iti-aio__st {
+  --iti-flag-offset: -3264px;
+}
+
+.iti-aio__sv {
+  --iti-flag-offset: -3280px;
+}
+
+.iti-aio__sx {
+  --iti-flag-offset: -3296px;
+}
+
+.iti-aio__sy {
+  --iti-flag-offset: -3312px;
+}
+
+.iti-aio__sz {
+  --iti-flag-offset: -3328px;
+}
+
+.iti-aio__tc {
+  --iti-flag-offset: -3344px;
+}
+
+.iti-aio__td {
+  --iti-flag-offset: -3360px;
+}
+
+.iti-aio__tg {
+  --iti-flag-offset: -3376px;
+}
+
+.iti-aio__th {
+  --iti-flag-offset: -3392px;
+}
+
+.iti-aio__tj {
+  --iti-flag-offset: -3408px;
+}
+
+.iti-aio__tk {
+  --iti-flag-offset: -3424px;
+}
+
+.iti-aio__tl {
+  --iti-flag-offset: -3440px;
+}
+
+.iti-aio__tm {
+  --iti-flag-offset: -3456px;
+}
+
+.iti-aio__tn {
+  --iti-flag-offset: -3472px;
+}
+
+.iti-aio__to {
+  --iti-flag-offset: -3488px;
+}
+
+.iti-aio__tr {
+  --iti-flag-offset: -3504px;
+}
+
+.iti-aio__tt {
+  --iti-flag-offset: -3520px;
+}
+
+.iti-aio__tv {
+  --iti-flag-offset: -3536px;
+}
+
+.iti-aio__tw {
+  --iti-flag-offset: -3552px;
+}
+
+.iti-aio__tz {
+  --iti-flag-offset: -3568px;
+}
+
+.iti-aio__ua {
+  --iti-flag-offset: -3584px;
+}
+
+.iti-aio__ug {
+  --iti-flag-offset: -3600px;
+}
+
+.iti-aio__us {
+  --iti-flag-offset: -3616px;
+}
+
+.iti-aio__uy {
+  --iti-flag-offset: -3632px;
+}
+
+.iti-aio__uz {
+  --iti-flag-offset: -3648px;
+}
+
+.iti-aio__va {
+  --iti-flag-offset: -3664px;
+}
+
+.iti-aio__vc {
+  --iti-flag-offset: -3680px;
+}
+
+.iti-aio__ve {
+  --iti-flag-offset: -3696px;
+}
+
+.iti-aio__vg {
+  --iti-flag-offset: -3712px;
+}
+
+.iti-aio__vi {
+  --iti-flag-offset: -3728px;
+}
+
+.iti-aio__vn {
+  --iti-flag-offset: -3744px;
+}
+
+.iti-aio__vu {
+  --iti-flag-offset: -3760px;
+}
+
+.iti-aio__wf {
+  --iti-flag-offset: -3776px;
+}
+
+.iti-aio__ws {
+  --iti-flag-offset: -3792px;
+}
+
+.iti-aio__xk {
+  --iti-flag-offset: -3808px;
+}
+
+.iti-aio__ye {
+  --iti-flag-offset: -3824px;
+}
+
+.iti-aio__yt {
+  --iti-flag-offset: -3840px;
+}
+
+.iti-aio__za {
+  --iti-flag-offset: -3856px;
+}
+
+.iti-aio__zm {
+  --iti-flag-offset: -3872px;
+}
+
+.iti-aio__zw {
+  --iti-flag-offset: -3888px;
+}
+
+.iti-aio__globe {
+  background-image: var(--iti-path-globe-1x);
+  background-size: contain;
+  background-position: right;
+  box-shadow: none;
+  height: 19px;
+}
+
+@media (min-resolution: 2x) {
+  .iti-aio__flag {
+    background-image: var(--iti-path-flags-2x);
+  }
+  .iti-aio__globe {
+    background-image: var(--iti-path-globe-2x);
+  }
+}
+
+.aio-sdk-modal {
+    display: none;
+
+    --aio-sdk-modal-max-width: 500px;
+
+    --aio-sdk-modal-header-padding: 10px 20px;
+    --aio-sdk-modal-body-padding: 20px 20px;
+    --aio-sdk-modal-footer-padding: var(--aio-sdk-modal-header-padding);
+
+    --aio-sdk-modal-backdrop-color: rgba(0, 0, 0, 0.5);
+    --aio-sdk-modal-bg-color: white;
+    --aio-sdk-modal-border: #ced4da;
+    --aio-sdk-modal-border-radius: 0;
+
+    --aio-sdk-modal-button-bg: #60359b;
+    --aio-sdk-modal-button-color: white;
+    --aio-sdk-modal-button-padding: 10px 15px;
+    --aio-sdk-modal-button-border: #ced4da;
+    --aio-sdk-modal-button-border-radius: 0px;
+
+    --aio-sdk-modal-button-danger-bg: #ff1313;
+    --aio-sdk-modal-button-danger-color: white;
+
+    --aio-sdk-modal-button-success-bg: #0fac32;
+    --aio-sdk-modal-button-success-color: white;
+
+}
+
+.aio-sdk-modal.aio-sdk-modal-opened {
+    position: fixed;
+    display: flex !important;
+    flex-direction: column;
+    width: 100vw;
+    height: 100dvh;
+    overflow: hidden auto;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: var(--aio-sdk-modal-backdrop-color);
+
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.aio-sdk-modal .aio-sdk-modal-content {
+    max-width: var(--aio-sdk-modal-max-width);
+    background: var(--aio-sdk-modal-bg-color);
+    border: 1px solid var(--aio-sdk-modal-border);
+    border-radius: var(--aio-sdk-modal-border-radius);
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    min-height: 0;
+    margin: auto;
+}
+
+
+.aio-sdk-modal .aio-sdk-modal-header {
+    padding: var(--aio-sdk-modal-header-padding);
+    background-color: #f4f5fd;
+    border-bottom: 1px solid var(--aio-sdk-modal-border);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -.04em;
+}
+
+.aio-sdk-modal .aio-sdk-modal-body {
+    padding: var(--aio-sdk-modal-body-padding);
+}
+
+.aio-sdk-modal .aio-sdk-modal-footer {
+    padding: var(--aio-sdk-modal-footer-padding);
+    background-color: #f4f5fd;
+    border-top: 1px solid var(--aio-sdk-modal-border);
+    display: flex;
+    gap: 10px;
+}
+
+.aio-sdk-modal .aio-sdk-modal-button {
+    box-shadow: var(--aio-sdk-modal-button-bg) 0 0 0 0;
+    background: var(--aio-sdk-modal-button-bg);
+    border-color: var(--aio-sdk-modal-button-bg);
+    color: var(--aio-sdk-modal-button-color);
+    padding: var(--aio-sdk-modal-button-padding);
+    border: 1px solid var(--aio-sdk-modal-button-border);
+    border-radius: var(--aio-sdk-modal-button-border-radius);
+
+    text-decoration: none;
+    text-align: center;
+
+    text-transform: uppercase;
+    font-weight: 700;
+    animation: 2s ease 0s infinite normal none running aio-sdk-pulsing;
+    transition: 50ms ease-out;
+
+    outline: 0;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+}
+
+.aio-sdk-modal .aio-sdk-modal-button-success {
+    box-shadow: var(--aio-sdk-modal-button-success-bg) 0 0 0 0;
+    background: var(--aio-sdk-modal-button-success-bg);
+    border-color: var(--aio-sdk-modal-button-success-bg);
+    color: var(--aio-sdk-modal-button-success-color);
+}
+
+.aio-sdk-modal .aio-sdk-modal-button-intent {
+    box-shadow: #03875f 0 0 0 0;
+    background: #03875f;
+    border-color: #03875f;
+    color: var(--aio-sdk-modal-button-success-color);
+    display: flex;
+    justify-content: center;
+
+}
+.aio-sdk-modal .aio-sdk-modal-button-intent span{
+    display: flex;
+    align-items: end;
+    text-align: center;
+    gap: 5px;
+}
+
+.aio-sdk-modal .aio-sdk-modal-button-danger {
+    box-shadow: var(--aio-sdk-modal-button-danger-bg) 0 0 0 0;
+    background: var(--aio-sdk-modal-button-danger-bg);
+    border-color: var(--aio-sdk-modal-button-danger-bg);
+    color: var(--aio-sdk-modal-button-danger-color);
+}

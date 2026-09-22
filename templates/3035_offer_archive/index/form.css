@@ -1,0 +1,291 @@
+#Send-Us-Message {
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 19px 0 rgba(0, 0, 0, 0.15);
+    background: #fff;
+    margin: 30px 0;
+}
+
+#Send-Us-Message h3 {
+    padding: 0 27px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    color: #000;
+}
+
+#Send-Us-Message h3 span {
+    font-weight: 600;
+    color: #0076ec;
+}
+
+#Send-Us-Message .form-photo {
+    max-width: 422px;
+    padding: 0;
+}
+
+#Send-Us-Message .form-photo img {
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+#Send-Us-Message h2 {
+    padding: 0 10px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 16px;
+}
+
+#cd-countdown {
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.form__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.cd-unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5px;
+    position: relative;
+}
+
+.cd-digits {
+    display: flex;
+}
+
+.cd-box {
+    background: #fff;
+    padding: 15px 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-width: 20px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0 2px;
+}
+
+.cd-label {
+    margin-top: 5px;
+    font-size: 0.6em;
+    color: #333;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -25px;
+    font-weight: bold;
+}
+
+.cd-separator {
+    color: black;
+    border-radius: 8px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+@media (max-width: 550px) {
+    .cd-box {
+        font-size: 18px;
+    }
+
+    .cd-separator {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    .cd-box {
+        font-size: 16px;
+        padding: 10px 13px;
+        min-width: initial;
+    }
+}
+
+@media (max-width: 450px) {
+    .cd-box {
+        font-size: 18px;
+        padding: 8px 12px;
+        min-width: initial;
+    }
+}
+
+@media (max-width: 400px) {
+    .cd-box {
+        font-size: 16px;
+        padding: 7px;
+        min-width: initial;
+    }
+}
+
+@media (max-width: 380px) {
+    .cd-box {
+        margin: 0 1.5px;
+    }
+}
+
+#custom-regbox {
+    padding: 0px 10px;
+}
+
+#Send-Us-Message input {
+    font-size: 16px;
+    margin-bottom: 16px;
+    width: 100%;
+    padding: 12px 15px;
+    box-sizing: border-box;
+    line-height: 1;
+    box-shadow: none;
+    font-family: Arial;
+    background: 0 0;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+}
+
+#Send-Us-Message input:focus {
+    outline: 0;
+    border: 1px solid #0076ec;
+}
+
+#Send-Us-Message button {
+    position: relative;
+    padding: 14px;
+    overflow: hidden;
+    color: #fff;
+    transition:
+        background 0.3s ease-in-out,
+        box-shadow 0.3s ease-in-out;
+    background: 0 0;
+    color: #fff !important;
+    width: 100%;
+    font-style: italic !important;
+    font-weight: 700 !important;
+    font-size: 22px !important;
+    text-transform: uppercase !important;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: Arial;
+    letter-spacing: 1px;
+    box-shadow: 3px 3px 6px #00000030;
+    margin: 20px 0;
+    background: #0076ec;
+}
+
+.form-footer {
+    box-sizing: border-box;
+    padding: 17px 27px;
+    width: 100%;
+    background: #0076ec;
+    border-radius: 0 0 15px 15px;
+    font-style: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+}
+
+.form-footer__logos {
+    display: flex;
+    justify-content: space-between;
+    gap: 7px;
+}
+
+.form-footer img {
+    margin: 7px auto;
+    width: 100%;
+    max-width: 150px;
+}
+
+@media (max-width: 560px) {
+    .form-footer__logos {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+.form-footer .reserved {
+    padding: 10px;
+    font-size: 12px;
+}
+
+#Send-Us-Message button:hover {
+    background: #016dd8;
+}
+
+#Send-Us-Message button:disabled,
+#Send-Us-Message button:disabled::before,
+#Send-Us-Message button:disabled:hover,
+#Send-Us-Message button:disabled:hover::before,
+#Send-Us-Message form:invalid button,
+#Send-Us-Message form:invalid button::before,
+#Send-Us-Message form:invalid button:hover,
+#Send-Us-Message form:invalid button:hover::before {
+    background: #5a5a5a;
+    opacity: 0.8;
+    cursor: not-allowed;
+    transition: none;
+    transform: none;
+    box-shadow: none;
+    color: #fff;
+}
+@media (max-width: 540px) {
+    .u-estructura {
+        padding: 0 16px;
+    }
+    #Send-Us-Message h3 {
+        padding: 0 15px;
+        font-size: 20px;
+        margin: 0;
+    }
+    #Send-Us-Message .form-photo {
+        margin: 0 15px;
+    }
+    #Send-Us-Message .form-photo img {
+        margin-bottom: 10px;
+    }
+}
+
+/* Iti_Flag */
+.iti {
+    display: block;
+    width: 100%;
+}
+
+.iti .iti__selected-dial-code {
+    margin-right: 4px;
+    color: #333333;
+}
+
+.iti__selected-dial-code {
+    /* font-family: "Helvetica Neue", sans-serif; */
+    font-family: "Wix Madefor Display", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 1px;
+}
+
+.form-footer p {
+    color: white !important;
+    margin-bottom: 0;
+}
+
+.iti__country-container {
+    padding-left: 14px;
+}

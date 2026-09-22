@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body.fk-success {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background:
+        radial-gradient(ellipse at top, rgba(255, 213, 67, 0.25) 0%, transparent 55%),
+        linear-gradient(180deg, #f7f7f9 0%, #ebecef 100%);
+    color: #222;
+}
+
+.fk-success-card {
+    width: 100%;
+    max-width: 480px;
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    padding: 40px 32px 36px;
+    text-align: center;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+    animation: fk-fade-in 0.5s ease;
+}
+
+@keyframes fk-fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(16px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fk-success-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 24px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #28a745 0%, #1acf66 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 24px rgba(40, 167, 69, 0.3);
+}
+
+.fk-success-icon svg {
+    width: 40px;
+    height: 40px;
+    fill: none;
+    stroke: #fff;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.fk-success-title {
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+    color: #222;
+}
+
+.fk-success-subtitle {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #333;
+}
+
+.fk-success-message {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 24px;
+}
+
+.fk-success-redirect {
+    font-size: 0.85rem;
+    color: #888;
+}
+
+.fk-success-redirect .fk-dots::after {
+    content: "";
+    animation: fk-dots 1.5s steps(4, end) infinite;
+}
+
+@keyframes fk-dots {
+    0% {
+        content: "";
+    }
+    25% {
+        content: ".";
+    }
+    50% {
+        content: "..";
+    }
+    75% {
+        content: "...";
+    }
+}
+
+body.fk-success[dir="rtl"] .fk-success-card {
+    text-align: center;
+}
+
+.fk-back-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 14px 28px;
+    min-height: 52px;
+    background: #ffd543;
+    color: #222;
+    border: 4px solid rgba(255, 213, 67, 0.3);
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    transition: background 0.25s ease;
+}
+
+.fk-back-btn:hover {
+    background: rgb(246, 206, 66);
+}
+
+.fk-error-card .fk-success-icon {
+    background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+    box-shadow: 0 8px 24px rgba(239, 68, 68, 0.3);
+}
+
+.fk-error-card .fk-success-title {
+    color: #b91c1c;
+}
