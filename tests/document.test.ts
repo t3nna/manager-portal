@@ -64,4 +64,15 @@ describe("Trader 3716 definition", () => {
     expect(html).toContain('type="button"');
     expect(html).not.toMatch(/<form[^>]+action=|<aside\b|lead-form|send\.php|form-kit/i);
   });
+
+  it("keeps editor metadata out of exported documents", () => {
+    const project = createProject("Campaign", "project-a");
+    const previewHtml = compileDocument(project, { mode: "preview", focusedBlockId: "hero" });
+    const exportHtml = compileDocument(project, { mode: "export", focusedBlockId: "hero" });
+
+    expect(previewHtml).toContain('data-block-id="hero"');
+    expect(previewHtml).toContain("preview-focused");
+    expect(exportHtml).not.toContain("data-block-id");
+    expect(exportHtml).not.toContain("preview-focused");
+  });
 });

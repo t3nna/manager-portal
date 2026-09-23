@@ -5,18 +5,20 @@ import { useMemo, useState, type CSSProperties, type FormEvent } from "react";
 import { DndContext, KeyboardSensor, PointerSensor, closestCenter, useSensor, useSensors, type DragEndEvent } from "@dnd-kit/core";
 import { SortableContext, arrayMove, sortableKeyboardCoordinates, useSortable, verticalListSortingStrategy } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
-import { ArrowLeft, ChevronDown, ChevronUp, FilePenLine, GripVertical, Monitor, Smartphone } from "lucide-react";
+import { ArrowLeft, ChevronDown, ChevronUp, Download, FilePenLine, GripVertical, Monitor, Smartphone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { compileDocument } from "@/lib/document";
+import { createExportFilename, getAttachmentFilename } from "@/lib/export";
 import type { BlockId } from "@/lib/projects";
 import { getTemplateDefinition } from "@/lib/templates/catalog";
 import type { BlockDefinition } from "@/lib/templates/types";
 import { useProjects } from "./project-provider";
 
 type PreviewSize = "desktop" | "mobile";
+type ExportStatus = { kind: "success" | "error"; message: string } | null;
 
 function SortableBlock({ block, index, isSelected, isFirst, isLast, onSelect, onMove }: {
   block: BlockDefinition;
@@ -56,6 +58,8 @@ export function ProjectEditor({ projectId }: { projectId: string }) {
   const [previewSize, setPreviewSize] = useState<PreviewSize>("desktop");
   const [nameError, setNameError] = useState<string | null>(null);
   const [moveStatus, setMoveStatus] = useState("");
+  const [isExporting, setIsExporting] = useState(false);
+  const [exportStatus, setExportStatus] = useState<ExportStatus>(null);
   const sensors = useSensors(
     useSensor(PointerSensor, { activationConstraint: { distance: 6 } }),
     useSensor(KeyboardSensor, { coordinateGetter: sortableKeyboardCoordinates }),
@@ -112,14 +116,55 @@ export function ProjectEditor({ projectId }: { projectId: string }) {
     setNameError(null);
   }
 
+  async function exportProject() {
+    setIsExporting(true);
+    setExportStatus(null);
+
+    try {
+      const response = await fetch("/api/export", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(currentProject),
+      });
+      if (!response.ok) {
+        const payload: unknown = await response.json().catch(() => null);
+        const message = typeof payload === "object" && payload !== null && "error" in payload && typeof payload.error === "string"
+          ? payload.error
+          : "The export could not be created. Please try again.";
+        throw new Error(message);
+      }
+
+      const blob = await response.blob();
+      if (blob.size === 0) throw new Error("The export was empty. Please try again.");
+      const filename = getAttachmentFilename(response.headers.get("content-disposition")) ?? createExportFilename(currentProject.name);
+      const downloadUrl = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = downloadUrl;
+      link.download = filename;
+      document.body.append(link);
+      link.click();
+      link.remove();
+      window.setTimeout(() => URL.revokeObjectURL(downloadUrl), 0);
+      setExportStatus({ kind: "success", message: `Download started: ${filename}` });
+    } catch (error) {
+      setExportStatus({ kind: "error", message: error instanceof Error ? error.message : "The export could not be created. Please try again." });
+    } finally {
+      setIsExporting(false);
+    }
+  }
+
   const previewWidth = previewSize === "desktop" ? 1440 : 390;
 
   return (
     <section className="space-y-6">
       <header className="flex flex-col gap-4 border-b border-slate-200 pb-6 lg:flex-row lg:items-end lg:justify-between">
         <div className="space-y-2"><p className="text-sm font-semibold text-blue-700">{template.name}</p><h1 className="text-3xl font-semibold tracking-tight text-slate-950">Project editor</h1><p className="max-w-2xl leading-7 text-slate-600">Edit plain text and arrange the landing-page sections. Changes stay in this browser session.</p></div>
-        <Button asChild variant="outline"><Link href="/"><ArrowLeft className="size-4" aria-hidden="true" />Back to projects</Link></Button>
+        <div className="flex flex-wrap items-center gap-3">
+          <Button type="button" onClick={exportProject} disabled={isExporting}><Download className="size-4" aria-hidden="true" />{isExporting ? "Preparing export…" : "Export HTML"}</Button>
+          <Button asChild variant="outline"><Link href="/"><ArrowLeft className="size-4" aria-hidden="true" />Back to projects</Link></Button>
+        </div>
       </header>
+      {exportStatus && <p role={exportStatus.kind === "error" ? "alert" : "status"} aria-live="polite" className={exportStatus.kind === "error" ? "text-sm text-red-700" : "text-sm text-emerald-700"}>{exportStatus.message}</p>}
 
       <form onSubmit={saveProjectName} className="flex flex-col gap-3 rounded-xl border border-slate-200 bg-white p-4 sm:flex-row sm:items-end">
         <div className="min-w-0 flex-1 space-y-2"><Label htmlFor="editor-project-name">Project name</Label><Input key={project.name} id="editor-project-name" name="project-name" defaultValue={project.name} onChange={() => { if (nameError) setNameError(null); }} aria-invalid={Boolean(nameError)} aria-describedby={nameError ? "editor-project-name-error" : undefined} /></div>

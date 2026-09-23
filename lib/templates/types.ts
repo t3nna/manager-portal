@@ -19,6 +19,7 @@ export type BlockDefinition = {
 
 export type TemplateRenderContext = {
   value: (fieldId: string) => string;
+  documentMode: "export" | "preview";
   previewFocusedBlockId?: BlockId;
 };
 
@@ -30,6 +31,7 @@ export type TemplateDefinition = {
   defaultBlockOrder: readonly BlockId[];
   fields: readonly FieldDefinition[];
   stylesheet: string;
+  previewStylesheet?: string;
   renderHeader: (context: TemplateRenderContext) => HtmlNode;
   renderBlock: (blockId: BlockId, context: TemplateRenderContext) => HtmlNode;
   renderFooter: (context: TemplateRenderContext) => HtmlNode;

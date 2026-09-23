@@ -1,6 +1,6 @@
 import { PROJECT_TEMPLATE_ID, type BlockId } from "@/lib/project-schema";
 import { element as h, text, type HtmlNode } from "@/lib/templates/html";
-import { trader3716Styles } from "@/lib/templates/trader-3716.css";
+import { trader3716PreviewStyles, trader3716Styles } from "@/lib/templates/trader-3716.css";
 import type { BlockDefinition, FieldDefinition, TemplateDefinition, TemplateRenderContext } from "@/lib/templates/types";
 
 const blocks: readonly BlockDefinition[] = [
@@ -68,7 +68,11 @@ const fields: readonly FieldDefinition[] = [
 
 const c = (value: string, className?: string) => h("div", className ? { class: className } : {}, [text(value)]);
 const placeholder = (value: string, className = "") => h("div", { class: `placeholder ${className}`, role: "img", "aria-label": value }, [text(value)]);
-const section = (id: BlockId, children: HtmlNode[], context: TemplateRenderContext, className = "section") => h("section", { id, class: `${className}${context.previewFocusedBlockId === id ? " preview-focused" : ""}`, "data-block-id": id }, children);
+const section = (id: BlockId, children: HtmlNode[], context: TemplateRenderContext, className = "section") => h("section", {
+  id,
+  class: `${className}${context.documentMode === "preview" && context.previewFocusedBlockId === id ? " preview-focused" : ""}`,
+  ...(context.documentMode === "preview" ? { "data-block-id": id } : {}),
+}, children);
 const heading = (eyebrow: string, title: string) => h("div", { class: "section-head" }, [h("span", { class: "eyebrow" }, [text(eyebrow)]), h("h2", {}, [text(title)])]);
 const v = (context: TemplateRenderContext, id: string) => context.value(id);
 
@@ -119,6 +123,7 @@ export const trader3716Template: TemplateDefinition = {
   defaultBlockOrder: ["hero", "registration-form", "press", "experts", "testimonials-primary", "calculator", "how-it-works", "testimonials-secondary", "statistics", "testimonials-community", "final-cta"],
   fields,
   stylesheet: trader3716Styles,
+  previewStylesheet: trader3716PreviewStyles,
   renderHeader: () => h("header", { class: "nav" }, [h("div", { class: "container nav-inner" }, [h("a", { class: "brand", href: "#hero" }, [text("TRADER")]), h("nav", { class: "nav-links", "aria-label": "Template navigation" }, [h("a", { href: "#how-it-works" }, [text("How it works")]), h("a", { href: "#calculator" }, [text("Calculator")]), h("a", { href: "#statistics" }, [text("Information")])]), h("a", { class: "nav-action", href: "#registration-form" }, [text("Open account")])])]),
   renderBlock,
   renderFooter: () => h("footer", {}, [h("div", { class: "container" }, [h("div", { class: "footer-top" }, [h("div", {}, [h("div", { class: "brand" }, [text("TRADER")]), h("p", {}, [text("Clear information for considered decisions.")])]), h("div", {}, [h("strong", {}, [text("Platform")]), h("p", {}, [text("How it works · Information · Contact")])])]), h("p", { class: "disclaimer" }, [text("Important: This static template is for demonstration only. It does not provide financial advice, make performance claims, or accept account applications. Consider independent professional advice before making financial decisions.")]), h("p", { class: "person-meta" }, [text("© 2026 Trader. All rights reserved.")])])]),

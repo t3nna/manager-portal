@@ -68,13 +68,14 @@ export function compileDocument(value: unknown, options: CompileOptions = {}) {
   const project = validateProjectDocument(value);
   const template = findTemplateDefinition(project.templateId);
   if (!template) invalid("Unknown template ID.");
-  const focusedBlockId = options.mode === "preview" ? options.focusedBlockId : undefined;
-  const context = { value: (fieldId: string) => contentValue(template, project, fieldId), previewFocusedBlockId: focusedBlockId };
+  const documentMode = options.mode ?? "export";
+  const focusedBlockId = documentMode === "preview" ? options.focusedBlockId : undefined;
+  const context = { value: (fieldId: string) => contentValue(template, project, fieldId), documentMode, previewFocusedBlockId: focusedBlockId };
   const head = h("head", {}, [
     h("meta", { charset: "utf-8" }),
     h("meta", { name: "viewport", content: "width=device-width, initial-scale=1" }),
     h("title", {}, [text(`${project.name} — ${template.name}`)]),
-    h("style", {}, [text(template.stylesheet)]),
+    h("style", {}, [text(`${template.stylesheet}${documentMode === "preview" ? template.previewStylesheet ?? "" : ""}`)]),
   ]);
   const body = h("body", {}, [template.renderHeader(context), h("main", {}, project.blockOrder.map((blockId) => template.renderBlock(blockId, context))), template.renderFooter(context)]);
   validateTemplateLocalLinks(body, new Set(template.blocks.map((block) => block.id)));
