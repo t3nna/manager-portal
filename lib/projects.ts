@@ -49,19 +49,21 @@ export function isValidProjectName(name: string) {
   return name.length >= 1 && name.length <= 80 && name === normalizeProjectName(name);
 }
 
-function hasExactBlockOrder(value: unknown): value is BlockId[] {
-  if (!Array.isArray(value) || value.length !== TRADER_3716_BLOCK_IDS.length) return false;
-  const expected = new Set<string>(TRADER_3716_BLOCK_IDS);
+function hasExactBlockOrder(value: unknown, expectedBlockIds: readonly BlockId[]): value is BlockId[] {
+  if (!Array.isArray(value) || value.length !== expectedBlockIds.length) return false;
+  const expected = new Set<string>(expectedBlockIds);
   const actual = new Set(value);
-  return actual.size === TRADER_3716_BLOCK_IDS.length && value.every((blockId) => typeof blockId === "string" && expected.has(blockId));
+  return actual.size === expectedBlockIds.length && value.every((blockId) => typeof blockId === "string" && expected.has(blockId));
 }
 
-function hasStringContent(value: unknown): value is Record<string, string> {
-  return isRecord(value) && Object.values(value).every((item) => typeof item === "string");
+function hasKnownStringContent(value: unknown, fieldIds: ReadonlySet<string>): value is Record<string, string> {
+  return isRecord(value) && Object.entries(value).every(([fieldId, item]) => fieldIds.has(fieldId) && typeof item === "string");
 }
 
 export function isValidProject(value: unknown): value is Project {
-  return isRecord(value) && value.schemaVersion === PROJECT_SCHEMA_VERSION && typeof value.id === "string" && value.id.length > 0 && value.id.length <= 128 && typeof value.name === "string" && isValidProjectName(value.name) && value.templateId === PROJECT_TEMPLATE_ID && hasStringContent(value.content) && hasExactBlockOrder(value.blockOrder);
+  if (!isRecord(value) || value.schemaVersion !== PROJECT_SCHEMA_VERSION || typeof value.id !== "string" || value.id.length === 0 || value.id.length > 128 || typeof value.name !== "string" || !isValidProjectName(value.name) || value.templateId !== PROJECT_TEMPLATE_ID) return false;
+  const template = getTemplateDefinition(value.templateId);
+  return hasKnownStringContent(value.content, new Set(template.fields.map((field) => field.id))) && hasExactBlockOrder(value.blockOrder, template.defaultBlockOrder);
 }
 
 export function createProject(name: string, id: string): Project {
@@ -81,6 +83,21 @@ export function renameProject(project: Project, name: string): Project {
   const normalizedName = normalizeProjectName(name);
   if (!isValidProjectName(normalizedName)) throw new Error("A project name must contain 1 to 80 characters.");
   return { ...project, name: normalizedName };
+}
+
+/** Applies a single declared plain-text field override without accepting arbitrary keys. */
+export function updateProjectContent(project: Project, fieldId: string, value: string): Project {
+  const template = getTemplateDefinition(project.templateId);
+  if (typeof value !== "string") throw new Error("Project content must be plain text.");
+  if (!template.fields.some((field) => field.id === fieldId)) throw new Error("Unknown template field.");
+  return { ...project, content: { ...project.content, [fieldId]: value } };
+}
+
+/** Replaces the main-block order only when it contains the catalog's complete block set exactly once. */
+export function reorderProjectBlocks(project: Project, blockOrder: readonly string[]): Project {
+  const template = getTemplateDefinition(project.templateId);
+  if (!hasExactBlockOrder(blockOrder, template.defaultBlockOrder)) throw new Error("Block order must contain every template block exactly once.");
+  return { ...project, blockOrder: [...blockOrder] };
 }
 
 function isStoredProjects(value: unknown): value is StoredProjects {

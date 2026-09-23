@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { createProject, PROJECT_SCHEMA_VERSION, PROJECT_STORAGE_KEY, renameProject, SessionProjectRepository, TRADER_3716_BLOCK_IDS } from "@/lib/projects";
+import { createProject, isValidProject, PROJECT_SCHEMA_VERSION, PROJECT_STORAGE_KEY, renameProject, reorderProjectBlocks, SessionProjectRepository, TRADER_3716_BLOCK_IDS, updateProjectContent } from "@/lib/projects";
 import { getTemplateDefinition } from "@/lib/templates/catalog";
 
 class MemoryStorage {
@@ -26,6 +26,22 @@ describe("session project repository", () => {
     expect(() => renameProject(project, " ")).toThrow("1 to 80");
   });
 
+  it("accepts only declared plain-text fields", () => {
+    const project = createProject("Campaign", "project-a");
+    const updated = updateProjectContent(project, "hero-title", "A new heading");
+    expect(updated.content).toEqual({ "hero-title": "A new heading" });
+    expect(() => updateProjectContent(project, "navigation-label", "Unsafe")) .toThrow("Unknown template field");
+    expect(isValidProject({ ...project, content: { "navigation-label": "Unsafe" } })).toBe(false);
+  });
+
+  it("persists only complete template block orders", () => {
+    const project = createProject("Campaign", "project-a");
+    const reordered = reorderProjectBlocks(project, ["press", ...project.blockOrder.filter((blockId) => blockId !== "press")]);
+    expect(reordered.blockOrder.slice(0, 2)).toEqual(["press", "hero"]);
+    expect(() => reorderProjectBlocks(project, ["hero", "header", ...project.blockOrder.slice(2)])).toThrow("every template block");
+    expect(() => reorderProjectBlocks(project, ["hero", "hero", ...project.blockOrder.slice(2)])).toThrow("every template block");
+  });
+
   it("lists, persists, and deletes projects", () => {
     const storage = new MemoryStorage();
     const repository = new SessionProjectRepository(storage);
@@ -45,6 +61,17 @@ describe("session project repository", () => {
     expect(result.recovered).toBe(true);
     expect(result.projects).toEqual([valid]);
     expect(JSON.parse(storage.getItem(PROJECT_STORAGE_KEY) ?? "{}").projects).toEqual([valid]);
+  });
+
+  it("recovers from projects with unknown content fields or block IDs", () => {
+    const storage = new MemoryStorage();
+    const valid = createProject("Keep me", "project-a");
+    const unknownField = { ...valid, id: "project-b", content: { "not-a-template-field": "value" } };
+    const unknownBlock = { ...valid, id: "project-c", blockOrder: ["header", ...valid.blockOrder.slice(1)] };
+    storage.setItem(PROJECT_STORAGE_KEY, JSON.stringify({ schemaVersion: PROJECT_SCHEMA_VERSION, projects: [valid, unknownField, unknownBlock] }));
+    const result = new SessionProjectRepository(storage).hydrate();
+    expect(result.projects).toEqual([valid]);
+    expect(result.recovered).toBe(true);
   });
 
   it("clears malformed or obsolete session data", () => {

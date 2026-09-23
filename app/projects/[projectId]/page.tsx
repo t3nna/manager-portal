@@ -1,6 +1,6 @@
-import { ProjectEditorPlaceholder } from "@/components/projects/project-editor-placeholder";
+import { ProjectEditor } from "@/components/projects/project-editor";
 
 export default async function ProjectPage({ params }: { params: Promise<{ projectId: string }> }) {
   const { projectId } = await params;
-  return <ProjectEditorPlaceholder projectId={projectId} />;
+  return <ProjectEditor projectId={projectId} />;
 }

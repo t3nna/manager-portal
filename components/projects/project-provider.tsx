@@ -1,7 +1,7 @@
 "use client";
 
-import { createContext, useCallback, useContext, useEffect, useMemo, useState, useSyncExternalStore, type ReactNode } from "react";
-import { createProject, renameProject as renameStoredProject, type Project, SessionProjectRepository } from "@/lib/projects";
+import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
+import { createProject, renameProject as renameStoredProject, reorderProjectBlocks as reorderStoredProjectBlocks, type Project, SessionProjectRepository, updateProjectContent as updateStoredProjectContent } from "@/lib/projects";
 
 type ProjectContextValue = {
   projects: Project[];
@@ -10,6 +10,8 @@ type ProjectContextValue = {
   recoveredSession: boolean;
   createProject: (name: string) => Project;
   renameProject: (id: string, name: string) => boolean;
+  updateProjectContent: (id: string, fieldId: string, value: string) => boolean;
+  reorderProjectBlocks: (id: string, blockOrder: readonly string[]) => boolean;
   deleteProject: (id: string) => void;
   getProject: (id: string) => Project | undefined;
 };
@@ -26,7 +28,7 @@ class ProjectStore {
 
   subscribe = (listener: () => void) => {
     this.listeners.add(listener);
-    return () => this.listeners.delete(listener);
+    return () => { this.listeners.delete(listener); };
   };
 
   hydrateClient() {
@@ -54,9 +56,16 @@ class ProjectStore {
 
 export function ProjectProvider({ children }: { children: ReactNode }) {
   const [store] = useState(() => new ProjectStore());
-  const snapshot = useSyncExternalStore(store.subscribe, store.getSnapshot, () => serverSnapshot);
+  const [snapshot, setSnapshot] = useState<StoreSnapshot>(serverSnapshot);
   useEffect(() => {
-    store.hydrateClient();
+    const unsubscribe = store.subscribe(() => {
+      queueMicrotask(() => setSnapshot(store.getSnapshot()));
+    });
+    queueMicrotask(() => {
+      store.hydrateClient();
+      setSnapshot(store.getSnapshot());
+    });
+    return unsubscribe;
   }, [store]);
 
   const handleCreateProject = useCallback((name: string) => {
@@ -77,12 +86,36 @@ export function ProjectProvider({ children }: { children: ReactNode }) {
     }
   }, [store]);
 
+  const updateProjectContent = useCallback((id: string, fieldId: string, value: string) => {
+    const existingProject = store.getSnapshot().projects.find((project) => project.id === id);
+    if (!existingProject) return false;
+    try {
+      const updatedProject = updateStoredProjectContent(existingProject, fieldId, value);
+      store.update(store.getSnapshot().projects.map((project) => project.id === id ? updatedProject : project));
+      return true;
+    } catch {
+      return false;
+    }
+  }, [store]);
+
+  const reorderProjectBlocks = useCallback((id: string, blockOrder: readonly string[]) => {
+    const existingProject = store.getSnapshot().projects.find((project) => project.id === id);
+    if (!existingProject) return false;
+    try {
+      const updatedProject = reorderStoredProjectBlocks(existingProject, blockOrder);
+      store.update(store.getSnapshot().projects.map((project) => project.id === id ? updatedProject : project));
+      return true;
+    } catch {
+      return false;
+    }
+  }, [store]);
+
   const deleteProject = useCallback((id: string) => {
     store.update(store.getSnapshot().projects.filter((project) => project.id !== id));
   }, [store]);
 
   const getProject = useCallback((id: string) => store.getSnapshot().projects.find((project) => project.id === id), [store]);
-  const value = useMemo(() => ({ ...snapshot, createProject: handleCreateProject, renameProject, deleteProject, getProject }), [deleteProject, getProject, handleCreateProject, renameProject, snapshot]);
+  const value = useMemo(() => ({ ...snapshot, createProject: handleCreateProject, renameProject, updateProjectContent, reorderProjectBlocks, deleteProject, getProject }), [deleteProject, getProject, handleCreateProject, renameProject, reorderProjectBlocks, snapshot, updateProjectContent]);
 
   return <ProjectContext.Provider value={value}>{children}</ProjectContext.Provider>;
 }
