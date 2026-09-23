@@ -1,6 +1,6 @@
 import { PROJECT_SCHEMA_VERSION, type BlockId, type Project } from "@/lib/project-schema";
 import { findTemplateDefinition } from "@/lib/templates/catalog";
-import { element as h, serializeHtml, text } from "@/lib/templates/html";
+import { element as h, serializeHtml, text, type HtmlNode } from "@/lib/templates/html";
 import type { TemplateDefinition } from "@/lib/templates/types";
 
 export type DocumentMode = "export" | "preview";
@@ -52,6 +52,18 @@ function contentValue(template: TemplateDefinition, project: Project, fieldId: s
   return project.content[fieldId] ?? field.defaultValue;
 }
 
+/** Template anchors are navigation within the compiled document, never outbound links. */
+function validateTemplateLocalLinks(node: HtmlNode, allowedBlockIds: ReadonlySet<string>): void {
+  if (node.type !== "element") return;
+  if (node.tag === "a") {
+    const href = node.attributes?.href;
+    if (typeof href !== "string" || !href.startsWith("#") || href.length === 1 || !allowedBlockIds.has(href.slice(1))) {
+      invalid(`Template link must target a declared page section: ${String(href)}`);
+    }
+  }
+  node.children?.forEach((child) => validateTemplateLocalLinks(child, allowedBlockIds));
+}
+
 export function compileDocument(value: unknown, options: CompileOptions = {}) {
   const project = validateProjectDocument(value);
   const template = findTemplateDefinition(project.templateId);
@@ -65,5 +77,6 @@ export function compileDocument(value: unknown, options: CompileOptions = {}) {
     h("style", {}, [text(template.stylesheet)]),
   ]);
   const body = h("body", {}, [template.renderHeader(context), h("main", {}, project.blockOrder.map((blockId) => template.renderBlock(blockId, context))), template.renderFooter(context)]);
+  validateTemplateLocalLinks(body, new Set(template.blocks.map((block) => block.id)));
   return `<!doctype html>${serializeHtml(h("html", { lang: "en" }, [head, body]))}`;
 }

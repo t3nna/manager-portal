@@ -19,6 +19,17 @@ describe("static document compiler", () => {
     expect(html).not.toMatch(/<link\b|<script\b|<\?php|send\.php|form-kit|tracking/i);
   });
 
+  it("allows only declared same-document section links", () => {
+    const project = createProject("Campaign", "project-a");
+    const html = compileDocument(project);
+    const hrefs = [...html.matchAll(/<a\b[^>]*\bhref="([^"]+)"/g)].map((match) => match[1]);
+    const targets = new Set(project.blockOrder.map((blockId) => `#${blockId}`));
+
+    expect(hrefs).toEqual(["#hero", "#how-it-works", "#calculator", "#statistics", "#registration-form", "#registration-form", "#registration-form"]);
+    expect(hrefs.every((href) => href.startsWith("#") && href.length > 1 && targets.has(href))).toBe(true);
+    expect(html).toContain('class="nav-action" href="#registration-form"');
+  });
+
   it.each([
     ["unknown template", { ...createProject("Campaign", "project-a"), templateId: "unknown" }],
     ["unknown field", { ...createProject("Campaign", "project-a"), content: { unknown: "value" } }],
