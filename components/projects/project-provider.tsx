@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useCallback, useContext, useMemo, useState, useSyncExternalStore, type ReactNode } from "react";
+import { createContext, useCallback, useContext, useEffect, useMemo, useState, useSyncExternalStore, type ReactNode } from "react";
 import { createProject, renameProject as renameStoredProject, type Project, SessionProjectRepository } from "@/lib/projects";
 
 type ProjectContextValue = {
@@ -29,6 +29,11 @@ class ProjectStore {
     return () => this.listeners.delete(listener);
   };
 
+  hydrateClient() {
+    this.getSnapshot();
+    this.listeners.forEach((listener) => listener());
+  }
+
   getSnapshot = () => {
     if (this.snapshot) return this.snapshot;
     if (typeof window === "undefined") return serverSnapshot;
@@ -50,6 +55,9 @@ class ProjectStore {
 export function ProjectProvider({ children }: { children: ReactNode }) {
   const [store] = useState(() => new ProjectStore());
   const snapshot = useSyncExternalStore(store.subscribe, store.getSnapshot, () => serverSnapshot);
+  useEffect(() => {
+    store.hydrateClient();
+  }, [store]);
 
   const handleCreateProject = useCallback((name: string) => {
     const project = createProject(name, crypto.randomUUID());

@@ -1,22 +1,22 @@
-export const PROJECT_SCHEMA_VERSION = 1 as const;
-export const PROJECT_STORAGE_KEY = "manager-portal.projects.v1";
-export const PROJECT_TEMPLATE_ID = "trader-3716" as const;
+import { getTemplateDefinition } from "@/lib/templates/catalog";
+import {
+  PROJECT_SCHEMA_VERSION,
+  PROJECT_STORAGE_KEY,
+  PROJECT_TEMPLATE_ID,
+  TRADER_3716_BLOCK_IDS,
+  type BlockId,
+  type Project,
+  type TemplateId,
+} from "@/lib/project-schema";
 
-export const TRADER_3716_BLOCK_IDS = [
-  "hero", "press", "experts", "testimonials-primary", "calculator", "how-it-works",
-  "testimonials-secondary", "statistics", "testimonials-community", "final-cta", "registration-form",
-] as const;
-
-export type BlockId = (typeof TRADER_3716_BLOCK_IDS)[number];
-export type TemplateId = typeof PROJECT_TEMPLATE_ID;
-
-export type Project = {
-  schemaVersion: typeof PROJECT_SCHEMA_VERSION;
-  id: string;
-  name: string;
-  templateId: TemplateId;
-  content: Record<string, string>;
-  blockOrder: BlockId[];
+export {
+  PROJECT_SCHEMA_VERSION,
+  PROJECT_STORAGE_KEY,
+  PROJECT_TEMPLATE_ID,
+  TRADER_3716_BLOCK_IDS,
+  type BlockId,
+  type Project,
+  type TemplateId,
 };
 
 export type TemplateCatalogEntry = {
@@ -30,7 +30,7 @@ export const TEMPLATE_CATALOG: readonly TemplateCatalogEntry[] = [{
   id: PROJECT_TEMPLATE_ID,
   name: "Trader 3716",
   description: "A long-form digital wealth landing page.",
-  defaultBlockOrder: TRADER_3716_BLOCK_IDS,
+  defaultBlockOrder: getTemplateDefinition(PROJECT_TEMPLATE_ID).defaultBlockOrder,
 }];
 
 type StoredProjects = { schemaVersion: typeof PROJECT_SCHEMA_VERSION; projects: Project[] };
@@ -67,7 +67,14 @@ export function isValidProject(value: unknown): value is Project {
 export function createProject(name: string, id: string): Project {
   const normalizedName = normalizeProjectName(name);
   if (!isValidProjectName(normalizedName)) throw new Error("A project name must contain 1 to 80 characters.");
-  return { schemaVersion: PROJECT_SCHEMA_VERSION, id, name: normalizedName, templateId: PROJECT_TEMPLATE_ID, content: {}, blockOrder: [...TRADER_3716_BLOCK_IDS] };
+  return {
+    schemaVersion: PROJECT_SCHEMA_VERSION,
+    id,
+    name: normalizedName,
+    templateId: PROJECT_TEMPLATE_ID,
+    content: {},
+    blockOrder: [...getTemplateDefinition(PROJECT_TEMPLATE_ID).defaultBlockOrder],
+  };
 }
 
 export function renameProject(project: Project, name: string): Project {

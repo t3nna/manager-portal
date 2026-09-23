@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { createProject, PROJECT_SCHEMA_VERSION, PROJECT_STORAGE_KEY, renameProject, SessionProjectRepository, TRADER_3716_BLOCK_IDS } from "@/lib/projects";
+import { getTemplateDefinition } from "@/lib/templates/catalog";
 
 class MemoryStorage {
   private values = new Map<string, string>();
@@ -14,7 +15,9 @@ describe("session project repository", () => {
     expect(project.name).toBe("Spring campaign");
     expect(project.templateId).toBe("trader-3716");
     expect(project.content).toEqual({});
-    expect(project.blockOrder).toEqual(TRADER_3716_BLOCK_IDS);
+    expect(project.blockOrder).toEqual(getTemplateDefinition("trader-3716").defaultBlockOrder);
+    expect(project.blockOrder).toContain("registration-form");
+    expect(TRADER_3716_BLOCK_IDS).toContain("registration-form");
   });
 
   it("renames a valid project and rejects invalid names", () => {
