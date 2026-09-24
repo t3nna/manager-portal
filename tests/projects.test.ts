@@ -20,6 +20,13 @@ describe("session project repository", () => {
     expect(TRADER_3716_BLOCK_IDS).toContain("registration-form");
   });
 
+  it("creates projects from a selected catalog template", () => {
+    const project = createProject("Editorial", "project-editorial", "article-3035");
+    expect(project.templateId).toBe("article-3035");
+    expect(project.blockOrder).toEqual(getTemplateDefinition("article-3035").defaultBlockOrder);
+    expect(isValidProject(project)).toBe(true);
+  });
+
   it("renames a valid project and rejects invalid names", () => {
     const project = createProject("Campaign", "project-a");
     expect(renameProject(project, "  Updated campaign ").name).toBe("Updated campaign");

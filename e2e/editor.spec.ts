@@ -8,6 +8,13 @@ async function readDownload(download: import("@playwright/test").Download) {
   return Buffer.concat(chunks).toString("utf8");
 }
 
+async function createTemplateProject(page: import("@playwright/test").Page, name: string, templateName: string) {
+  await page.getByRole("button", { name: "New project" }).click();
+  await page.getByLabel("Project name").fill(name);
+  await page.locator("label").filter({ hasText: templateName }).click();
+  await page.getByRole("button", { name: "Create project" }).click();
+}
+
 test("edits, reorders, and restores a session project", async ({ page }) => {
   await page.goto("/");
   await page.getByRole("button", { name: "New project" }).click();
@@ -79,4 +86,35 @@ test("exports the edited document as an HTML download", async ({ page }) => {
   expect(html).toContain("<style>");
   expect(html).not.toMatch(/<link\b|<script\b|<\?php|send\.php|form-kit|preview-focused|data-block-id/i);
   await expect(page.getByText(/^Download started:/)).toBeVisible();
+});
+
+const editorialTemplates = [
+  { templateName: "Editorial Article 3035", section: "Feature overview", fieldValue: "An edited article panel", movedSection: "Reader notice", expectedId: "notice-cta" },
+  { templateName: "Editorial Article 2975", section: "Explainer", fieldValue: "An edited explainer", movedSection: "Explainer", expectedId: "explainer" },
+];
+
+for (const template of editorialTemplates) test(`edits, reorders, restores, and exports ${template.templateName}`, async ({ page }) => {
+  await page.goto("/");
+  await page.evaluate(() => window.sessionStorage.clear());
+  await page.reload();
+  await createTemplateProject(page, `${template.templateName} project`, template.templateName);
+
+  await expect(page.getByText(template.templateName, { exact: true }).first()).toBeVisible();
+  await page.getByRole("button", { name: template.section, exact: true }).click();
+  await page.getByLabel("Heading", { exact: true }).fill(template.fieldValue);
+  const preview = page.frameLocator('iframe[title="Template preview"]');
+  await expect(preview.getByRole("heading", { name: template.fieldValue })).toBeVisible();
+
+  await page.getByRole("button", { name: `Move ${template.movedSection} down` }).click();
+  await expect(preview.locator(`#${template.expectedId}`)).toBeVisible();
+  await page.reload();
+  await page.getByRole("button", { name: template.section, exact: true }).click();
+  await expect(page.getByLabel("Heading", { exact: true })).toHaveValue(template.fieldValue);
+
+  const downloadPromise = page.waitForEvent("download");
+  await page.getByRole("button", { name: "Export HTML" }).click();
+  const html = await readDownload(await downloadPromise);
+  expect(html).toContain(template.fieldValue);
+  expect(html).toContain('type="button" disabled');
+  expect(html).not.toMatch(/<link\b|<script\b|<\?php|send\.php|form-kit|tracking|countdown|cnn|globo|g1/i);
 });

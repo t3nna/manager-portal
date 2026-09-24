@@ -32,7 +32,7 @@ export type TemplateDefinition = {
   fields: readonly FieldDefinition[];
   stylesheet: string;
   previewStylesheet?: string;
-  renderHeader: (context: TemplateRenderContext) => HtmlNode;
   renderBlock: (blockId: BlockId, context: TemplateRenderContext) => HtmlNode;
-  renderFooter: (context: TemplateRenderContext) => HtmlNode;
+  /** Owns the locked shell around the ordered, manager-editable block nodes. */
+  renderDocument: (context: TemplateRenderContext, blocks: HtmlNode[]) => HtmlNode;
 };

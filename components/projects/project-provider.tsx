@@ -1,14 +1,14 @@
 "use client";
 
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
-import { createProject, renameProject as renameStoredProject, reorderProjectBlocks as reorderStoredProjectBlocks, type Project, SessionProjectRepository, updateProjectContent as updateStoredProjectContent } from "@/lib/projects";
+import { createProject, renameProject as renameStoredProject, reorderProjectBlocks as reorderStoredProjectBlocks, type Project, SessionProjectRepository, type TemplateId, updateProjectContent as updateStoredProjectContent } from "@/lib/projects";
 
 type ProjectContextValue = {
   projects: Project[];
   hydrated: boolean;
   persistenceWarning: boolean;
   recoveredSession: boolean;
-  createProject: (name: string) => Project;
+  createProject: (name: string, templateId: TemplateId) => Project;
   renameProject: (id: string, name: string) => boolean;
   updateProjectContent: (id: string, fieldId: string, value: string) => boolean;
   reorderProjectBlocks: (id: string, blockOrder: readonly string[]) => boolean;
@@ -68,8 +68,8 @@ export function ProjectProvider({ children }: { children: ReactNode }) {
     return unsubscribe;
   }, [store]);
 
-  const handleCreateProject = useCallback((name: string) => {
-    const project = createProject(name, crypto.randomUUID());
+  const handleCreateProject = useCallback((name: string, templateId: TemplateId) => {
+    const project = createProject(name, crypto.randomUUID(), templateId);
     store.update([...store.getSnapshot().projects, project]);
     return project;
   }, [store]);

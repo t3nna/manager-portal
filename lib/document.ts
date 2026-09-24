@@ -77,7 +77,8 @@ export function compileDocument(value: unknown, options: CompileOptions = {}) {
     h("title", {}, [text(`${project.name} — ${template.name}`)]),
     h("style", {}, [text(`${template.stylesheet}${documentMode === "preview" ? template.previewStylesheet ?? "" : ""}`)]),
   ]);
-  const body = h("body", {}, [template.renderHeader(context), h("main", {}, project.blockOrder.map((blockId) => template.renderBlock(blockId, context))), template.renderFooter(context)]);
+  const blocks = project.blockOrder.map((blockId) => template.renderBlock(blockId, context));
+  const body = h("body", {}, [template.renderDocument(context, blocks)]);
   validateTemplateLocalLinks(body, new Set(template.blocks.map((block) => block.id)));
   return `<!doctype html>${serializeHtml(h("html", { lang: "en" }, [head, body]))}`;
 }

@@ -1,4 +1,4 @@
-import { PROJECT_TEMPLATE_ID, type BlockId } from "@/lib/project-schema";
+import { DEFAULT_TEMPLATE_ID, type BlockId } from "@/lib/project-schema";
 import { element as h, text, type HtmlNode } from "@/lib/templates/html";
 import { trader3716PreviewStyles, trader3716Styles } from "@/lib/templates/trader-3716.css";
 import type { BlockDefinition, FieldDefinition, TemplateDefinition, TemplateRenderContext } from "@/lib/templates/types";
@@ -112,11 +112,12 @@ function renderBlock(blockId: BlockId, context: TemplateRenderContext): HtmlNode
     }
     case "testimonials-community": return section(blockId, [h("div", { class: "container" }, [heading(v(context, "community-eyebrow"), v(context, "community-title")), h("div", { class: "community-track" }, Array.from({ length: 12 }, (_, index) => memberCard(`community-${(index % 6) + 1}`, context)))])], context);
     case "final-cta": return section(blockId, [h("div", { class: "wrap" }, [h("span", { class: "eyebrow" }, [text(v(context, "final-eyebrow"))]), h("h2", {}, [text(v(context, "final-title"))]), h("p", { class: "lead" }, [text(v(context, "final-copy"))]), h("a", { class: "btn", href: "#registration-form" }, [text(v(context, "final-button"))])])], context, "section final");
+    default: throw new Error(`Unknown Trader block: ${blockId}`);
   }
 }
 
 export const trader3716Template: TemplateDefinition = {
-  id: PROJECT_TEMPLATE_ID,
+  id: DEFAULT_TEMPLATE_ID,
   name: "Trader 3716",
   description: "A long-form digital wealth landing page.",
   blocks,
@@ -124,7 +125,10 @@ export const trader3716Template: TemplateDefinition = {
   fields,
   stylesheet: trader3716Styles,
   previewStylesheet: trader3716PreviewStyles,
-  renderHeader: () => h("header", { class: "nav" }, [h("div", { class: "container nav-inner" }, [h("a", { class: "brand", href: "#hero" }, [text("TRADER")]), h("nav", { class: "nav-links", "aria-label": "Template navigation" }, [h("a", { href: "#how-it-works" }, [text("How it works")]), h("a", { href: "#calculator" }, [text("Calculator")]), h("a", { href: "#statistics" }, [text("Information")])]), h("a", { class: "nav-action", href: "#registration-form" }, [text("Open account")])])]),
   renderBlock,
-  renderFooter: () => h("footer", {}, [h("div", { class: "container" }, [h("div", { class: "footer-top" }, [h("div", {}, [h("div", { class: "brand" }, [text("TRADER")]), h("p", {}, [text("Clear information for considered decisions.")])]), h("div", {}, [h("strong", {}, [text("Platform")]), h("p", {}, [text("How it works · Information · Contact")])])]), h("p", { class: "disclaimer" }, [text("Important: This static template is for demonstration only. It does not provide financial advice, make performance claims, or accept account applications. Consider independent professional advice before making financial decisions.")]), h("p", { class: "person-meta" }, [text("© 2026 Trader. All rights reserved.")])])]),
+  renderDocument: (_context, pageBlocks) => h("div", {}, [
+    h("header", { class: "nav" }, [h("div", { class: "container nav-inner" }, [h("a", { class: "brand", href: "#hero" }, [text("TRADER")]), h("nav", { class: "nav-links", "aria-label": "Template navigation" }, [h("a", { href: "#how-it-works" }, [text("How it works")]), h("a", { href: "#calculator" }, [text("Calculator")]), h("a", { href: "#statistics" }, [text("Information")])]), h("a", { class: "nav-action", href: "#registration-form" }, [text("Open account")])])]),
+    h("main", {}, pageBlocks),
+    h("footer", {}, [h("div", { class: "container" }, [h("div", { class: "footer-top" }, [h("div", {}, [h("div", { class: "brand" }, [text("TRADER")]), h("p", {}, [text("Clear information for considered decisions.")])]), h("div", {}, [h("strong", {}, [text("Platform")]), h("p", {}, [text("How it works · Information · Contact")])])]), h("p", { class: "disclaimer" }, [text("Important: This static template is for demonstration only. It does not provide financial advice, make performance claims, or accept account applications. Consider independent professional advice before making financial decisions.")]), h("p", { class: "person-meta" }, [text("© 2026 Trader. All rights reserved.")])])]),
+  ]),
 };

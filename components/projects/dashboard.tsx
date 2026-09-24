@@ -10,7 +10,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { TEMPLATE_CATALOG } from "@/lib/projects";
+import { DEFAULT_TEMPLATE_ID, TEMPLATE_CATALOG, type TemplateId } from "@/lib/projects";
 import { useProjects } from "./project-provider";
 
 function SessionNotice({ persistenceWarning, recoveredSession }: { persistenceWarning: boolean; recoveredSession: boolean }) {
@@ -28,9 +28,10 @@ export function Dashboard() {
   const { projects, hydrated, persistenceWarning, recoveredSession, createProject, deleteProject } = useProjects();
   const [createOpen, setCreateOpen] = useState(false);
   const [projectName, setProjectName] = useState("");
+  const [selectedTemplateId, setSelectedTemplateId] = useState<TemplateId>(DEFAULT_TEMPLATE_ID);
   const [nameError, setNameError] = useState<string | null>(null);
   const [projectToDelete, setProjectToDelete] = useState<string | null>(null);
-  const template = TEMPLATE_CATALOG[0];
+  const selectedTemplate = TEMPLATE_CATALOG.find((template) => template.id === selectedTemplateId) ?? TEMPLATE_CATALOG[0];
 
   function submitProject(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -39,7 +40,7 @@ export function Dashboard() {
       setNameError("Enter a project name between 1 and 80 characters.");
       return;
     }
-    const project = createProject(trimmedName);
+    const project = createProject(trimmedName, selectedTemplate.id);
     setProjectName("");
     setNameError(null);
     setCreateOpen(false);
@@ -50,6 +51,7 @@ export function Dashboard() {
     setCreateOpen(open);
     if (!open) {
       setProjectName("");
+      setSelectedTemplateId(DEFAULT_TEMPLATE_ID);
       setNameError(null);
     }
   }
@@ -75,7 +77,7 @@ export function Dashboard() {
         <section className="grid min-h-72 place-items-center rounded-xl border border-dashed border-slate-300 bg-white p-8 text-center">
           <div className="max-w-sm space-y-4">
             <span className="mx-auto grid size-12 place-items-center rounded-full bg-slate-100 text-slate-700"><FolderOpen className="size-6" aria-hidden="true" /></span>
-            <div className="space-y-2"><h2 className="text-lg font-semibold text-slate-950">No projects yet</h2><p className="text-sm leading-6 text-slate-600">Start with the Trader 3716 template and prepare its content in the editor.</p></div>
+            <div className="space-y-2"><h2 className="text-lg font-semibold text-slate-950">No projects yet</h2><p className="text-sm leading-6 text-slate-600">Choose a landing page or editorial template and prepare its content in the editor.</p></div>
             <Button onClick={() => setCreateOpen(true)}><FilePlus2 className="size-4" aria-hidden="true" />Create project</Button>
           </div>
         </section>
@@ -83,7 +85,7 @@ export function Dashboard() {
         <section aria-label="Projects" className="grid gap-4 md:grid-cols-2">
           {projects.map((project) => (
             <Card key={project.id} className="flex flex-col">
-              <CardHeader><CardTitle>{project.name}</CardTitle><CardDescription>{template.name} · Ready for editing</CardDescription></CardHeader>
+              <CardHeader><CardTitle>{project.name}</CardTitle><CardDescription>{TEMPLATE_CATALOG.find((template) => template.id === project.templateId)?.name ?? "Template"} · Ready for editing</CardDescription></CardHeader>
               <CardContent className="flex-1"><p className="text-sm leading-6 text-slate-600">Your content and layout preferences are saved in this browser session.</p></CardContent>
               <CardFooter className="justify-between gap-3">
                 <Button asChild variant="outline"><Link href={`/projects/${project.id}`}>Open<span className="sr-only"> {project.name}</span></Link></Button>
@@ -100,7 +102,7 @@ export function Dashboard() {
             <DialogHeader><DialogTitle>Create project</DialogTitle><DialogDescription>Start a session-only project from the available landing page template.</DialogDescription></DialogHeader>
             <div className="space-y-2"><Label htmlFor="project-name">Project name</Label><Input id="project-name" value={projectName} onChange={(event) => { setProjectName(event.target.value); if (nameError) setNameError(null); }} aria-describedby={nameError ? "project-name-error" : undefined} aria-invalid={Boolean(nameError)} autoFocus /></div>
             {nameError && <p id="project-name-error" role="alert" className="text-sm text-red-700">{nameError}</p>}
-            <div className="rounded-lg border border-slate-200 bg-slate-50 p-4"><p className="text-sm font-semibold text-slate-950">{template.name}</p><p className="mt-1 text-sm leading-6 text-slate-600">{template.description}</p><p className="mt-3 text-xs font-medium uppercase tracking-wide text-blue-700">Selected template</p></div>
+            <fieldset className="space-y-3"><legend className="text-sm font-medium text-slate-950">Template</legend><div className="grid gap-3">{TEMPLATE_CATALOG.map((template) => <label key={template.id} className={`block cursor-pointer rounded-lg border p-4 transition-colors ${selectedTemplateId === template.id ? "border-blue-600 bg-blue-50" : "border-slate-200 bg-slate-50 hover:border-slate-300"}`}><input type="radio" name="template" value={template.id} checked={selectedTemplateId === template.id} onChange={() => setSelectedTemplateId(template.id)} className="sr-only" /><span className="block text-sm font-semibold text-slate-950">{template.name}</span><span className="mt-1 block text-sm leading-6 text-slate-600">{template.description}</span><span className="mt-3 block text-xs font-medium uppercase tracking-wide text-blue-700">{selectedTemplateId === template.id ? "Selected template" : "Select template"}</span></label>)}</div></fieldset>
             <DialogFooter><Button type="button" variant="outline" onClick={() => closeCreateDialog(false)}>Cancel</Button><Button type="submit">Create project</Button></DialogFooter>
           </form>
         </DialogContent>
